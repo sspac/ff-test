@@ -1,0 +1,111 @@
+local mod = FiendFolio
+local game = Game()
+local sfx = SFXManager()
+
+mod.EternalCarBatterySpecialCases = {
+    [CollectibleType.COLLECTIBLE_ESAU_JR] = false,
+    [CollectibleType.COLLECTIBLE_GENESIS] = false,
+    [CollectibleType.COLLECTIBLE_DAMOCLES] = false,
+    [CollectibleType.COLLECTIBLE_MAMA_MEGA] = false,
+    [CollectibleType.COLLECTIBLE_MYSTERY_GIFT] = false,
+    [FiendFolio.ITEM.COLLECTIBLE.EMPTY_BOOK] = false,
+    [FiendFolio.ITEM.COLLECTIBLE.SNOW_GLOBE] = false,
+    [FiendFolio.ITEM.COLLECTIBLE.ETERNAL_D12] = false,
+    [FiendFolio.ITEM.COLLECTIBLE.DUSTY_D10] = false,
+    [FiendFolio.ITEM.COLLECTIBLE.GAPER_IN_A_JAR] = false,
+    [CollectibleType.COLLECTIBLE_ERASER] = function(player, rng, useFlags, activeSlot)
+        local validEnemies = {}
+        for _, entity in ipairs(Isaac.FindInRadius(room:GetCenterPos(), 9999, EntityPartition.ENEMY)) do
+            if (not entity:HasEntityFlags(EntityFlag.FLAG_NO_TARGET))
+            and entity:IsVulnerableEnemy()
+            and (not entity:IsBoss())
+            and (entity.HitPoints > 0)
+            and entity.EntityCollisionClass >= EntityCollisionClass.ENTCOLL_PLAYEROBJECTS
+            and (not mod.BlackListedFlowerCrowns[entity.Type])
+            and (not mod.BlackListedFlowerCrowns[entity.Type .. " " .. entity.Variant])
+            and (not mod:isFriend(entity))
+            then
+                table.insert(validEnemies, entity)
+            end
+        end
+
+        for _, enemy in ipairs(validEnemies) do
+            local tear = Isaac.Spawn(2, 45, 0, enemy.Position, Vector.Zero, nil):ToTear()
+            tear.Visible = false
+            tear:Update()
+            enemy:Update()
+            sfx:Stop(SoundEffect.SOUND_TEARS_FIRE)
+            mod.scheduleForUpdate(function()
+                sfx:Stop(SoundEffect.SOUND_PLOP)
+            end, 1)
+        end
+    end,
+    [CollectibleType.COLLECTIBLE_DIPLOPIA] = function(player, rng, useFlags, activeSlot)
+        local originalPos = player.Position
+        local uses = 1
+        --Occasional wackies :)
+        for i = 1, 3 do
+            if rng:RandomInt(100) == 0 then
+                uses = uses + 1
+            end
+        end
+        for i = 1, uses do
+            player.Position = originalPos + RandomVector() * math.random(20, 60)
+            player:UseActiveItem(CollectibleType.COLLECTIBLE_DIPLOPIA, UseFlag.USE_CARBATTERY, activeSlot)
+            if player:HasCollectible(CollectibleType.COLLECTIBLE_BOOK_OF_VIRTUES) then
+                player:TriggerBookOfVirtues(CollectibleType.COLLECTIBLE_DIPLOPIA)
+            end
+        end
+
+        player.Position = originalPos
+    end,
+}
+
+local blacklistedFlags = UseFlag.USE_CARBATTERY | UseFlag.USE_VOID
+mod:AddCallback(ModCallbacks.MC_USE_ITEM, function(_, collectible, rng, player, useFlags, activeSlot, varData)
+	if player:GetPlayerType() == mod.PLAYER.BRIEND then
+		player = player:GetMainTwin()
+	end
+    if player:HasTrinket(mod.ITEM.TRINKET.ETERNAL_CAR_BATTERY) and useFlags & blacklistedFlags == 0 and activeSlot > -1 and activeSlot ~= ActiveSlot.SLOT_POCKET then
+        local guaranteeRemove
+        if mod.EternalCarBatterySpecialCases[collectible] then
+            guaranteeRemove = mod.EternalCarBatterySpecialCases[collectible](player, rng, useFlags, activeSlot, varData)
+        elseif mod.EternalCarBatterySpecialCases[collectible] ~= false then
+            local originalPos = player.Position
+            for i = 1, math.random(3, 5) do
+                player.Position = originalPos + RandomVector() * math.random(20, 60)
+                player:UseActiveItem(collectible, UseFlag.USE_CARBATTERY, activeSlot)
+                if player:HasCollectible(CollectibleType.COLLECTIBLE_BOOK_OF_VIRTUES) then
+                    player:TriggerBookOfVirtues(collectible)
+                end
+            end
+
+            player.Position = originalPos
+        end
+
+        if mod.EternalCarBatterySpecialCases[collectible] ~= false then
+            if rng:RandomFloat() < 0.5 or guaranteeRemove then
+                player:RemoveCollectible(collectible, false, activeSlot, false)
+				
+				if not FiendFolio.ACHIEVEMENT.CORRUPTION:IsUnlocked(true) then
+					FiendFolio.ACHIEVEMENT.CORRUPTION:Unlock()
+				end
+            end
+
+            game:ShakeScreen(15)
+        end
+    end
+end)
+
+mod:AddCallback(ModCallbacks.MC_PRE_USE_ITEM, function(_, collectible, rng, player, useFlags, activeSlot, varData)
+    if player:HasTrinket(mod.ITEM.TRINKET.ETERNAL_CAR_BATTERY) and useFlags & blacklistedFlags == 0 and activeSlot > -1 then
+        if collectible == CollectibleType.COLLECTIBLE_FORGET_ME_NOW then
+            player:RemoveCollectible(collectible, false, activeSlot, false)
+            player:UseActiveItem(CollectibleType.COLLECTIBLE_R_KEY, UseFlag.USE_NOANIM)
+			if not FiendFolio.ACHIEVEMENT.CORRUPTION:IsUnlocked(true) then
+				FiendFolio.ACHIEVEMENT.CORRUPTION:Unlock()
+			end
+            return true
+        end
+    end
+end)

@@ -1,0 +1,8 @@
+return {
+	CollectibleType.COLLECTIBLE_SMELTER,
+	CollectibleType.COLLECTIBLE_MOMS_BOX,
+	CollectibleType.COLLECTIBLE_BELLY_BUTTON,
+	CollectibleType.COLLECTIBLE_MOMS_PURSE,
+	CollectibleType.COLLECTIBLE_MARBLES,
+	FiendFolio.ITEM.COLLECTIBLE.GOLEMS_ROCK,
+}

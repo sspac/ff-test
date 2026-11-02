@@ -1,0 +1,22 @@
+local function include(str)
+    _G.include("ffscripts.catinsurance.daydream_events." .. str)
+end
+
+-- fun fact, this is in order of when these were made!
+include("bombs_away")
+include("stopwatch")
+include("globlet")
+include("heart")
+include("spider")
+include("key_bomb")
+include("cursed_penny")
+include("cloud")
+include("spoonbender")
+include("card_pill")
+include("angel")
+include("door")
+include("map")
+include("fire")
+include("razor")
+include("there_be_treasure")
+include("doggy")
