@@ -1,0 +1,36 @@
+Deluge Boss:
+
+Deluge can apply a status effect to the player, "flooding". It stacks up to 2 times and lasts 10 seconds, new stacks will refresh the duration. 
+Effects of flooding:
+1 stacks: player's speed is reduced by a value depending on their current speed:
+<1.0 speed = -0.05 penalty
+>=1.0 speed = -10% penalty
+2 stacks: the player will slip around as if they are on yellow creep.
+
+
+Phase 1:
+Filler attack -
+Deluge's horse's mouth opens up and reveals a cannon, firing a big shot at the player. The shot has unlimited range and when it hits a wall or rock it will burst into smaller 8 tears in 8 directions with a shorter range (kinda NT flak cannon)
+
+Charge Attack -
+The horse will begin charging and deluge will fall off the horse and splash into the water, spawning some bubbles which launch across the room. Contact with these bubbles will apply a stack of flooding. Special red bubbles with a sword in them will also spawn in the mix, they dont do damage and will grant you a damage buff and a stack of flooding when you collide with them. The bonus damage increases with each stack of flooding, up to 2 of course.
+
+The horse goes off screen by its self, a rope connecting deluge (who is now underwater) and the horse will strain, and the horse will get tugged back the side it came from and will return to where deluge is and yank her out of the water.
+
+Special Attack -
+Deluge will spin around twice, moving a signifigant distance across the room, spawning bubbles. Same as the charge, these bubbles will apply flooding status if you are hurt by them, and 1 or 2 DMG up bubbles will be mixed in.
+ 
+Phase 2:
+The horse shipwrecks and sinks and greg pokes out of Deluge's bloated corpse which now floats in the water.
+The corpse will slowly float around on the water surface.
+
+Laser Attack -
+Greg will puff his cheeks up and shoot a thin, blue brimstone laser (its water(think like azazel B)) towards the corner closest to it. It will turn the laser at a moderate speed towards the player.
+
+The laser will push Deluge's corpse in the direction opposite it with extremely low friction. If her corpse hits a wall or grid, the attack will stop.
+
+Bubbles Attack -
+Greg will duck into Deluge's corpse and pop his tail out of her mouth, using it to propel them towards the player and a trail of bubbles will form as they move. (like a motor boat)(goes in one direction until they hit a wall!!!)
+
+Triple Shot -
+When each of these attacks end, Greg will shoot a quick triple shot at the player.
