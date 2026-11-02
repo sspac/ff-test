@@ -1,0 +1,36 @@
+<backdrops gfxroot="gfx/backdrop/" gridgfxroot="gfx/grid/" effectsgfxroot="gfx/effects/">
+    <backdrop id="1" name="MilkSaloon" gfx="ff_saloon_yeehaw.png" walls="1" wallvariants="4" floors="1" floorvariants="4"
+        props       = "props_saloon_yeehaw.anm2"
+        rocks		= "rocks_saloon.png"
+        pit			= "pit_cellar.png"
+        door		= "door_12_cellardoor.png"
+        holeinwall	= "door_08_holeinwall.png"
+    />
+    <backdrop id="2" name="FiendsLair" gfx="ff_fiends_lair.png" walls="1" wallvariants="2" floors="1" floorvariants="2"
+        props       = "props_01_basement.anm2"
+        rocks		= "rocks_sheol.png"
+        pit			= "grid_pit_depths.png"
+        bridge		= "grid_bridge_depths.png"
+        door		= "door_19_sheoldoor.png"
+        holeinwall	= "door_08_holeinwall_depths.png"
+    />
+    <backdrop id="3" name="BigHornsLair" gfx="bighornslair.png" walls="1" wallvariants="1" floors="1" floorvariants="1"
+        props       = "props_01_basement.anm2"
+        rocks		= "rocks_sheol.png"
+        pit			= "grid_pit_depths.png"
+        bridge		= "grid_bridge_depths.png"
+        door		= "door_19_sheoldoor.png"
+        holeinwall	= "door_08_holeinwall_depths.png"
+    />
+    <backdrop id="4" name="CrystalCaves" gfx="crystalcaves/crystal_wall1.png" walls="1" wallvariants="1" floors="1" floorvariants="1"
+        lfloorgfx	= "crystalcaves/02_LCellarFloor.png"
+		nfloorgfx	= "crystalcaves/02_Cellar_nfloor.png"
+        props       = "props_03x_mines.anm2"
+        rocks		= "rocks_secretroom.png"
+        pit			= "grid_pit_mines.png"
+        waterpit	= "grid_pit_mines_water.png"
+        bridge		= "grid_bridge_mines.png"
+        door		= "door_01_minesdoor.png"
+        holeinwall	= "door_08_holeinwall_depths.png"
+    />
+</backdrops>

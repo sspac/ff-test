@@ -1,0 +1,159 @@
+<bosscolors version="1" anm2root="gfx/" portraitroot="gfx/ui/boss/">
+	<!-- VANILLA BOSSES -->
+
+	<!-- Larry Jr. -->
+	<boss id="19" variant="0">
+		<color name="FF Ghost Larry" anm2path="bosses/champions/larryjr/ghost_larry.anm2" />
+	</boss>
+	<!-- The Hollow -->
+	<boss id="19" variant="1">
+		<color name="FF Fucked Up and Evil Hollow" anm2path="bosses/champions/hollow/fucked_up_and_evil_hollow.anm2" hp="0.85"/>
+	</boss>
+	<!-- Monstro -->
+	<boss id="20" variant="0">
+		<color name="FF Mucus Monstro" anm2path="bosses/champions/monstro/mucus_monstro.anm2" />
+	</boss>
+	<!-- Mom (doors) -->
+	<boss id="45" variant="0">
+		<color name="FF Fiendish Mom" anm2path="045.000_mom.anm2" scale="1"/>
+	</boss>
+	<!-- Mom (foot) -->
+	<boss id="45" variant="10">
+		<color name="FF Fiendish Mom" anm2path="045.010_mom stomp.anm2" scale="1"/>
+	</boss>
+	<!-- Pin -->
+	<boss id="62" variant="0">
+		<color name="FF Technopin" anm2path="bosses/champions/pin/technopin.anm2" />
+	</boss>
+	<!-- The Husk -->
+	<boss id="67" variant="1">
+		<color name="FF Wine Husk" anm2path="bosses/champions/husk/winehusk.anm2" scale="0.75"/>
+	</boss>
+	<!-- Loki -->
+	<boss id="69" variant="0">
+		<color name="FF Alien Loki" anm2path="bosses/champions/loki/alien_loki.anm2"/>
+	</boss>
+	<!-- Lokii -->
+	<boss id="69" variant="1">
+		<color name="FF Alien Lokii" anm2path="bosses/champions/lokii/alien_lokii.anm2"/>
+	</boss>
+	<!-- Fistula -->
+	<boss id="71" variant="0">
+		<color name="FF Beehive Fistula" anm2path="bosses/champions/fistula/beehive_fistula_big.anm2"/>
+	</boss>
+	<!-- Fistula (medium) -->
+	<boss id="72" variant="0">
+		<color name="FF Beehive Fistula" anm2path="bosses/champions/fistula/beehive_fistula_med.anm2"/>
+	</boss>
+	<!-- Fistula (small) -->
+	<boss id="73" variant="0">
+		<color name="FF Beehive Fistula" anm2path="bosses/champions/fistula/beehive_fistula_small.anm2"/>
+	</boss>
+	<!-- Teratoma -->
+	<boss id="71" variant="1">
+		<color name="FF Fuzzy Teratoma" anm2path="bosses/champions/teratoma/fuzzy_teratoma_big.anm2"/>
+		<color name="FF Corny Teratoma" scale="0.85" hp="0.9" anm2path="bosses/champions/teratoma/corny_teratoma_big.anm2"/>
+	</boss>
+	<!-- Teratoma (medium) -->
+	<boss id="72" variant="1">
+		<color name="FF Fuzzy Teratoma" anm2path="bosses/champions/teratoma/fuzzy_teratoma_med.anm2"/>
+		<color name="FF Corny Teratoma" scale="0.85" hp="0.9" anm2path="bosses/champions/teratoma/corny_teratoma_med.anm2"/>
+	</boss>
+	<!-- Teratoma (small) -->
+	<boss id="73" variant="1">
+		<color name="FF Fuzzy Teratoma" anm2path="bosses/champions/teratoma/fuzzy_teratoma_small.anm2"/>
+		<color name="FF Corny Teratoma" scale="0.85" hp="0.9" anm2path="bosses/champions/teratoma/corny_teratoma_small.anm2"/>
+	</boss>
+	<!-- Steven -->
+	<boss id="79" variant="1">
+		<!--<color name="FF Angry Steven" anm2path="bosses/champions/steven/angry steven.anm2"/>-->
+	</boss>
+	<boss id="79" variant="11">
+		<!--<color name="FF Angry Steven" anm2path="bosses/champions/steven/angry steven baby.anm2"/>-->
+	</boss>
+	<!-- Blighted Ovum -->
+	<boss id="79" variant="2">
+		<color name="FF Red Blighted Ovum" anm2path="bosses/champions/blighted_ovum/red_blighted_ovum.anm2"/>
+		<color name="FF Blue Blighted Ovum" anm2path="bosses/champions/blighted_ovum/blue_blighted_ovum.anm2"/>
+	</boss>
+	<boss id="79" variant="12">
+		<color name="FF Red Blighted Ovum" anm2path="bosses/champions/blighted_ovum/red_blighted_ovum_baby.anm2"/>
+		<color name="FF Blue Blighted Ovum" anm2path="bosses/champions/blighted_ovum/blue_blighted_ovum_baby.anm2"/>
+	</boss>
+	<!-- Krampus -->
+	<boss id="81" variant="1">
+		<color name="FF Grinch Krampus" anm2path="bosses/champions/krampus/krampus_grinch.anm2"/>
+	</boss>
+	<!-- Mask of Infamy -->
+	<boss id="97" variant="0">
+		<color name="FF Kidney of Infamy" anm2path="bosses/champions/maskofinfamy/kidneyofinfamy_mask.anm2"/>
+	</boss>
+	<boss id="98" variant="0">
+		<color name="FF Kidney of Infamy" anm2path="bosses/champions/maskofinfamy/kidneyofinfamy_heart.anm2"/>
+	</boss>
+	<!-- Widow -->
+	<boss id="100" variant="0">
+		<color name="FF Albino Widow" anm2path="bosses/champions/widow/albino_widow.anm2" scale="0.8" hp="0.8"/>
+		<color name="FF Rival Widow" anm2path="bosses/champions/widow/rival_widow.anm2" scale="0.6" hp="0.45"/>
+	</boss>
+	<!-- Gurgling -->
+    <boss id="237" variant="1">
+		<color name="FF Mushroom Gurgling" anm2path="bosses/champions/gurgling/mushroom_gurgling.anm2"/>
+	</boss>
+	<!-- The Forsaken -->
+    <boss id="403" variant="0">
+		<color name="FF Red Forsaken" anm2path="bosses/champions/forsaken/red_forsaken.anm2"/>
+	</boss>
+	<!-- Lil Horn -->
+	<boss id="404" variant="0">
+		<color name="FF Red Little Horn" anm2path="bosses/champions/littlehorn/red_littlehorn.anm2" hp="0.4"/>
+	</boss>
+	<boss id="404" variant="1">
+		<color name="FF Red Little Horn" suffix="_red"/>
+	</boss>
+	<!-- Rag Man -->
+	<boss id="405" variant="0">
+		<color name="FF Rainbow Rag Man" anm2path="bosses/champions/ragman/405.000_ragman.anm2"/>
+	</boss>
+	<boss id="405" variant="1">
+		<color name="FF Rainbow Rag Man" anm2path="bosses/champions/ragman/405.001_ragman_rolling_head.anm2"/>
+	</boss>
+	<boss id="246" variant="1">
+		<color name="FF Rainbow Rag Man" anm2path="bosses/champions/ragman/246.001_ragmans ragling.anm2"/>
+	</boss>
+	<!-- Rag Mega -->
+	<boss id="409" variant="0">
+		<color name="FF Pink Rag Mega" anm2path="bosses/champions/ragmega/pink_rag_mega.anm2" hp="0.8" scale="0.8"/>
+	</boss>
+	<!-- Sisters Vis -->
+	<boss id="410" variant="0">
+		<color name="FF Black Sister Vis" anm2path="bosses/champions/sistersvis/black_sistersvis.anm2" hp="1.25" scale="1.2"/>
+	</boss>
+	<!-- Big Horn -->
+	<boss id="411" variant="0">
+		<color name="FF Red Big Horn" anm2path="bosses/champions/bighorn/red_bighorn.anm2"/>
+	</boss>
+	<!-- Baby Plum -->
+	<boss id="908" variant="0">
+		<color name="FF Golden Plum" anm2path="bosses/champions/babyplum/golden_plum.anm2"/>
+	</boss>
+		<!-- Clutch -->
+    <boss id="921" variant="0">
+		<color name="FF Clutch Green" anm2path="bosses/champions/clutch/green_clutch.anm2"/>
+	</boss>
+
+	<!-- FF BOSSES -->
+
+	<!-- Don't work at the moment, commenting out
+	<boss id="180" variant="10">
+		<color name="FF Brown Battie" suffix="_brown"/>
+		<color name="FF Purple Battie" suffix="_purple"/>
+	</boss>
+	<boss id="180" variant="210">
+		<color name="FF Black Slinger" suffix="_black"/>
+	</boss>
+	<boss id="666" variant="160">
+		<color name="FF Red Honeydrop" suffix="_red"/>
+	</boss>
+	-->
+</bosscolors>

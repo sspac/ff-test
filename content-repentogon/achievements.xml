@@ -1,0 +1,382 @@
+<achievements gfxroot="gfx/ui/achievement/">
+
+	<!-- Achievement names should be the same as defined in `achievements.lua`, prefixed with "FF_"! -->
+
+	<achievement gfxback="_purple_paper.png" name="FF_FIENDISH_FOES"		gfx="fiendish_foes.png" />
+	<!-- Characters -->
+	<achievement gfxback="_purple_paper.png" name="FF_FIEND" 				gfx="achievement_fiend.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_BIEND" 				gfx="achievement_fiendb.png" />
+	<achievement name="FF_SKELETALFIEND" 		gfx="skeletal_fiend/achievement_skeletal_fiend.png" gfxback="skeletal_fiend/_tarnished_paper.png" hidden="true"/>
+	<achievement gfxback="_purple_paper.png" name="FF_GOLEM" 				gfx="achievement_golem.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_BOLEM" 				gfx="achievement_golemb.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_FRIEND" 				gfx="achievement_friend.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_BRIEND" 				gfx="achievement_friendb.png" />
+
+	<!-- Fiend completion marks -->
+	<achievement gfxback="_purple_paper.png" name="FF_IMMORAL_HEART" 		gfx="immoral_heart.png" />			<!--Mom-->
+	<achievement gfxback="_purple_paper.png" name="FF_LIL_FIEND" 			gfx="lil_fiend.png" />				<!--Heart-->
+	<achievement gfxback="_purple_paper.png" name="FF_IMP_SODA" 			gfx="imp_soda.png" />				<!--Isaac-->
+	<achievement gfxback="_purple_paper.png" name="FF_HEART_OF_CHINA" 		gfx="heart_of_china.png" />			<!--???-->
+	<achievement gfxback="_purple_paper.png" name="FF_FIEND_MIX" 			gfx="fiend_mix.png" />				<!--Satan-->
+	<achievement gfxback="_purple_paper.png" name="FF_PRANK_COOKIE"  		gfx="prank_cookie.png" />			<!--Lamb-->
+	<achievement gfxback="_purple_paper.png" name="FF_GMO_CORN"  			gfx="gmo_corn.png" />				<!--Boss Rush-->
+	<achievement gfxback="_purple_paper.png" name="FF_PLUS_3_FIREBALLS" 	gfx="3_fireballs.png" />			<!--Hush-->
+	<achievement gfxback="_purple_paper.png" name="FF_FIENDS_HORN"  		gfx="fiends_horn.png" />			<!--Delirium-->
+	<achievement gfxback="_purple_paper.png" name="FF_PYROMANCY"  			gfx="pyromancy.png" />				<!--Mega Satan-->
+	<achievement gfxback="_purple_paper.png" name="FF_LONGTIME_FIEND"  		gfx="longtime_fiend.png" />			<!--Mother-->
+	<achievement gfxback="_purple_paper.png" name="FF_FETAL_FIEND"  		gfx="fetal_fiend.png" />			<!--Beast-->
+	<achievement gfxback="_purple_paper.png" name="FF_FLAMING_PENNY"  		gfx="flaming_penny.png" />			<!--Greed-->
+	<achievement gfxback="_purple_paper.png" name="FF_JACK_CARDS"  			gfx="jack_cards.png" />				<!--Greedier-->
+	<achievement gfxback="_purple_paper.png" name="FF_FIEND_FOLIO"  		gfx="fiendfolio.png" />				<!--All-->
+
+	<!-- Biend completion marks -->
+	<achievement gfxback="_purple_paper.png" name="FF_IMP_FINGER"			gfx="imp_finger.png" />				<!--Main path final bosses-->
+	<achievement gfxback="_purple_paper.png" name="FF_SOUL_OF_FIEND"		gfx="soul_of_fiend.png" />			<!--Boss Rush & Hush-->
+	<achievement gfxback="_purple_paper.png" name="FF_GOLDEN_SLOT_MACHINE" 	gfx="golden_slot_machine.png" />	<!--Mega Satan-->
+	<achievement gfxback="_purple_paper.png" name="FF_REVERSE_3_FIREBALLS" 	gfx="3_fireballs_evil.png" />		<!--Greedier-->
+	<achievement gfxback="_purple_paper.png" name="FF_MALICE" 				gfx="malice.png" />					<!--Delirium-->
+	<achievement gfxback="_purple_paper.png" name="FF_HATRED" 				gfx="hatred.png" />					<!--Mother-->
+	<achievement gfxback="_purple_paper.png" name="FF_IMP_CURSE" 			gfx="achievement_impcurse.png" />	<!--Beast-->
+
+	<!-- The Skeletal Fiend -->
+	<achievement name="FF_SKELETALFIEND_BABY" 			gfx="skeletal_fiend/achievement_baby.png" 			gfxback="skeletal_fiend/_tarnished_paper.png" hidden="true"/>	<!--Heart-->
+	<achievement name="FF_SKELETALFIEND_STARS" 			gfx="skeletal_fiend/achievement_stars.png" 			gfxback="skeletal_fiend/_tarnished_paper.png" hidden="true"/>	<!--Isaac-->
+	<achievement name="FF_SKELETALFIEND_POOP" 			gfx="skeletal_fiend/achievement_poop.png" 			gfxback="skeletal_fiend/_tarnished_paper.png" hidden="true"/>	<!--???-->
+	<achievement name="FF_SKELETALFIEND_CURVED_HORN" 	gfx="skeletal_fiend/achievement_curved_horn.png" 	gfxback="skeletal_fiend/_tarnished_paper.png" hidden="true"/>	<!--Satan-->
+	<achievement name="FF_SKELETALFIEND_BETTER_ITEM" 	gfx="skeletal_fiend/achievement_better_item.png" 	gfxback="skeletal_fiend/_tarnished_paper.png" hidden="true"/>	<!--Lamb-->
+	<achievement name="FF_SKELETALFIEND_SPEED_UP" 		gfx="skeletal_fiend/achievement_speed_up.png" 		gfxback="skeletal_fiend/_tarnished_paper.png" hidden="true"/>	<!--Boss Rush-->
+	<achievement name="FF_SKELETALFIEND_SHOTSPEED_UP" 	gfx="skeletal_fiend/achievement_shotspeed_up.png" 	gfxback="skeletal_fiend/_tarnished_paper.png" hidden="true"/>	<!--Hush-->
+	<achievement name="FF_SKELETALFIEND_FIREBONE" 		gfx="skeletal_fiend/achievement_firebone.png" 		gfxback="skeletal_fiend/_tarnished_paper.png" hidden="true"/>	<!--Delirium-->
+	<achievement name="FF_SKELETALFIEND_SLOT_MACHINE" 	gfx="skeletal_fiend/achievement_slot_machine.png" 	gfxback="skeletal_fiend/_tarnished_paper.png" hidden="true"/>	<!--Mega Satan-->
+	<achievement name="FF_SKELETALFIEND_HIS_PET" 		gfx="skeletal_fiend/achievement_his_pet.png" 		gfxback="skeletal_fiend/_tarnished_paper.png" hidden="true"/>	<!--Mother-->
+	<achievement name="FF_SKELETALFIEND_MYSTERY_GIFT" 	gfx="skeletal_fiend/achievement_mystery_gift.png" 	gfxback="skeletal_fiend/_tarnished_paper.png" hidden="true"/>	<!--Beast-->
+	<achievement name="FF_SKELETALFIEND_A_PENNY" 		gfx="skeletal_fiend/achievement_a_penny.png" 		gfxback="skeletal_fiend/_tarnished_paper.png" hidden="true"/>	<!--Greed-->
+	<achievement name="FF_SKELETALFIEND_ANOTHER_PENNY" 	gfx="skeletal_fiend/achievement_another_penny.png" 	gfxback="skeletal_fiend/_tarnished_paper.png" hidden="true"/>	<!--Greedier-->
+	<achievement name="FF_SKELETALFIEND_BIRTHRIGHT" 	gfx="skeletal_fiend/achievement_birthright.png" 	gfxback="skeletal_fiend/_tarnished_paper.png" hidden="true"/>	<!--All-->
+
+	<!-- Golem completion marks -->
+	<achievement gfxback="_purple_paper.png" name="FF_PET_ROCK" 			gfx="pet_rock.png" />				<!--Mom-->
+	<achievement gfxback="_purple_paper.png" name="FF_LIL_GOLEM" 			gfx="achievement_lilgolem.png" />	<!--Heart-->
+	<achievement gfxback="_purple_paper.png" name="FF_GOLEMS_ROCK" 			gfx="golems_rock.png" />			<!--Isaac-->
+	<achievement gfxback="_purple_paper.png" name="FF_GOLEMS_ORB" 			gfx="golems_orb.png" />				<!--???-->
+	<achievement gfxback="_purple_paper.png" name="FF_CHERRY_BOMB" 			gfx="cherry_bomb.png" />			<!--Satan-->
+	<achievement gfxback="_purple_paper.png" name="FF_BRIDGE_BOMBS" 		gfx="bridge_bombs.png" />			<!--Lamb-->
+	<achievement gfxback="_purple_paper.png" name="FF_SOLEMN_VOW"			gfx="solemn_vow.png" />				<!--Boss Rush-->
+	<achievement gfxback="_purple_paper.png" name="FF_DICE_GOBLIN"			gfx="dice_goblin.png" />			<!--Hush-->
+	<achievement gfxback="_purple_paper.png" name="FF_PERFECTLY_GENERIC_OBJECT" gfx="pgo.png" />				<!--Delirium-->
+	<achievement gfxback="_purple_paper.png" name="FF_MASSIVE_AMETHYST"		gfx="massive_amethyst.png" />		<!--Mega Satan-->
+	<achievement gfxback="_purple_paper.png" name="FF_ETERNAL_D12"			gfx="eternal_d12.png" />			<!--Mother-->
+	<achievement gfxback="_purple_paper.png" name="FF_ASTROPULVIS"			gfx="astropulvis.png" />			<!--Beast-->
+	<achievement gfxback="_purple_paper.png" name="FF_MOLTEN_PENNY"			gfx="molten_penny.png" />			<!--Greed-->
+	<achievement gfxback="_purple_paper.png" name="FF_GOLDEN_SPIKES"		gfx="golden_spikes.png" />			<!--Greedier-->
+	<achievement gfxback="_purple_paper.png" name="FF_SNOW_GLOBE"			gfx="snow_globe.png" />				<!--All-->
+
+	<!-- Bolem completion marks -->
+	<achievement gfxback="_purple_paper.png" name="FF_WAVEBREAKER" 			gfx="wavebreaker.png" />			<!--Main path final bosses-->
+	<achievement gfxback="_purple_paper.png" name="FF_SOUL_OF_GOLEM" 		gfx="soul_of_golem.png" />			<!--Boss Rush & Hush-->
+	<achievement gfxback="_purple_paper.png" name="FF_BLASPHEMOUS_TRINKETS"	gfx="blasphemous_trinkets.png" />	<!--Mega Satan-->
+	<achievement gfxback="_purple_paper.png" name="FF_REVERSE_KING_OF_PENTACLES" gfx="reverse_king_of_pentacles.png" /> <!--Greedier-->
+	<achievement gfxback="_purple_paper.png" name="FF_MAMMONITE_CODEX" 		gfx="mammonite_codex.png" />		<!--Delirium-->
+	<achievement gfxback="_purple_paper.png" name="FF_SISYPHEAN_BOULDER" 	gfx="sisyphean_boulder.png" />		<!--Mother-->
+	<achievement gfxback="_purple_paper.png" name="FF_AZURITE_SPINDOWN" 	gfx="azurite_spindown.png" />		<!--Beast-->
+
+	<!-- Friend completion marks -->
+	<achievement gfxback="_purple_paper.png" name="FF_STRANGE_EYE" 			gfx="strange_eye.png" />			<!--Mom-->
+	<achievement gfxback="_purple_paper.png" name="FF_LIL_FRIEND" 			gfx="lil_friend.png" />				<!--Heart-->
+	<achievement gfxback="_purple_paper.png" name="FF_IMP_SODA_CHERRY" 		gfx="imp_soda_cherry.png" />		<!--Isaac-->
+	<achievement gfxback="_purple_paper.png" name="FF_RUBBER_BULLETS" 		gfx="rubber_bullets.png" />			<!--???-->
+	<achievement gfxback="_purple_paper.png" name="FF_CONTRA_BAND" 			gfx="contra_band.png" />			<!--Satan-->
+	<achievement gfxback="_purple_paper.png" name="FF_SWALLOWED_M90" 		gfx="swallowed_m90.png" />			<!--Lamb-->
+	<achievement gfxback="_purple_paper.png" name="FF_HOW_TO_ROLL"			gfx="how_to_roll.png" />			<!--Boss Rush-->
+	<achievement gfxback="_purple_paper.png" name="FF_OLD_SHELL"			gfx="old_shell.png" />				<!--Hush-->
+	<achievement gfxback="_purple_paper.png" name="FF_FIREBALL_FORMULA" 	gfx="fireball_formula.png" />		<!--Delirium-->
+	<achievement gfxback="_purple_paper.png" name="FF_BULLET_HELL"			gfx="bullet_hell.png" />			<!--Mega Satan-->
+	<achievement gfxback="_purple_paper.png" name="FF_RAILDRIVER"			gfx="raildriver.png" />				<!--Mother-->
+	<achievement gfxback="_purple_paper.png" name="FF_FETAL_FRIEND"			gfx="fetal_friend.png" />			<!--Beast-->
+	<achievement gfxback="_purple_paper.png" name="FF_SNAGS"				gfx="snags.png" />					<!--Greed-->
+	<achievement gfxback="_purple_paper.png" name="FF_DYNAMITE_PACK"		gfx="dynamite_pack.png" />			<!--Greedier-->
+	<achievement gfxback="_purple_paper.png" name="FF_GRANDPAS_GATLING_GUN"	gfx="grandpas_gatling_gun.png" />	<!--All-->
+
+	<!-- Briend completion marks -->
+	<achievement gfxback="_purple_paper.png" name="FF_AMMO_CLIP" 			gfx="achievement_ammoclip.png" />			<!--Main path final bosses-->
+	<achievement gfxback="_purple_paper.png" name="FF_SOUL_OF_FRIEND" 		gfx="achievement_souloffriend.png" />		<!--Boss Rush & Hush-->
+	<achievement gfxback="_purple_paper.png" name="FF_SALOON"				gfx="achievement_saloon.png" />				<!--Mega Satan-->
+	<achievement gfxback="_purple_paper.png" name="FF_MISPRINTED_JOKER" 	gfx="achievement_misprintedjoker.png" />	<!--Greedier-->
+	<achievement gfxback="_purple_paper.png" name="FF_GUNSLINGERS_GRIT" 	gfx="achievement_gunslingersgrit.png" />	<!--Delirium-->
+	<achievement gfxback="_purple_paper.png" name="FF_DADS_USB" 			gfx="achievement_dadsusb.png" />			<!--Mother-->
+	<achievement gfxback="_purple_paper.png" name="FF_MYSTERIOUS_FEDORA" 	gfx="achievement_mysteriousfedora.png" />	<!--Beast-->
+
+	<!-- Mecha Satan unlocks -->
+	<achievement gfxback="_purple_paper.png" name="FF_LOADED_D6" 			gfx="loaded_d6.png" />						<!-- Isaac -->
+	<achievement gfxback="_purple_paper.png" name="FF_QUEENS_FRUIT" 		gfx="queens_fruit.png" />					<!-- Magdalene -->
+	<achievement gfxback="_purple_paper.png" name="FF_HAPPY_SQUIRREL" 		gfx="happy_squirrel.png" />					<!-- Cain -->
+	<achievement gfxback="_purple_paper.png" name="FF_BOOK_OF_LEVIATHAN" 	gfx="achievement_bookofleviathan.png" />	<!-- Judas -->
+	<achievement gfxback="_purple_paper.png" name="FF_NUGGET_BOMBS" 		gfx="achievement_nuggetbombs.png" />		<!-- ??? -->
+	<achievement gfxback="_purple_paper.png" name="FF_TORTURE_COOKIE" 		gfx="achievement_torturecookie.png" />		<!-- Eve -->
+	<achievement gfxback="_purple_paper.png" name="FF_WARFARIN" 			gfx="achievement_warfarin.png" />			<!-- Samson -->
+	<achievement gfxback="_purple_paper.png" name="FF_SHADOW_CLUSTER" 		gfx="shadow_cluster.png" />					<!-- Azazel -->
+	<achievement gfxback="_purple_paper.png" name="FF_DEADLY_DOSE" 			gfx="deadly_dose.png" />					<!-- Lazarus -->
+	<achievement gfxback="_purple_paper.png" name="FF_EDENS_HEAD" 			gfx="edens_head.png" />						<!-- Eden -->
+	<achievement gfxback="_purple_paper.png" name="FF_GODHEAD_JR" 			gfx="achievement_godheadjr.png" />			<!-- Lost -->
+	<achievement gfxback="_purple_paper.png" name="FF_EARTH_OF_ADAM" 		gfx="earth_of_adam.png" />					<!-- Lilith -->
+	<achievement gfxback="_purple_paper.png" name="FF_GOLDEN_WATCH" 		gfx="golden_watch.png" />					<!-- Keeper -->
+	<achievement gfxback="_purple_paper.png" name="FF_OWL_FEATHER" 			gfx="owl_feather.png" />					<!-- Apollyon -->
+	<achievement gfxback="_purple_paper.png" name="FF_BONE_LORDS_TABLET" 	gfx="bone_lords_tablet.png" />				<!-- Forgotten -->
+	<achievement gfxback="_purple_paper.png" name="FF_PAGE_OF_VIRTUES" 		gfx="page_of_virtues.png" />				<!-- Bethany -->
+	<achievement gfxback="_purple_paper.png" name="FF_DOUBLES" 				gfx="achievement_doubles.png" />			<!-- Jacob and Esau -->
+	<achievement gfxback="_purple_paper.png" name="FF_FIENDS_LOST_FRIEND" 	gfx="fiends_lost_friend.png" />				<!-- Fiend -->
+	<achievement gfxback="_purple_paper.png" name="FF_ASTEROID_BELT" 		gfx="asteroid_belt.png" />					<!-- Golem -->
+	<achievement gfxback="_purple_paper.png" name="FF_FRIENDLY_FIRE" 		gfx="friendly_fire.png" />					<!-- Friend -->
+
+	<achievement gfxback="_purple_paper.png" name="FF_ISAACD_EULOGY" 				gfx="isaacd_eulogy.png" />					<!-- Bisaac -->
+	<achievement gfxback="_purple_paper.png" name="FF_APPENDIX" 					gfx="achievement_appendix.png" />			<!-- Bagdalene -->
+	<achievement gfxback="_purple_paper.png" name="FF_GAPER_IN_A_JAR" 				gfx="gaper_in_a_jar.png" />					<!-- Bain -->
+	<achievement gfxback="_purple_paper.png" name="FF_EXECUTIONER" 					gfx="executioner.png" />					<!-- Budas -->
+	<achievement gfxback="_purple_paper.png" name="FF_THE_BROWN_HORN" 				gfx="brown_horn.png" />						<!-- B??? -->
+	<achievement gfxback="_purple_paper.png" name="FF_BAD_BLOOD" 					gfx="bad_blood.png" />						<!-- Beve -->
+	<achievement gfxback="_purple_paper.png" name="FF_LIL_MINX" 					gfx="lil_minx.png" />						<!-- Bamson -->
+	<achievement gfxback="_purple_paper.png" name="FF_HELLFIRE" 					gfx="hellfire.png" />						<!-- Bazazel -->
+	<achievement gfxback="_purple_paper.png" name="FF_LOURDES_WATER" 				gfx="lourdes_water.png" />					<!-- Bazarus -->
+	<achievement gfxback="_purple_paper.png" name="FF_NIL_PASTA" 					gfx="nil_pasta.png" />						<!-- Beden -->
+	<achievement gfxback="_purple_paper.png" name="FF_CROSS_NECKLACE" 				gfx="cross_necklace.png" />					<!-- Bost -->
+	<achievement gfxback="_purple_paper.png" name="FF_BLASTULATION" 				gfx="blastulation.png" />					<!-- Bilith -->
+	<achievement gfxback="_purple_paper.png" name="FF_D2" 							gfx="d2.png" />								<!-- Beeper -->
+	<achievement gfxback="_purple_paper.png" name="FF_MUSCA" 						gfx="achievement_musca.png" />				<!-- Bapollyon -->
+	<achievement gfxback="_purple_paper.png" name="FF_DOUBLE_DOG" 					gfx="double_dog.png" />						<!-- Borgotten -->
+	<achievement gfxback="_purple_paper.png" name="FF_ACHERON" 						gfx="acheron.png" />						<!-- Bbethany -->
+	<achievement gfxback="_purple_paper.png" name="FF_MONSTER_DOMESTICATION_GUIDE" 	gfx="monster_domestication_guide.png" /> 	<!-- Bacob -->
+	<achievement gfxback="_purple_paper.png" name="FF_HUITLACOCHE" 					gfx="huitlacoche.png" />					<!-- Biend -->
+	<achievement gfxback="_purple_paper.png" name="FF_COPPER_BAR" 					gfx="copper_bar.png" />						<!-- Bolem -->
+	<achievement gfxback="_purple_paper.png" name="FF_MAGIC_BULLET" 				gfx="magicbullet-A.png" />					<!-- Briend -->
+
+	<achievement name="FF_SKELETALFIEND_SPICY_KEY" 		gfx="skeletal_fiend/achievement_key.png"			gfxback="skeletal_fiend/_tarnished_paper.png" hidden="true"/>   <!-- The Skeletal Fiend -->
+
+	<!-- Challenge unlocks -->
+	<achievement gfxback="_purple_paper.png" name="FF_DEVILS_HARVEST_CHALLENGE" gfx="achievement_ffchallenge_devils_harvest.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_NO_OFFENSE"				gfx="achievement_ffchallenge_no_offense.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_HANDLE_WITH_CARE" 		gfx="achievement_ffchallenge_handle_with_care.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_DADS_HOME" 				gfx="achievement_ffchallenge_dads_home.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_BLURSED"					gfx="achievement_ffchallenge_blursed.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_MR_HANDS" 				gfx="achievement_ffchallenge_mr_hands.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_FROG_MODE" 				gfx="achievement_ffchallenge_frog_mode.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_DIRTY_BUBBLE" 			gfx="achievement_ffchallenge_dirty_bubble.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_PEN_ISLAND"				gfx="achievement_ffchallenge_penisland.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_REAL_JON" 				gfx="achievement_ffchallenge_real_jon.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_BRICK_BY_BRICK" 			gfx="achievement_ffchallenge_brick_by_brick.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_TOWER_OFFENSE" 			gfx="achievement_ffchallenge_tower_offense.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_CRAIGS_CHALLENGE"			gfx="achievement_ffchallenge_craigs_challenge.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_ALLOW_ENEMY_REPLACEMENTS" gfx="achievement_ffchallenge_allow_enemy_replacements.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_EMBRYOS_AKIMBO"			gfx="achievement_ffchallenge_embryos_akimbo.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_MAGNA_FARTA"				gfx="achievement_ffchallenge_magna_farta.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_ISAAC_REBUILT" 			gfx="achievement_ffchallenge_isaac_rebuilt.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_BOSS_MAKES_A_DOLLAR"		gfx="achievement_ffchallenge_boss_makes_a_dollar.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_BABY_SENSORY"				gfx="achievement_ffchallenge_image.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_GAUNTLET" 				gfx="achievement_ffchallenge_gauntlet.png" />
+
+	<!-- Unlocked by challenges -->
+	<achievement gfxback="_purple_paper.png" name="FF_DEVILS_HARVEST"  		 gfx="the_devils_harvest.png" />	<!-- The Devil's Harvest -->
+	<achievement gfxback="_purple_paper.png" name="FF_APOTHEOSIS" 			 gfx="apotheosis.png" />			<!-- No Offense -->
+	<achievement gfxback="_purple_paper.png" name="FF_CHINAS_BELONGINGS" 	 gfx="chinas_belongings.png" />		<!-- Handle with Care -->
+	<achievement gfxback="_purple_paper.png" name="FF_GREEN_HOUSE" 			 gfx="green_house.png" />			<!-- Dad's Home+ -->
+	<achievement gfxback="_purple_paper.png" name="FF_BLACK_CANDELABRA" 	 gfx="black_candelabra.png" />		<!-- Blursed -->
+	<achievement gfxback="_purple_paper.png" name="FF_RED_HAND" 			 gfx="red_hand.png" />				<!-- Mr. Hands -->
+	<achievement gfxback="_purple_paper.png" name="FF_SLIPPYS_ORGANS" 		 gfx="slippys_organs.png" />		<!-- Frog Mode -->
+	<achievement gfxback="_purple_paper.png" name="FF_PETRIFIED_GEL" 		 gfx="petrified_gel.png" />			<!-- Dirty Bubble Challenge -->
+	<achievement gfxback="_purple_paper.png" name="FF_DEVILS_UMBRELLA" 		 gfx="devils_umbrella.png" />		<!-- Pen Island -->
+	<achievement gfxback="_purple_paper.png" name="FF_SPARE_RIBS" 			 gfx="spare_ribs.png" />			<!-- The Real Jon -->
+	<achievement gfxback="_purple_paper.png" name="FF_BRICK_SEPARATOR" 		 gfx="brick_seperator.png" />		<!-- Brick by Brick -->
+	<achievement gfxback="_purple_paper.png" name="FF_LAWN_DARTS" 			 gfx="lawn_darts.png" />			<!-- Tower Offense -->
+	<achievement gfxback="_purple_paper.png" name="FF_CRAIGS_UNLOCKS" 		 gfx="craig_unlocks.png" />			<!-- Craig's Challenge -->
+	<achievement gfxback="_purple_paper.png" name="FF_ETERNAL_D10" 			 gfx="eternal_d10.png" />			<!-- Allow Enemy Replacements -->
+	<achievement gfxback="_purple_paper.png" name="FF_GOOGLY_EYES" 			 gfx="googly_eyes.png" />			<!-- Embryos Akimbo -->
+	<achievement gfxback="_purple_paper.png" name="FF_CAN_OF_BEANS"			 gfx="can_of_beans.png" />			<!-- Magna Farta -->
+	<achievement gfxback="_purple_paper.png" name="FF_DEIMOS" 				 gfx="deimos.png" />				<!-- Isaac Rebuilt -->
+	<achievement gfxback="_purple_paper.png" name="FF_TIME_IS_MONEY" 		 gfx="time_is_money.png" />			<!-- Boss Makes a Dollar -->
+	<achievement gfxback="_purple_paper.png" name="FF_IMAGES_UNLOCKS" 		 gfx="images_unlocks.png" />		<!-- Baby Sensory -->
+	<achievement gfxback="_purple_paper.png" name="FF_GAUNTLET_BEATEN" 		 gfx="achievement_community.png" />	<!-- The Gauntlet -->
+
+	<!-- Misc. Challenge unlocks -->
+	<achievement gfxback="_purple_paper.png" name="FF_SHARD_OF_CHINA" 		gfx="shard_of_china.png" />         <!-- Die in Handle With Care -->
+	<achievement gfxback="_purple_paper.png" name="FF_DADS_HOME_TRINKET"	gfx="dads_home.png" />				<!-- Die in Dad's Home+ -->
+	<achievement gfxback="_purple_paper.png" name="FF_DUSTY_D10" 			gfx="dusty_d10.png" />				<!-- Die in Allow Enemy Replacements -->
+	<achievement gfxback="_purple_paper.png" name="FF_ADBLOCKER" 			gfx="adblocker.png" />				<!-- Die in Baby Sensory -->
+	<achievement gfxback="_purple_paper.png" name="FF_LOST_ARTIFACT" 		gfx="lost_artifact.png" />			<!-- A boss in Gauntlet -->
+	<achievement gfxback="_purple_paper.png" name="FF_RIDICULOUS_METAL" 	gfx="ridiculous_metal.png" />		<!-- Chpt. 1 of Gauntlet -->
+	<achievement gfxback="_purple_paper.png" name="FF_ATLAS_BURDEN" 		gfx="atlas_burden.png" />			<!-- Chpt. 2 of Gauntlet -->
+	<achievement gfxback="_purple_paper.png" name="FF_POCKET_ROCKIT" 		gfx="pocket_rockit.png" />			<!-- Chpt. 3 of Gauntlet -->
+	<achievement gfxback="_purple_paper.png" name="FF_WORMHOLE_ROCK" 		gfx="wormhole_rock.png" />			<!-- Chpt. 4 of Gauntlet -->
+
+	<!-- Backdrop unlocks -->
+	<achievement gfxback="_purple_paper.png" name="FF_BEE_SKIN"			gfx="bee_skin.png" />					<!-- Honeyed Cellar -->
+	<achievement gfxback="_purple_paper.png" name="FF_MODERN_OUROBOROS" gfx="modern_ouroboros.png" />			<!-- Smoky Burning Basement -->
+	<achievement gfxback="_purple_paper.png" name="FF_EARTH_IMPALE"		gfx="earth_impale.png" />				<!-- Primordial Caves -->
+	<achievement gfxback="_purple_paper.png" name="FF_CHUNK_OF_TAR"		gfx="chunk_of_tar.png" />				<!-- Pipes Dank Depths -->
+	<achievement gfxback="_purple_paper.png" name="FF_MISPRINTED_GISH"	gfx="achievement_misprintedgish.png" />	<!-- Trash Dank Depths -->
+	<achievement gfxback="_purple_paper.png" name="FF_EMPTY_GAZE"		gfx="empty_gaze.png" />					<!-- Eyeball Utero -->
+	<achievement gfxback="_purple_paper.png" name="FF_CALLING_CARD"		gfx="calling_card.png" />				<!-- Psionic Sheol -->
+	<achievement gfxback="_purple_paper.png" name="FF_DRIED_PAINT"		gfx="dried_paint.png" />				<!-- Surreal Sheol -->
+	<achievement 							 name="FF_LEMON_MISHUH"		gfx="lemon_mishuh.png" />				<!-- Peepee Dross -->
+	<achievement gfxback="_purple_paper.png" name="FF_MTN_DEW"			gfx="mtn_dew.png" />					<!-- Irradiated Ashpit -->
+	<achievement gfxback="_purple_paper.png" name="FF_MORBID_HEART" 	gfx="morbid_heart.png" />				<!-- Morbus -->
+
+	<!-- Misc unlocks -->
+	<achievement gfxback="_purple_paper.png" name="FF_PURPLE_PUTTY" 		gfx="purple_putty.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_FIEND_HEART" 			gfx="aehrt.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_DEVILLED_EGG" 		gfx="devilled_egg.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_SKIP_CARD" 			gfx="skip_card.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_ZODIAC_BEGGAR" 		gfx="zodiac_beggar.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_FRAUDULENT_FUNGUS" 	gfx="fraudulent_fungus.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_FISTFUL_OF_ASH" 		gfx="fist_full_of_ash.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_EVIL_STICKER" 		gfx="evil_sticker.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_FOOLS_GOLD_HEART" 	gfx="fools_gold_heart.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_GOLDEN_CURSED_PENNY" 	gfx="golden_cursed_penny.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_DUDS_FLOWER" 			gfx="duds_flower.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_CARELESS_WHISPERS"	gfx="careless_whispers.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_GRIDDLE_CORNS"		gfx="griddle_corns.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_HYDROKINESIS"			gfx="achievement_hydrokinesis.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_QUEEN_OF_CLUBS" 		gfx="queen_of_clubs.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_CLUTCHS_CURSE"		gfx="clutchs_curse.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_BLACK_LANTERN" 		gfx="black_lantern.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_RISKS_REWARD" 		gfx="risks_reward.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_STEVENS_HAT" 			gfx="achievement_stevenshat.png" />
+	<achievement gfxback="_skin_paper.png" 	 name="FF_MODERN_HARBINGERS"	gfx="the_modern_harbingers.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_SEVEN_SEALS_2"		gfx="achievement_sevenseals2.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_FLEA_OF_MELTDOWN" 	gfx="flea_of_meltdown.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_FLEA_OF_DELUGE" 		gfx="flea_of_deluge.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_FLEA_OF_POLLUTION" 	gfx="flea_of_pollution.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_FLEA_OF_PROPAGANDA" 	gfx="flea_of_propaganda.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_FLEA_CIRCUS" 			gfx="flea_circus.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_DADS_HALF"			gfx="dads_half.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_SOUL_OF_RANDOM" 		gfx="soul_of_random.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_BIFURCATED_STARS" 	gfx="bifurcated_card.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_DELUXE" 				gfx="the_deluxe.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_THIRTEEN_OF_STARS" 	gfx="13_of_stars.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_MINOR_ARCANA_KINGS" 	gfx="kings_minor_arcana.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_KING_OF_DIAMONDS" 	gfx="king_of_diamonds.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_PLAGUE_OF_DECAY" 		gfx="plague_of_decay.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_IMPLOSION" 			gfx="implosion.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_GOLDEN_REWARD_PLATE" 	gfx="golden_button.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_GLASS_CHEST" 			gfx="glass_chest.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_HAUNTED_PENNY" 		gfx="haunted_penny.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_PLANCHETTE"			gfx="planchette.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_VIRTUOUS_BATTERY"		gfx="virtuous_battery.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_SEAL_OF_ORICHALCOS"	gfx="achievement_thesealoforichalcos.png" />
+	<!-- <achievement gfxback="_purple_paper.png" name="FF_RUNIC_CUBE"			gfx="runic_cube.png" /> -->
+	<achievement gfxback="_purple_paper.png" name="FF_DIRE_CHEST" 			gfx="dire_chest.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_52_DECK" 				gfx="52_deck.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_RIGHT_HAND" 			gfx="the_right_hand.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_TOKEN" 				gfx="token.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_OLD_TESTAMENT" 		gfx="old_testament.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_TOO_MANY_OPTIONS" 	gfx="too_many_options.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_THE_FINAL_OPTION"		gfx="the_final_option.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_DAYDREAM"				gfx="daydream.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_SPECTRAL_KEYCHAIN"	gfx="spectral_keychain.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_TRICOLOR_KEY" 		gfx="tricolor_key.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_LUCKY_CAT" 			gfx="lucky_cat.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_CORRUPTED_LARVA"		gfx="achievement_corrupted_larva.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_GOLDEN_POPSICLE"		gfx="golden_popsicle.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_HINGE"				gfx="hinge.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_DAZZLING_SLOT"		gfx="dazzling_slot.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_BAPHOMETS_EXCHANGE"	gfx="achievement_baphomets_exchange.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_LOADSAMONEY"			gfx="achievement_loadsamoney.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_GLITCHCITY"			gfx="achievement_glitchcity.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_RAINBOW_BEAN"			gfx="rainbow_bean.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_LARGE_DOSE"			gfx="large_dose.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_GREEN_CANDLE"			gfx="green_candle.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_PLATINUM_PENNY"		gfx="platinum_penny.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_BLASPHEMY"			gfx="blasphemy.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_RED"			        gfx="red.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_WRONG_WARP"			gfx="wrong_warp.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_GIFT_CARD"			gfx="gift_card.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_BIRTHDAY_GIFT"		gfx="birthday_gift.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_ISAAC_DOT_CHR"		gfx="isaac_dot_chr.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_BOTTLE_OF_WATER"		gfx="bottle_of_water.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_CREATIVE_AI"			gfx="creative_ai.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_CORRUPTION"			gfx="corruption.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_CHATTERBOX"			gfx="chatterbox.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_GOLEMS_SUB"			gfx="golems_sub.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_NEIGHBOURS_FROM_HELL"	gfx="neighbours_from_hell.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_PENNY_ALBUM"			gfx="penny_album.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_ACE_OF_WANDS"			gfx="achievement_aceofwands.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_ACE_OF_PENTACLES"		gfx="achievement_aceofpentacles.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_ACE_OF_SWORDS"		gfx="achievement_aceofswords.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_ACE_OF_CUPS"			gfx="achievement_aceofcups.png" />
+
+	<!-- Inaba related stuff after here -->
+	<!-- Characters -->
+	<achievement gfxback="_purple_paper.png" name="FF_INABA" 				gfx="achievement_inaba.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_BINABA" 				gfx="achievement_inabab.png" />
+	<!-- Inaba completion marks -->
+	<achievement gfxback="_purple_paper.png" name="FF_ICE_IX"	 			gfx="achievement_iceix.png" />		<!--Mom-->
+	<achievement gfxback="_purple_paper.png" name="FF_LIL_INABA" 			gfx="lil_inaba.png" />				<!--Heart-->
+	<achievement gfxback="_purple_paper.png" name="FF_ACUPUNCTURE_NEEDLES" 	gfx="acupuncture_needles.png" />	<!--Isaac-->
+	<achievement gfxback="_purple_paper.png" name="FF_CRUSHING_ANXIETY" 	gfx="crushing_anxiety.png" />		<!--???-->
+	<achievement gfxback="_purple_paper.png" name="FF_PARANOIA" 			gfx="paranoia.png" />				<!--Satan-->
+	<achievement gfxback="_purple_paper.png" name="FF_PHOENIX_ELIXIR" 		gfx="phoenix_elixir.png" />			<!--Lamb-->
+	<achievement gfxback="_purple_paper.png" name="FF_SANGUINE_SALIVATION" 	gfx="sanguine_salivation.png" />	<!--Boss Rush-->
+	<achievement gfxback="_purple_paper.png" name="FF_HYPERFIXATION" 		gfx="hyperfixation.png" />			<!--Hush-->
+	<achievement gfxback="_purple_paper.png" name="FF_ISOLATED" 			gfx="isolated.png" />				<!--Delirium-->
+	<achievement gfxback="_purple_paper.png" name="FF_GREEN_BOMBS" 			gfx="green_bombs.png" />			<!--Mega Satan-->
+	<achievement gfxback="_purple_paper.png" name="FF_BOUNDLESS_PARASOL" 	gfx="boundless_parasol.png" />		<!--Mother-->
+	<achievement gfxback="_purple_paper.png" name="FF_DUMB_BUNNY" 			gfx="dumb_bunny.png" />				<!--Beast-->
+	<achievement gfxback="_purple_paper.png" name="FF_SERTRALINE" 			gfx="sertraline.png" />				<!--Greed-->
+	<achievement gfxback="_purple_paper.png" name="FF_REPRESSION" 			gfx="repression.png" />				<!--Greedier-->
+	<achievement gfxback="_purple_paper.png" name="FF_HARE_TRIGGER" 		gfx="hare_trigger.png" /> 			<!--Mecha Satan-->
+	<achievement gfxback="_purple_paper.png" name="FF_RABBITS_FOOT" 		gfx="rabbits_foot.png" />			<!--All-->
+	<!-- Binaba completion marks -->
+	<achievement gfxback="_purple_paper.png" name="FF_LUNATIC_EYE" 			gfx="lunatic_eye.png" />			<!--Main path final bosses-->
+	<achievement gfxback="_purple_paper.png" name="FF_SOUL_OF_INABA" 		gfx="soul_of_inaba.png" />			<!--Boss Rush & Hush-->
+	<achievement gfxback="_purple_paper.png" name="FF_SOUL_SHARD" 			gfx="soul_shard.png" />				<!--Mega Satan-->
+	<achievement gfxback="_purple_paper.png" name="FF_THE_INVISIBLE_MOON" 	gfx="the_invisible_moon.png" />		<!--Greedier-->
+	<achievement gfxback="_purple_paper.png" name="FF_OCULAR_SPECTRUM" 		gfx="ocular_spectrum.png" />		<!--Delirium-->
+	<achievement gfxback="_purple_paper.png" name="FF_SEWING_MANUAL" 		gfx="sewing_manual.png" />			<!--Mother-->
+	<achievement gfxback="_purple_paper.png" name="FF_BEREAVEMENT" 			gfx="bereavement.png" />			<!--Beast-->
+	<achievement gfxback="_purple_paper.png" name="FF_SHADOW_RABBITS" 		gfx="shadow_rabbits.png" />			<!--Mecha Satan-->
+	<!-- Challenge unlocks -->
+	<achievement gfxback="_purple_paper.png" name="FF_IMPERISHABLE_NIGHT"		gfx="achievement_ffchallenge_imperishable_night.png" />
+	<!-- Unlocked by challenges -->
+	<achievement gfxback="_purple_paper.png" name="FF_DICHROMATIC_BUTTERFLY" gfx="dichromatic_butterfly.png" />	<!-- Imperishable Night -->
+	<!-- Misc unlocks -->
+	<achievement gfxback="_purple_paper.png" name="FF_CHARACTER_SELECT" 	gfx="character_select.png" />
+	<!-- All Clear unlocks -->
+	<achievement gfxback="_purple_paper.png" name="FF_TOY_CAMERA"		gfx="toy_camera.png" />				<!--Mom-->
+	<achievement gfxback="_purple_paper.png" name="FF_BAG_OF_BOBBIES" 	gfx="bag_of_bobbies.png" />			<!--Heart-->
+	<achievement gfxback="_purple_paper.png" name="FF_CRY_BABY"			gfx="cry_baby.png" />				<!--Isaac-->
+	<achievement gfxback="_purple_paper.png" name="FF_TOYBOX"			gfx="toybox.png" />					<!--???-->
+	<achievement gfxback="_purple_paper.png" name="FF_DARK_BARGAIN"		gfx="dark_bargain.png" />			<!--Satan-->
+	<achievement gfxback="_purple_paper.png" name="FF_LIL_LAMB"			gfx="achievement_lillamb.png" />	<!--Lamb-->
+	<achievement gfxback="_purple_paper.png" name="FF_ANGRY_FAIC"		gfx="angry_faic.png" />				<!--Boss Rush-->
+	<achievement gfxback="_purple_paper.png" name="FF_GIZMO_BOOTS"		gfx="gizmo_boots.png" />			<!--Hush-->
+	<achievement gfxback="_purple_paper.png" name="FF_BAD_DATA"			gfx="bad_data.png" />				<!--Delirium-->
+	<achievement gfxback="_purple_paper.png" name="FF_DEVILS_DAGGER"	gfx="devils_dagger.png" />			<!--Mega Satan-->
+	<achievement gfxback="_purple_paper.png" name="FF_CHERUB_CHUBBY"	gfx="cherub_chubby.png" />			<!--Mother-->
+	<achievement gfxback="_purple_paper.png" name="FF_BEAST_BEGGAR" 	gfx="evil_beggar.png" />			<!--Beast-->
+	<achievement gfxback="_purple_paper.png" name="FF_COOL_SUNGLASSES"	gfx="cool_sunglasses.png" />		<!--Greed-->
+
+
+	<!-- Cosmetic achievements (no unlocks) -->
+	<achievement gfxback="_purple_paper.png" name="FF_MORBUS"         gfx="morbus.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_MERN"	          gfx="mern.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_IM_SORRY_ISAAC" gfx="achievement_dadtransformation.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_GET_IN_THE_BOX" gfx="achievement_steventransformation.png" />
+	<achievement gfxback="_purple_paper.png" name="FF_PRO_GOD"        gfx="achievement_pro_god.png" />
+
+
+	<!-- Hidden achievements -->
+	<achievement name="FF_ETERNAL_REWARD_OBTAINED" hidden="true" />
+	<achievement name="FF_LOCKED_PLACEHOLDER" hidden="true" />
+
+	<!-- Bonus characters -->
+	<achievement name="FF_SLIPPY" hidden="true" />
+	<achievement name="FF_CHINA" hidden="true" />
+	<achievement name="FF_CRAIG" hidden="true" />
+	<achievement name="FF_CLASSIC_FIEND" hidden="true" />
+	<achievement name="FF_IMAGE" hidden="true" /> <!-- You tread a fine line -->
+	<!-- Joke Characters -->
+	<achievement name="FF_JOKE_CHARACTERS" hidden="true" />
+	<achievement name="FF_PEAT" hidden="true" />
+
+	<!--Used to block stuff more easily-->
+	<achievement name="FF_UNOBTAINABLE_ACHIEVEMENT" hidden="true" />
+
+</achievements>

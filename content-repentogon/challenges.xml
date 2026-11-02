@@ -1,0 +1,27 @@
+<challenges version = "1">
+	<challenge name="[FF] The Devil's Harvest" playertype="Classic Fiend" endstage="10" unlockachievement="FF_DEVILS_HARVEST" achievements="FF_DEVILS_HARVEST_CHALLENGE" />
+	<challenge name="[FF] No Offense" endstage="10" altpath="true" unlockachievement="FF_APOTHEOSIS" achievements="FF_NO_OFFENSE" />
+	<challenge name="[FF] Handle With Care" endstage="6" unlockachievement="FF_CHINAS_BELONGINGS" achievements="FF_HANDLE_WITH_CARE" />
+	<challenge name="[FF] Dad's Home+" endstage="2" unlockachievement="FF_GREEN_HOUSE" achievements="FF_DADS_HOME" startingcard="18" />
+	<challenge name="[FF] Blursed" roomfilter="4" endstage="6" unlockachievement="FF_BLACK_CANDELABRA" achievements="FF_BLURSED" />
+	<challenge name="[FF] Mr. Hands" roomfilter="4" endstage="8" unlockachievement="FF_RED_HAND" achievements="FF_MR_HANDS" />
+	<challenge name="[FF] Frog Mode" endstage="8" unlockachievement="FF_SLIPPYS_ORGANS" achievements="FF_FROG_MODE" />
+	<challenge name="[FF] Dirty Bubble Challenge" endstage="8" unlockachievement="FF_PETRIFIED_GEL" achievements="FF_DIRTY_BUBBLE" />
+	<challenge name="[FF] Pen Island" canshoot="false" roomfilter="4" startingitems="Planet X,Planet X,Planet X,233,WNIC,Devil's Umbrella" startingtrinkets="130" endstage="6" unlockachievement="FF_DEVILS_UMBRELLA" achievements="FF_PEN_ISLAND" />
+	<challenge name="[FF] The Real Jon" endstage="8" unlockachievement="FF_SPARE_RIBS" achievements="FF_REAL_JON" />
+	<challenge name="[FF] Brick By Brick" playertype="Golem" canshoot="false" roomfilter="4" startingtrinkets="Brick Rock" maxhp="-4" soulhp="2" endstage="6" unlockachievement="FF_BRICK_SEPARATOR" achievements="FF_BRICK_BY_BRICK" />
+	<challenge name="[FF] Tower Offense" canshoot="false" roomfilter="4" maxhp="-4" soulhp="2" startingitems="504, 19" endstage="6" unlockachievement="FF_LAWN_DARTS" achievements="FF_TOWER_OFFENSE" />
+	<challenge name="[FF] Craig's Challenge" endstage="4" altpath="true" unlockachievement="FF_CRAIGS_UNLOCKS" achievements="FF_CRAIGS_CHALLENGE" />
+	<challenge name="[FF] Allow Enemy Replacements" startingitems="63,163,Chirumiru,Snooze Button" endstage="6" unlockachievement="FF_ETERNAL_D10" achievements="FF_ALLOW_ENEMY_REPLACEMENTS" />
+	<challenge name="[FF] Embryos Akimbo" roomfilter="4" playertype="13" maxhp="2" redhp="2" startingitems="247,619,How to Roll,Lil Friend,Lil Friend" endstage="8" unlockachievement="FF_GOOGLY_EYES" achievements="FF_EMBRYOS_AKIMBO" />
+	<challenge name="[FF] Magna Farta" playertype="25" endstage="11" altpath="true" bombs="6" startingtrinkets="Rainbow Bean" unlockachievement="FF_CAN_OF_BEANS" achievements="FF_MAGNA_FARTA" />
+	<challenge name="[FF] Isaac Rebuilt" canshoot="false" roomfilter="4" playertype="22" startingitems="28, 619, 647" endstage="6" unlockachievement="FF_DEIMOS" achievements="FF_ISAAC_REBUILT" />
+	<challenge name="[FF] Boss Makes a Dollar" endstage="6" getcurse="18" playertype="14" startingtrinkets="172" startingitems="54,21,246" unlockachievement="FF_TIME_IS_MONEY" achievements="FF_BOSS_MAKES_A_DOLLAR" />
+	<challenge name="[FF] Baby Sensory" roomfilter="4" playertype="Image" endstage="8" unlockachievement="FF_IMAGES_UNLOCKS" achievements="FF_BABY_SENSORY" />
+	<challenge name="[FF] The Gauntlet" endstage="2" unlockachievement="FF_GAUNTLET_BEATEN" achievements="FF_GAUNTLET" />
+	<challenge name="[FF] Imperishable Night" playertype="Inaba" canshoot="false" startingitems="247,Dichromatic Butterfly,Sertraline Pack" endstage="11" cursefilter="2" getcurse="1" megasatan="true" unlockachievement="FF_DICHROMATIC_BUTTERFLY" achievements="FF_IMPERISHABLE_NIGHT" />
+
+	<challenge name="[FFBonus!] Hands On" canshoot="false" roomfilter="4" startingitems="20, 544" endstage="6"/>
+	<challenge name="[FFBonus!] Punkychunk Challenge" roomfilter="4" endstage="6" /> <!-- Previously: The Challenge Where You Have 30 Pak Choi and Have To Fight Mom's Foot with No Heart Pickups  -->
+	<challenge name="[FFBonus!] Follow the Rabbit" endstage="12" unlockachievement="FF_INABA" achievements="FF_INABA" />
+</challenges>

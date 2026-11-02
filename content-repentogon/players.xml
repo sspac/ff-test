@@ -1,0 +1,282 @@
+<players root="gfx/characters/costumes/" portraitroot="gfx/ui/stage/" nameimageroot="gfx/ui/boss/" bigportraitroot="gfx/ui/stage/">
+    <player
+		name="Fiend"
+		hp="0" black="4" card="18"
+		healthtype="1"
+		skin="player_fiend.png" skinColor="-1"
+		nameimage="playername_fiend.png"
+		portrait="playerportrait_fiend_rep.png"
+		costumeSuffix="fiend"
+		birthright="Fiendish fireballs"
+		achievement="FF_FIEND"
+		noshake="true"
+	/>
+	<player
+		name="Fiend" bSkinParent="Fiend"
+		hp="0" black="4" pocketActive="Malice"
+		healthtype="1"
+		skin="player_fiendb.png" skinColor="1"
+		nameimage="playername_fiend.png"
+		portrait="playerportrait_taintedfiend_rep.png"
+		costumeSuffix="biend"
+		birthright="Malicious healing + split personality"
+		achievement="FF_BIEND"
+		noshake="true"
+	/>
+	<player
+		name="Golem"
+		hp="2" armor="2" bombs="2"
+		skin="player_golem.png" skinColor="5"
+		nameimage="playername_golem.png"
+		portrait="playerportrait_golem_rep.png"
+		costumeSuffix="golem"
+		birthright="Rockier tinted rocks + luck up"
+		achievement="FF_GOLEM"
+		noshake="true"
+		innateitems="139"
+	/>
+	<player
+		name="Golem" bSkinParent="Golem"
+		armor="6" bombs="2" pocketActive="Overclock"
+		healthtype="1"
+		skin="player_golemb.png" skinColor="5"
+		nameimage="playername_golem.png"
+		portrait="playerportrait_taintedgolem.png"
+		costumeSuffix="bolem"
+		modcostume="1000"
+		birthright="Take back what's yours"
+		achievement="FF_BOLEM"
+		noshake="true"
+		innateitems="139"
+	/>
+	<player
+		name="Friend"
+		hp="6" armor="0" coins="1" card="19" pocketActive="Hot Shot"
+		skin="player_friend.png" skinColor="3"
+		nameimage="playername_friend.png"
+		portrait="playerportrait_friend.png"
+		costumeSuffix="friend"
+		birthright="Pyromancing mastery"
+		canShoot="false"
+		achievement="FF_FRIEND"
+		noshake="true"
+	/>
+	<player
+		name="Friend" bSkinParent="Friend"
+		hp="6" armor="0" pocketActive="Gunslinger's Grit"
+		skin="player_friendb.png" skinColor="3"
+		nameimage="playername_friend.png"
+		portrait="playerportrait_taintedfriend.png"
+		costumeSuffix="friend"
+		modcostume="1002"
+		birthright="More gun"
+		canShoot="false"
+		achievement="FF_BRIEND"
+		noshake="true"
+	/>
+	<player
+		name="Inaba"
+		skin="character_inaba.png"
+		hp="4" bombs="1"
+		shotspeedmodifier="0.2" speedmodifier="0.15" rangemodifier="-1.25" luckmodifier="1"
+        nameimage="inaba_name.png"
+        portrait="playerportrait_inaba.png"
+        costumeSuffix="inaba"
+        modcostume="1003"
+        achievement="FF_INABA" hideachievement="FF_INABA"
+        skinColor="0" birthright="Constant headache"
+		noshake="false"
+	/>
+    <player
+		name="Inaba"
+		bSkinParent="Inaba"
+		skin="character_inabab.png"
+		armor="4" coins="1" canShoot="false" pocketActive="Ocular Spectrum"
+		shotspeedmodifier="0.2" speedmodifier="0.2" rangemodifier="-1.25" luckmodifier="-1"
+        nameimage="inaba_name.png"
+        portrait="playerportrait_taintedinaba.png"
+        costumeSuffix="binaba"
+        modcostume="1004"
+        achievement="FF_BINABA"
+        skinColor="5" birthright="Shadow gaze"
+		noshake="true"
+	/>
+
+	<!--
+		Challenge characters below this point
+		See Dead Sea Scrolls settings for toggling these on the character select menu
+	-->
+
+	<player
+		name="Slippy" hidden="true"
+		hp="6" items="Golden Frog Head"
+		skin="player_slippy.png" skinColor="4"
+		nameimage="playername_slippy.png"
+		portrait="playerportrait_slippy.png"
+		costumeSuffix="slippy"
+		birthright="Pungent odor"
+        achievement="FF_SLIPPY" hideachievement="FF_SLIPPY"
+	/>
+
+	<player
+		name="China" hidden="true"
+		hp="2"
+		skin="player_china.png" skinColor="3"
+		nameimage="playername_china.png"
+		portrait="playerportrait_china.png"
+		costumeSuffix="china"
+		modcostume="1001"
+		birthright="Super glue"
+        achievement="FF_CHINA" hideachievement="FF_CHINA"
+	/>
+
+	<player
+		name="Craig" hidden="true"
+		hp="6" pocketActive="Craig's Battery"
+		skin="craig/player_craig.png" skinColor="-1"
+		nameimage="playername_craig.png"
+		portrait="playerportrait_craig.png"
+		costumeSuffix="craig"
+		birthright="The harvest is plentiful"
+        achievement="FF_CRAIG" hideachievement="FF_CRAIG"
+	/>
+
+	<player
+		name="Classic Fiend" hidden="true"
+		hp="0" black="6" card="18" healthtype="1"
+		healthtype="1"
+		skin="player_fiend_classic.png" skinColor="-1"
+		nameimage="playername_fiend_classic.png"
+		portrait="playerportrait_fiend_classic.png"
+		costumeSuffix="fiend"
+		birthright="Shepherd's sacrifice"
+		noshake="true"
+		speedmodifier="0.2"
+		damagemodifier="0.5"
+		shotspeedmodifier="1.5"
+		luckmodifier="-1"
+        achievement="FF_CLASSIC_FIEND" hideachievement="FF_CLASSIC_FIEND"
+	/>
+
+	<player name="Image" hidden="true"
+		hp="6" bombs="1" items="Green Leaf,Schoolbag,Fiddle Cube,Gamma Gloves" pocketActive="iPad"
+		skin="player_image.png"skinColor="-1"
+		nameimage="PlayerName_01_Isaac.png"
+		portrait="playerportrait_image.png"
+		costumeSuffix="image"
+		birthright="Sensory overload"
+        achievement="FF_IMAGE" hideachievement="FF_IMAGE"
+	/>
+
+	<!--
+		Joke characters below this point
+		See Dead Sea Scrolls settings for enabling these on the character select menu
+	-->
+
+	<player
+		name="The Skeletal Fiend" hidden="true"
+		hp="4" pocketActive="Bone Hurting Juice"
+		skin="player_the_skeletal_fiend.png" skinColor="-1"
+		nameimage="playername_skeletal_fiend.png"
+		portrait="playerportrait_skeletal_fiend.png"
+		costumeSuffix="skeletalfiend"
+		birthright="Hurtful taunts"
+	/>
+
+	<player
+		name="Fend" hidden="true"
+		hp="4" armor="2" items="579" coins="4"
+		skin="player_fend.png" skinColor="-1"
+		nameimage="playername_fend.png"
+		portrait="playerportrait_fend.png"
+		costumeSuffix="fend"
+		birthright="Libido up!"
+        achievement="FF_JOKE_CHARACTERS" hideachievement="FF_JOKE_CHARACTERS"
+	/>
+
+	<player
+		name="Frond" hidden="true"
+		hp="4" black="2" keys="1"
+		items="Dog Whistle"
+		skin="player_frond.png" skinColor="-1"
+		nameimage="playername_frond.png"
+		portrait="playerportrait_frond.png"
+		costumeSuffix="frond"
+		birthright="Acid reflux"
+        achievement="FF_JOKE_CHARACTERS" hideachievement="FF_JOKE_CHARACTERS"
+	/>
+
+	<player
+		name="Fient" hidden="true"
+		hp="2" black="4" coins="4" bombs="2"
+		trinket="Chili Powder" pocketActive="582"
+		skin="player_fient.png" skinColor="-1"
+		nameimage="playername_fient.png"
+		portrait="playerportrait_fient.png"
+		costumeSuffix="fient"
+		birthright="Reefer madness"
+        achievement="FF_JOKE_CHARACTERS" hideachievement="FF_JOKE_CHARACTERS"
+	/>
+
+	<player
+		name="Mi" hidden="true"
+		hp="1" armor="4"
+		skin="player_mi.png" skinColor="-1"
+		nameimage="playername_mi.png"
+		portrait="playerportrait_mi.png"
+		costumeSuffix="mi"
+		birthright="Ultimate chimerism!"
+		hurtsound="MiImpHurt" deathsound="MiImpDead"
+        achievement="FF_JOKE_CHARACTERS" hideachievement="FF_JOKE_CHARACTERS"
+	/>
+
+	<player
+		name="Freezer Jr." hidden="true"
+		hp="2" speedmodifier="-0.75"
+		canShoot="false"
+		skin="player_freezerjr.png" skinColor="2"
+		nameimage="playername_freezerjr.png"
+		portrait="playerportrait_freezerjr.png" noshake="true"
+		birthright="Meta potential"
+		achievement="FF_JOKE_CHARACTERS" hideachievement="FF_JOKE_CHARACTERS"
+	/>
+
+	<!--
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⠶⠚⠛⠉⠉⠉⠀⠀⠉⠉⠙⠓⠦⣤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣾⣿⠴⠶⠦⢤⣤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠳⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⡿⠛⠛⠒⢦⡀⠀⠀⠉⠙⠳⢶⣤⣄⣀⣀⣀⣀⣀⣤⠜⢷⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡏⠀⠀⠀⠀⠀⠹⣄⠀⠀⢀⠔⠋⠉⠉⠛⢍⠉⠉⣽⠃⠀⢀⣻⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⡤⢾⡇⠀⠀⣸⣧⠤⢤⣏⠉⠙⡏⠀⠀⢀⣀⠀⠈⣧⠴⣷⠶⠾⣿⡟⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⠟⠁⠀⠀⠹⣄⡼⠋⠀⠀⠀⠈⠁⠀⣧⠀⠀⠈⠁⠀⢠⡇⠀⠀⠀⠀⢻⠷⠛⣷⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⡟⠁⠀⠀⠀⠀⠀⠀⢳⡄⠀⠀⠀⠀⠀⠀⠈⠳⢄⣀⣀⠴⠋⠀⠀⠀⠀⠀⠀⠀⠀⠸⣇⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⢠⡿⠀⠀⠀⠀⠀⠀⢀⡤⠀⠉⠓⠦⠤⠤⠖⠀⠀⠀⠀⠀⠀⢀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⡄⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⣼⠁⠀⠀⠀⠀⠀⠀⣨⠧⣄⣀⡀⠀⠀⠀⠀⠀⢀⣀⣠⡤⠶⠛⡧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣧⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⠀⠻⣤⣄⡈⠉⠉⠉⠉⠉⠉⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⡀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⡁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡇⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡇⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⣷⠀⠀⠀⠀⠀⠀⠀⠀⣴⠋⠉⠀⠀⠀⠀⠀⠀⠀⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡇⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⠀⢸⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡇⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⠀⠀⢷⣄⠀⠀⣀⣄⠀⠀⠀⠀⢀⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡇⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⢹⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠉⠉⠉⠳⠦⠤⠴⠛⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡇⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣧⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢠⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⠞⠁⢸⣇⡀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⣿⠀⢻⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡴⠛⠁⠀⣰⠏⠉⠙⠳⢦⣄
+⠀⠀⠀⠀⢀⣤⠞⠻⣆⠀⠙⢷⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡤⠞⠉⠀⠀⣠⡾⠁⠀⠀⠀⠀⠀⠈
+⠀⠀⣀⡴⠟⠁⠀⠀⠙⢧⡀⠀⠉⠻⢦⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣤⠴⠖⠛⠉⠀⠀⢀⣤⠞⠉⠀⠀⠀⠀⠀⠀⠀⠀
+⣤⠞⠋⠀⠀⠀⠀⠀⠀⠀⠻⣦⡀⠀⠀⠈⠛⢶⣄⠀⠀⠀⠀⠀⣀⣤⠴⠖⠛⠉⠁⠀⠀⠀⠀⣀⡤⠖⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⣦⡀⢀⣤⠶⢿⣧⠀⣠⣶⣯⣭⣀⠀⠀⠀⠀⠀⣀⣤⠴⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⣷⠏⠀⢠⢬⣿⡿⠋⠁⠀⠀⠈⠙⣦⡴⠖⠋⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⠀⢙⣿⡟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠒⠂⠀⠀⠀⠀⠀⠀⡀⣀⣔
+	-->
+
+    <player
+        name="Peat" hidden="true"
+        hp="8"
+        skin="../../enemies/peat/family_guy__peter_griffin_sprites_by_fatchrisb-d4kkfha.png" skinColor="0"
+        nameimage="../../enemies/peat/bossname_peat.png"
+        portrait="../../enemies/peat/portraitgiffin_player.png"
+		birthright="The horse is here"
+        achievement="FF_PEAT" hideachievement="FF_PEAT"
+    />
+</players>

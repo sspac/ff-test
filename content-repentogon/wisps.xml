@@ -1,0 +1,305 @@
+<wisps gfxroot="gfx/familiar/wisps/">
+	<color name="default" />
+
+	<color name="flame_blue" r="152" g="330" b="458"/>
+	<color name="core_blue" r="255" g="356" b="510"/>
+	<color name="tear_blue" or="64" og="89" ob="128"/>
+
+	<color name="flame_bright_blue" r="380" g="420" b="458"/>
+	<color name="core_bright_blue" r="400" g="460" b="510"/>
+	<color name="tear_bright_blue" or="90" og="105" ob="128"/>
+
+	<color name="flame_dark_blue" r="80" g="90" b="280"/>
+	<color name="core_dark_blue" r="80" g="90" b="280"/>
+	<color name="tear_dark_blue" r="90" g="90" b="255" or="10" og="30" ob="35"/>
+
+	<color name="flame_cyan" r="152" g="430" b="430"/>
+	<color name="core_cyan" r="220" g="500" b="500"/>
+	<color name="tear_cyan" or="50" og="110" ob="110"/>
+
+	<color name="flame_purple" r="330" g="152" b="458"/>
+	<color name="core_purple" r="356" g="255" b="510"/>
+	<color name="tear_purple" r="180" g="50" b="255" or="64" og="10" ob="128"/>
+
+	<color name="flame_white" r="460" g="460" b="420"/>
+	<color name="core_white" r="510" g="510" b="510"/>
+	<color name="tear_white" r="383" g="510" b="510" or="40" og="50" ob="50"/>
+
+	<color name="flame_black" r="20" g="20" b="20"/>
+	<color name="core_black" r="710" g="710" b="710" or="-512" og="-512" ob="-512"/>
+	<color name="tear_black" r="710" g="710" b="710" or="-512" og="-512" ob="-512"/>
+
+	<color name="flame_red" r="500" g="220" b="220"/>
+	<color name="core_red" r="255" g="60" b="60"/>
+	<color name="tear_red" r="180" g="60" b="80" or="30"/>
+
+	<color name="flame_dark_red" r="512" g="0" b="0"/>
+	<color name="core_dark_red" r="190" g="10" b="10"/>
+	<color name="tear_dark_red" r="130" g="10" b="10" or="30"/>
+
+	<color name="flame_brown" r="200" g="120" b="120"/>
+	<color name="core_brown" r="208" g="158" b="158"/>
+	<color name="tear_brown" r="128" g="80" b="80"/>
+
+	<color name="flame_dark_brown" r="70" g="50" b="50"/>
+	<color name="core_dark_brown" r="70" g="50" b="50"/>
+	<color name="tear_dark_brown" r="70" g="50" b="50"/>
+
+	<color name="flame_yellow" r="320" g="300" b="60"/>
+	<color name="core_yellow" r="300" g="290" b="10"/>
+	<color name="tear_yellow" r="260" g="250" b="40" or="40" og="40"/>
+
+	<color name="flame_gold" r="320" g="250" b="60"/>
+	<color name="core_gold" r="300" g="220" b="20"/>
+	<color name="tear_gold" r="260" g="190" b="40" or="50" og="30"/>
+
+	<color name="flame_orange" r="400" g="250" b="60"/>
+	<color name="core_orange" r="300" g="200" b="10"/>
+	<color name="tear_orange" r="260" g="180" b="90" or="70" og="35"/>
+
+	<color name="flame_grey" r="120" g="120" b="120"/>
+	<color name="core_grey" r="200" g="200" b="200"/>
+	<color name="tear_grey" cr="180" cg="180" cb="180" ca="255"/>
+
+	<color name="flame_beige" r="310" g="300" b="290"/>
+	<color name="core_beige" r="255" g="230" b="210"/>
+	<color name="tear_beige" r="350" g="320" b="310"/>
+
+	<color name="flame_green" r="160" g="300" b="50"/>
+	<color name="core_green" r="80" g="300" b="80"/>
+	<color name="tear_green" r="180" g="320" b="30"/>
+
+	<color name="flame_pink" r="350" g="192" b="228"/>
+	<color name="core_pink" r="342" g="216" b="244"/>
+	<color name="tear_pink" r="352" g="241" b="266"/>
+
+	<color name="flame_bob" r="160" g="220" b="50"/>
+	<color name="core_bob" r="120" g="180" b="80"/>
+	<color name="tear_bob" r="130" g="150" b="100"/>
+	<color name="tear_bob2" r="80" g="160" b="30"/>
+
+	<color name="core_isaac" r="340" g="230" b="230"/>
+	<color name="core_plum" r="460" g="384" b="384" or="0" og="-128" ob="-128"/>
+	<color name="core_vengeful" r="512" g="255" b="255" or="255"/>
+	<color name="tear_vengeful" r="380" g="380" b="380" or="200"/>
+
+	<!-- Custom Colors -->
+	<color name="flame_dark_purple" r="74" g="18" b="128"/>
+	<color name="tear_dark_purple" r="45" g="12" b="64" or="64" og="10" ob="128"/>
+	<color name="tear_shadyred" r="-255" g="-255" b="-255" or="255" ob="0" og="0"/>
+	<color name="tear_immoral" r="281" g="281" b="281" or="50" og="-75" ob="50"/>
+	<color name="core_minion" r="268" g="268" b="268" or="-89" og="-89" ob="-89"/>
+	<color name="core_wrongwarp" r="255" g="0" b="0"/>
+	<color name="core_fullbright" r="255" g="255" b="255" or="255" og="255" ob="255"/>
+	<color name="flame_pitch_black" r="0" g="0" b="0"/>
+
+	<!-- The Fiend Folio -->
+	<wisp id="6" hp="2" layer="1" damage="3" flameColor="flame_purple" coreColor="core_minion" coreGfx="ff/imp.png" tearColor="tear_blue" />
+	<!-- D2 -->
+	<!-- <wisp id="23" hp="2" layer="1" damage="3" flameColor="flame_blue" coreColor="core_blue" tearColor="tear_blue" /> -->
+	<!-- Store Whistle -->
+	<!-- <wisp id="22" hp="2" layer="1" damage="3" flameColor="flame_blue" coreColor="core_blue" tearColor="tear_blue" /> -->
+	<!-- Risk's Reward -->
+	<wisp id="15" hp="5" layer="1" damage="5" flameColor="flame_black" coreColor="core_purple" tearColor="tear_purple" />
+	<!-- Alpha Coin -->
+	<!-- <wisp id="1" hp="2" layer="1" damage="3" flameColor="flame_blue" coreColor="core_blue" tearColor="tear_blue" /> -->
+	<!-- iPad -->
+	<wisp id="2" hp="2" layer="1" damage="3" flameColor="flame_black" coreColor="core_grey" tearColor="tear_grey" />
+	<!-- Golem's Rock -->
+	<wisp id="3" hp="2" layer="1" damage="3" flameColor="flame_blue" coreColor="core_grey" coreGfx="rock.png" tearVariant="42" tearFlags="24" tearFlags2="50" procChance="0.25" count="0" />
+	<!-- Grappling Hook -->
+	<!-- <wisp id="168" hp="2" layer="1" damage="3" flameColor="flame_blue" coreColor="core_blue" tearColor="tear_blue" /> -->
+	<!-- Golden Frog Head -->
+	<!-- <wisp id="28" hp="2" layer="1" damage="3" flameColor="flame_blue" coreColor="core_blue" tearColor="tear_blue" /> -->
+	<!-- Sanguine Hook -->
+	<wisp id="38" layer="0" hp="0.5" damage="1" flameColor="flame_grey" coreColor="core_grey" tearColor="tear_grey" coreGfx="ff/madness_combat.png" count="0" />
+	<!-- Fiddle Cube -->
+	<wisp id="49" hp="0.1" layer="1" damage="1" flameColor="flame_grey" coreColor="core_grey" tearColor="tear_grey" count="0"/>
+	<!-- A.V.G.M. -->
+	<wisp id="50" layer="1" hp="2" damage="3" flameColor="flame_white" coreColor="core_gold" tearColor="tear_white" coreGfx="coin.png" count="0" />
+	<!-- Malice -->
+	<!-- <wisp id="54" hp="2" layer="1" damage="3" flameColor="flame_blue" coreColor="core_blue" tearColor="tear_blue" /> -->
+	<!-- Malice alt sprite -->
+	<!-- <wisp id="6" hp="2" layer="1" damage="3" flameColor="flame_blue" coreColor="core_blue" tearColor="tear_blue" /> -->
+	<!-- Contraband -->
+	<!-- <wisp id="57" hp="2" layer="1" damage="3" flameColor="flame_blue" coreColor="core_blue" tearColor="tear_blue" /> -->
+	<!-- Clear Case -->
+	<wisp id="59" count="0" />
+	<!-- Bedtime Story -->
+	<wisp id="61" hp="1" damage="1.5" flameColor="flame_dark_blue" coreColor="core_white" tearColor="tear_dark_blue" />
+	<!-- Eternal D12 -->
+	<wisp id="65" hp="1" layer="1" damage="3" flameColor="flame_white" coreColor="core_white" tearColor="tear_white" count="1" coreGfx="dice.png" tearFlags2="115" procChance="0.05"/>
+	<wisp id="64" hp="2" layer="1" damage="3" flameColor="flame_white" coreColor="core_white" tearColor="tear_white" count="1" coreGfx="dice.png" tearFlags2="115" procChance="0.1"/>
+	<!-- Purple Putty -->
+	<wisp id="69" hp="1" layer="1" damage="3" flameColor="flame_purple" coreColor="core_minion" tearColor="tear_immoral" coreGfx="ff/imp.png" />
+	<!-- Fiend Mix -->
+	<wisp id="71" hp="0.1" layer="2" damage="3" flameColor="flame_bob" coreColor="core_minion" coreGfx="ff/imp.png" canShoot="false" count="0" />
+	<!-- White Pepper -->
+	<wisp id="80" count="0"/>
+	<!-- Perfectly Generic Object -->
+	<wisp id="83" hp="2" layer="1" damage="3" flameColor="flame_green" coreColor="core_green" tearColor="tear_green" coreGfx="ff/pgo.png" count="0" />
+	<wisp id="84" hp="2" layer="1" damage="3" flameColor="flame_green" coreColor="core_green" tearColor="tear_green" coreGfx="ff/pgo.png" count="0" />
+	<wisp id="85" hp="2" layer="1" damage="3" flameColor="flame_green" coreColor="core_green" tearColor="tear_green" coreGfx="ff/pgo.png" count="0" />
+	<wisp id="86" hp="2" layer="1" damage="3" flameColor="flame_green" coreColor="core_green" tearColor="tear_green" coreGfx="ff/pgo.png" count="0" />
+	<wisp id="87" hp="2" layer="1" damage="3" flameColor="flame_green" coreColor="core_green" tearColor="tear_green" coreGfx="ff/pgo.png" count="0" />
+	<wisp id="88" hp="2" layer="1" damage="3" flameColor="flame_green" coreColor="core_green" tearColor="tear_green" coreGfx="ff/pgo.png" count="0" />
+	<wisp id="89" hp="2" layer="1" damage="3" flameColor="flame_green" coreColor="core_green" tearColor="tear_green" coreGfx="ff/pgo.png" count="0" />
+	<wisp id="90" hp="2" layer="1" damage="3" flameColor="flame_green" coreColor="core_green" tearColor="tear_green" coreGfx="ff/pgo.png" count="0" />
+	<!-- Wrong Warp -->
+	<wisp id="101" hp="3" layer="1" damage="3" flameColor="flame_black" coreColor="core_wrongwarp" tearColor="tear_shadyred" count="1" />
+	<!-- Golden Plum Flute -->
+	<!-- <wisp id="104" hp="2" layer="1" damage="3" flameColor="flame_blue" coreColor="core_blue" tearColor="tear_blue" /> -->
+	<!-- Dogboard -->
+	<wisp id="105" count="0" />
+	<!-- Eternal D10 -->
+	<wisp id="109" hp="1" layer="1" damage="3" flameColor="flame_white" coreColor="core_white" tearColor="tear_white" count="1" coreGfx="dice.png" tearFlags2="118" procChance="0.1"/>
+	<!-- Toy Camera -->
+	<!-- <wisp id="110" hp="2" layer="1" damage="3" flameColor="flame_blue" coreColor="core_blue" tearColor="tear_blue" /> -->
+	<!-- The Brown Horn -->
+	<!-- <wisp id="112" hp="2" layer="1" damage="3" flameColor="flame_blue" coreColor="core_blue" tearColor="tear_blue" /> -->
+	<!-- Eternal Clicker -->
+	<!-- <wisp id="116" hp="2" layer="1" damage="3" flameColor="flame_blue" coreColor="core_blue" tearColor="tear_blue" /> -->
+	<!-- Snow Globe -->
+	<wisp id="118" count="0" />
+	<!-- Cherry Bomb -->
+	<wisp id="122" hp="1" layer="2" damage="3" flameColor="flame_pink" coreColor="core_red" tearColor="tear_red" count="1" coreGfx="bomb.png" canShoot="false" />
+	<!-- Astropulvis -->
+	<wisp id="123" hp="1" layer="2" damage="2" flameColor="flame_black" coreColor="core_dark_red" tearColor="tear_dark_red" count="0" />
+	<!-- Azurite Spindown -->
+	<!-- <wisp id="125" hp="2" layer="1" damage="3" flameColor="flame_blue" coreColor="core_blue" tearColor="tear_blue" /> -->
+	<!-- King Worm -->
+	<wisp id="126" hp="1" layer="1" damage="2.5" flameColor="flame_white" coreColor="core_white" tearColor="tear_white" coreGfx="ff/worm.png" count="0" />
+	<!-- Dazzling Slot -->
+	<wisp id="134" hp="2" layer="2" damage="5" flameColor="flame_gold" coreColor="core_gold" tearColor="tear_gold" tearScale="1" coreGfx="coin.png" count="0" />
+	<!-- Kalu's Severed Head -->
+	<!-- <wisp id="135" hp="2" layer="1" damage="3" flameColor="flame_blue" coreColor="core_blue" tearColor="tear_blue" /> -->
+	<!-- Rat Poison -->
+	<!-- <wisp id="143" hp="2" layer="1" damage="3" flameColor="flame_blue" coreColor="core_blue" tearColor="tear_blue" /> -->
+	<!-- Angelic Lyre -->
+	<wisp id="144" hp="1" layer="1" damage="3" flameColor="flame_blue" coreColor="core_blue" tearColor="default" coreGfx="ff/note.png" count="0"/>
+	<wisp id="177" hp="1" layer="1" damage="3" flameColor="flame_red" coreColor="core_red" tearColor="default" coreGfx="ff/note.png" count="0"/>
+	<wisp id="178" hp="1" layer="1" damage="3" flameColor="flame_yellow" coreColor="core_gold" tearColor="default" coreGfx="ff/note.png" count="0"/>
+	<!-- Horse Paste -->
+	<wisp id="145" hp="2" layer="1" damage="3" flameColor="flame_yellow" coreColor="core_yellow" tearColor="tear_yellow" tearFlags="3" />
+	<!-- Lemon Mishuh -->
+	<wisp id="146" count="0" />
+	<!-- Nil Pasta -->
+	<wisp id="150" hp="3" layer="1" damage="3" flameColor="flame_red" coreColor="core_yellow" tearColor="tear_blue" tearFlags2="5" procChance="0.2"/>
+	<!-- Empty Book -->
+	<!-- <wisp id="156" hp="2" layer="1" damage="3" flameColor="flame_blue" coreColor="core_blue" tearColor="tear_blue" /> -->
+	<!-- <wisp id="157" hp="2" layer="1" damage="3" flameColor="flame_blue" coreColor="core_blue" tearColor="tear_blue" /> -->
+	<!-- Yick Heart -->
+	<!-- <wisp id="165" hp="2" layer="1" damage="3" flameColor="flame_blue" coreColor="core_blue" tearColor="tear_blue" /> -->
+	<!-- Hold (poopapi) -->
+	<!-- <wisp id="169" hp="2" layer="1" damage="3" flameColor="flame_blue" coreColor="core_blue" tearColor="tear_blue" /> -->
+	<!-- Gamma Gloves -->
+	<wisp id="171" hp="0.5" layer="0" damage="3" flameColor="flame_green" coreColor="core_green" canShoot="false" count="1" priority="-1"/>
+	<!-- Shredder -->
+	<wisp id="172" hp="6" layer="1" damage="3" flameColor="flame_dark_blue" coreColor="core_white" tearColor="tear_dark_blue" coreGfx="ff/recycler.png" tearFlags="26" count="0"/>
+	<!-- Loaded D6 -->
+	<!-- <wisp id="175" hp="2" layer="1" damage="3" flameColor="flame_blue" coreColor="core_blue" tearColor="tear_blue" /> -->
+	<!-- Torture Cookie -->
+	<wisp id="181" hp="2" layer="2" damage="3" flameColor="flame_red" coreColor="core_dark_red" tearColor="tear_red" />
+	<!-- Moonbeam -->
+	<!-- <wisp id="184" hp="2" layer="1" damage="3" flameColor="flame_blue" coreColor="core_blue" tearColor="tear_blue" /> -->
+	<!-- Dusty D10 -->
+	<wisp id="188" hp="2" damage="3" flameColor="flame_orange" coreColor="core_orange" tearFlags2="118" procChance="0.1" tearColor2="tear_orange" />
+	<!-- Hedonist's Cookbook -->
+	<wisp id="192" count="0" flameColor="flame_white" coreColor="core_white" tearColor="tear_white"/>
+	<!-- Error's Crazy Slots -->
+	<wisp id="193" hp="12" layer="0" damage="3" flameColor="flame_dark_blue" coreColor="core_grey" coreGfx="ff/errorkeeper.png" tearFlags="38"/>
+	<!-- Sculpted Pepper -->
+	<wisp id="195" count="0" hp="2" damage="3" layer="-1" tearColor="tear_grey" flameColor="flame_grey" coreColor="core_grey" coreGfx="rock.png" />
+	<!-- How to Roll -->
+	<wisp id="197" count="0" hp="1" layer="-1" damage="3" fireDelay="15" flameColor="flame_blue" coreColor="core_blue" tearColor="tear_blue" />
+	<!-- Craig's Battery -->
+	<wisp id="199" hp="2" layer="1" damage="2" flameColor="flame_yellow" coreColor="core_yellow" tearColor="tear_yellow" tearFlags="1 55" tearVariant="11"/>
+	<!-- Flip Phone -->
+	<wisp id="200" hp="1" layer="1" damage="2" flameColor="flame_yellow" coreColor="core_yellow" tearColor="tear_yellow" tearFlags="1 55" priority="-1" tearVariant="11"/>
+	<!-- Gaper in a Jar -->
+	<!-- <wisp id="203" hp="2" layer="1" damage="3" flameColor="flame_blue" coreColor="core_blue" tearColor="tear_blue" /> -->
+	<!-- Bone Hurting Juice -->
+	<!-- <wisp id="207" hp="2" layer="1" damage="3" flameColor="flame_blue" coreColor="core_blue" tearColor="tear_blue" /> -->
+	<!-- Green Candle -->
+	<wisp id="210" hp="1" layer="1" damage="3" flameColor="flame_green" coreColor="core_green" tearColor="tear_green" canShoot="false" layer="0"/>
+	<!-- Dog Whistle -->
+	<!-- <wisp id="215" hp="2" layer="1" damage="3" flameColor="flame_blue" coreColor="core_blue" tearColor="tear_blue" /> -->
+	<!-- Doomsday Clock -->
+	<!-- <wisp id="216" hp="2" layer="1" damage="3" flameColor="flame_blue" coreColor="core_blue" tearColor="tear_blue" /> -->
+	<!-- Hot Shot -->
+	<!-- <wisp id="224" hp="2" layer="1" damage="3" flameColor="flame_blue" coreColor="core_blue" tearColor="tear_blue" /> -->
+	<!-- Overclock -->
+	<!-- <wisp id="233" hp="2" layer="1" damage="3" flameColor="flame_blue" coreColor="core_blue" tearColor="tear_blue" /> -->
+	<!-- Teleport Alpha -->
+	<wisp id="238" hp="2" damage="3" flameColor="flame_red" coreColor="core_red" tearColor="tear_red" count="0" coreGfx="ff/antenna.png"/>
+	<!-- Monster Domestication Guide -->
+	<wisp id="248" hp="4" layer="-1" damage="3" flameColor="flame_green" coreColor="core_red" tearColor="tear_green" coreGfx="heart.png" count="0" />
+	<!-- The War Horn -->
+	<wisp id="276" hp="2" layer="1" damage="3" priority="-1" flameColor="flame_red" coreColor="core_yellow" tearColor="tear_yellow" tearFlags="3" />
+	<!-- The War Horn -->
+	<wisp id="277" hp="2" layer="1" damage="3" priority="-1" flameColor="flame_red" coreColor="core_yellow" tearColor="tear_yellow" tearFlags="3" />
+	<!-- Imp Soda: Tricky Cherry -->
+	<!-- <wisp id="280" hp="2" layer="1" damage="3" flameColor="flame_blue" coreColor="core_blue" tearColor="tear_blue" /> -->
+	<!-- Dynamite Pack -->
+	<wisp id="284" hp="2" layer="1" damage="3" flameColor="flame_red" coreColor="core_red" tearColor="tear_blue" />
+	<!-- Grandpa's Gatling Gun -->
+	<wisp id="290" hp="1" layer="0" count="0" fireDelay="7" priority="10" flameColor="flame_bright_blue" coreColor="core_blue" tearColor="tear_blue" />
+	<!-- Shadow Cluster -->
+	<wisp id="291" hp="1" layer="2" damage="2" flameColor="flame_dark_purple" coreColor="core_black" tearColor="tear_dark_purple" coreGfx="dripping.png" />
+	<!-- Deck Box -->
+	<wisp id="310" hp="1" flameColor="flame_orange" coreColor="core_brown" tearColor="tear_blue" priority="-1" count="0" layer="0" coreGfx="card.png" tearFlags="79"/>
+	<!-- Toybox -->
+	<wisp id="324" hp="5" flameColor="flame_yellow" coreColor="core_yellow" tearColor="tear_yellow" count="4" layer="2" coreGfx="coin.png" canShoot="false"/>
+	<!-- Hot Potato Book -->
+	<wisp id="331" hp="8" canShoot="false" flameColor="flame_orange" coreColor="core_orange" tearColor="tear_orange" layer="0"/>
+	<!--Activated Charcoal-->
+	<wisp id="335" damage="4" flameColor="core_bob" tearColor="tear_bob" coreColor="core_bob" fireDelay="80" tearFlags="12"/>
+	<!--Planchette-->
+	<wisp id="343" hp="8" damage="4.5" flameColor="core_grey" tearColor="tear_grey" coreColor="core_grey"/> <!-- kept because it's "soulful" and cannot be found ingame-->
+	<!--Resurrection-->
+	<wisp id="344" hp="1" damage="4" flameColor="core_green" tearColor="tear_green" coreColor="core_green" layer="1" coreGfx="heart.png"/>
+	<!--Eden's Head-->
+	<wisp id="360" hp="8" damage="4.5" flameColor="core_grey" tearColor="tear_grey" coreColor="core_grey" count="0"/>
+	<!--Solar Tablet-->
+	<wisp id="362" hp="2" canShoot="false" flameColor="flame_orange" coreColor="core_fullbright" tearColor="tear_orange"/>
+	<!--Old Testament-->
+	<wisp id="366" hp="8" damage="4.5" flameColor="core_grey" tearColor="tear_grey" coreColor="core_grey" count="0"/>
+	<!--Imp soda bottle cap-->
+	<wisp id="367" hp="1" layer="1" damage="4" flameColor="flame_purple" coreColor="core_pink" tearColor="tear_purple" coreGfx="coin.png" tearFlags2="12" procChance="0.05"/>
+	<!--Book of Leviathan-->
+	<wisp id="370" hp="4" layer="0" damage="1" flameColor="flame_dark_blue" coreColor="core_purple" tearColor="tear_dark_blue"/>
+	<!--The Pyx-->
+	<!-- <wisp id="374" hp="2" layer="1" damage="3" flameColor="flame_blue" coreColor="core_blue" tearColor="tear_blue" /> -->
+	<!--Holy Bean-->
+	<wisp id="375" hp="2" layer="1" damage="3" flameColor="flame_white" coreColor="core_blue" tearColor="tear_cyan" /> 
+	<!--Black Eyed Pea-->
+	<wisp id="378" hp="2" layer="1" damage="3" flameColor="flame_purple" coreColor="core_dark_blue" tearColor="tear_purple" />
+	<!--Echolilac-->
+	<!-- <wisp id="378" hp="2" layer="1" damage="3" flameColor="flame_blue" coreColor="core_blue" tearColor="tear_blue" /> -->
+	<!--Snooze Button-->
+	<!-- <wisp id="382" hp="2" layer="1" damage="3" flameColor="flame_blue" coreColor="core_blue" tearColor="tear_blue" /> -->
+	<!-- Laser Pointer -->
+	<wisp id="385" layer="-1" count="0" canShoot="false" flameColor="flame_dark_red" coreColor="core_red"/>
+	<!--Anarchist's Easy Bake-->
+	<!-- <wisp id="388" hp="2" layer="1" damage="3" flameColor="flame_blue" coreColor="core_blue" tearColor="tear_blue" /> -->
+	<!--Sertraline Pack-->
+	<!-- <wisp id="396" hp="2" layer="1" damage="3" flameColor="flame_blue" coreColor="core_blue" tearColor="tear_blue" /> -->
+	<!--Shadow Rabbits-->
+	<!-- <wisp id="408" hp="2" layer="1" damage="3" flameColor="flame_blue" coreColor="core_blue" tearColor="tear_blue" /> -->
+	<!-- Ycuk Heart -->
+	<wisp id="422" flameColor="flame_pitch_black" coreColor="core_white" tearVariant="937" tearFlags="2" coreGfx="ff/steven.png"/>
+	<!--Baphomet's Exchange-->
+	<wisp id="425" hp="5" layer="1" damage="3" flameColor="flame_grey" coreColor="core_white" tearColor="flame_white" /> <!--may make this effect more interesting at a later date-->
+	<!-- D-Stock -->
+	<!-- <wisp id="434" hp="2" layer="1" damage="3" flameColor="flame_blue" coreColor="core_blue" tearColor="tear_blue" /> -->
+	<!-- Clown Horn -->
+	<!-- <wisp id="437" hp="2" layer="1" damage="3" flameColor="flame_blue" coreColor="core_blue" tearColor="tear_blue" /> -->
+	<!-- Penny Album -->
+	<wisp id="442" layer="1" count="0" hp="2" damage="3" flameColor="flame_gold" coreColor="core_gold" coreGfx="coin.png" tearColor="tear_gold" />
+	<!-- Find-it! -->
+	<!-- <wisp id="443" hp="2" layer="1" damage="3" flameColor="flame_blue" coreColor="core_blue" tearColor="tear_blue" /> -->
+	<!-- Kalu's Wicked Paw -->
+	<!-- <wisp id="444" hp="2" layer="1" damage="3" flameColor="flame_blue" coreColor="core_blue" tearColor="tear_blue" /> -->
+	<!-- Knife Block -->
+	<wisp id="449" layer="1" hp="1" damage="3" flameColor="flame_red" coreColor="core_red" coreGfx="meat.png" tearVariant="1" />
+</wisps>

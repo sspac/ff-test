@@ -1,0 +1,230 @@
+<pocketitems>
+<!--Cards-->
+	<!-- Miscellanous Cards -->
+	<card name="+3 Fireballs" description="Locked and loaded" hud="+3 Fireballs" mimiccharge="3" pickup="8" achievement="FF_PLUS_3_FIREBALLS"/>
+	<card name="+3 Fireballs?" description="Loaded with malice" hud="+3 Fireballs?" mimiccharge="3" pickup="1011" achievement="FF_REVERSE_3_FIREBALLS"/>
+	<card name="Imp-losion" description="Summon friends for damage dealt." hud="Imp-losion" mimiccharge="3" pickup="980" achievement="FF_IMPLOSION"/>
+	<card name="Calling Card" description="666-S8N" hud="Calling Card" mimiccharge="6" pickup="967" achievement="FF_CALLING_CARD"/>
+	<card name="Grotto Beast" description="One rare in every pack!" hud="Grotto Beast" mimiccharge="6" pickup="968"/>
+	<card name="Download Failure" description="Why are all my enemies sliding around?" hud="Download Failure" mimiccharge="6" pickup="970" weight="0.5"/>
+	<card name="Plague of Decay" description="Blight bringer" hud="Plague of Decay" pickup="986" mimiccharge="3" achievement="FF_PLAGUE_OF_DECAY"/>
+	<card name="Defuse" description="Bombs be gone" hud="Defuse" pickup="987" mimiccharge="2"/>
+	<card name="Small Contraband" description="Deliver it" hud="Small Contraband" mimiccharge="12" pickup="991" hidden="true"/>
+	<card name="Skip Card" description="Nope!" hud="Skip Card" pickup="990" mimiccharge="6" achievement="FF_SKIP_CARD"/>
+	<card name="Gift Card" description="Let's wrap things up" hud="Gift Card" pickup="1015" mimiccharge="8" achievement="FF_GIFT_CARD"/>
+	<card name="Sorry!" description="My bad!" hud="Sorry!" pickup="900" mimiccharge="6"/>
+	<card name="Friendly Fire" description="Purple haze" hud="Friendly Fire" mimiccharge="4" pickup="8" achievement="FF_FRIENDLY_FIRE"/>
+	<card name="Neko Nyan Quiz Card" description="Who's your trusty lifelong companion?" hud="Neko Nyan Quiz Card" pickup="912" mimiccharge="6" />
+
+	<!-- Club Penguin Cards -->
+	<card name="SOCCER" description="Some people call it football" hud="CardJitsu Soccer" pickup="997" mimiccharge="1"/>
+	<card name="FLOORING UPGRADE" description="Rollin' out burgundy style" hud="CardJitsu Flooring Upgrade" pickup="997" mimiccharge="3"/>
+	<card name="AC 3000" description="Guaranteed to keep them cool" hud="CardJitsu AC3000" pickup="997" mimiccharge="3"/>
+
+	<!-- Yu-gi-oh Cards -->
+	<card name="Pot of Greed" description="Draw 2 Cards" hud="Pot of Greed" pickup="995" mimiccharge="6"/>
+	<card name="Destiny Board" description="Destroy it with a card!" hud="Destiny Board" pickup="995" mimiccharge="6" hidden="true"/>
+	<card name="Dark Hole" description="Destroy" hud="Dark Hole" pickup="995" mimiccharge="3"/>
+	<card name="The Eye of Truth" description="See what's inside..." hud="The Eye of Truth" pickup="995" mimiccharge="3"/>
+	<card name="Rescue Cat" description="Beasts of the feline" hud="Rescue Cat" pickup="995" mimiccharge="3" hidden="true"/>
+	<card name="Seal of Orichalcos" description="Raising the stakes" hud="Seal of Orichalcos" pickup="995" mimiccharge="3" achievement="FF_SEAL_OF_ORICHALCOS"/>
+
+	<!-- Four Souls Cards -->
+	<card name="Misprinted Gish" description="Summon Gish?" hud="Misprinted Gish" pickup="901" mimiccharge="3" achievement="FF_MISPRINTED_GISH"/>
+	<card name="Redacted Triangle" description="########## #####" hud="Redacted Triangle" pickup="913" mimiccharge="6" />
+
+	<!--Shadowverse-->
+	<card name="Tribunal of Good and Evil" description="Enemy execution" hud="Tribunal of Good and Evil" pickup="920" mimiccharge="2" />
+	<card name="Draconic Fervor" description="Heal, charge, and draw" hud="Draconic Fervor" pickup="920" mimiccharge="12" />
+	<card name="Dance of Usurpation" description="Looting sword slash" hud="Dance of Usurpation" pickup="920" mimiccharge="4" />
+	<card name="Haunted House" description="Release their souls" hud="Haunted House" pickup="920" mimiccharge="2" />
+	<card name="Dire Bond" description="Blood for gain" hud="Dire Bond" pickup="920" mimiccharge="6" />
+	<card name="Elf Song" description="Strength in swarms" hud="Elf Song" pickup="920" mimiccharge="3" />
+
+	<!-- Slay the Spire -->
+	<card name="Creative A.I." description="Random power" hud="Creative AI" pickup="921" mimiccharge="1" achievement="FF_CREATIVE_AI"/>
+	<card name="Neighbours From Hell" description="Bonus trinket?" hud="Neighbours From Hell" pickup="922" mimiccharge="12" achievement="FF_NEIGHBOURS_FROM_HELL"/> <!--Basically!-->
+	<card name="Corruption" description="Exhaust your actives" hud="Corruption" pickup="921" mimiccharge="1" achievement="FF_CORRUPTION"/>
+	<card name="Blasphemy" description="Enter divinity, die next turn" hud="Blasphemy" pickup="921" mimiccharge="12" achievement="FF_BLASPHEMY"/>
+
+	<!-- Signalis Cards -->
+	<card name="Aberrant Lovers" description="Sickly promises" hud="Aberrant Lovers" pickup="905" mimiccharge="4" achievement="FF_MORBID_HEART" />
+	<card name="Aberrant Death" description="Imperfect resurrection" hud="Aberrant Death" pickup="905" mimiccharge="3" />
+	<card name="Aberrant Tower" description="Artillery bombardment" hud="Aberrant Tower" pickup="905" mimiccharge="3" />
+	<card name="Aberrant Stars" description="Full inventory" hud="Aberrant Stars" pickup="905" mimiccharge="6" />
+	<card name="Aberrant Moon" description="Red moon" hud="Aberrant Moon" pickup="905" mimiccharge="4" />
+	<card name="Aberrant Sun" description="Slow repair" hud="Aberrant Sun" pickup="905" mimiccharge="6" />
+
+	<!--Playing Cards-->
+	<card type="suit" name="Three of Clubs" description="Item smorgasbord" hud="3 of Clubs" mimiccharge="8" pickup="2"/>
+	<card type="suit" name="Jack of Clubs" description="Destruction at what cost?" hud="Jack of Clubs" mimiccharge="3" pickup="2" achievement="FF_JACK_CARDS"/>
+	<card type="suit" name="Queen of Clubs" description="ó" hud="Queen of Clubs" mimiccharge="6" pickup="2" achievement="FF_QUEEN_OF_CLUBS"/>
+	<card type="suit" name="King of Clubs" description="BOOM BABY!" hud="King of Clubs" mimiccharge="6" pickup="2" greedmode="false"/>
+
+	<card type="suit" name="Three of Diamonds" description="Item smorgasbord" hud="3 of Diamonds" mimiccharge="8" pickup="2"/>
+	<card type="suit" name="Jack of Diamonds" description="Wealth at what cost?" hud="Jack of Diamonds" mimiccharge="6" pickup="2" achievement="FF_JACK_CARDS"/>
+	<card type="suit" name="Queen of Diamonds" description="Obstacles = [$]" hud="Queen of Diamonds" mimiccharge="12" pickup="2"/>
+	<card type="suit" name="King of Diamonds" description="Gild all before you" hud="King of Diamonds" mimiccharge="6" pickup="2" achievement="FF_KING_OF_DIAMONDS"/>
+
+	<card type="suit" name="Three of Spades" description="Item smorgasbord" hud="3 of Spades" mimiccharge="8" pickup="2"/>
+	<card type="suit" name="Jack of Spades" description="Keys at what cost?" hud="Jack of Spades" mimiccharge="6" pickup="2" achievement="FF_JACK_CARDS"/>
+	<card type="suit" name="Queen of Spades" description="0-^^" hud="Queen of Spades" mimiccharge="12" pickup="2"/>
+	<card type="suit" name="King of Spades" description="Unlock your wrath" hud="King of Spades" mimiccharge="6" pickup="2"/>
+
+	<card type="suit" name="Three of Hearts" description="Item smorgasbord" hud="3 of Hearts" mimiccharge="8" pickup="2"/>
+	<card type="suit" name="Jack of Hearts" description="Health at what cost?" hud="Jack of Hearts" mimiccharge="4" pickup="2" achievement="FF_JACK_CARDS"/>
+
+	<card type="suit" name="Misprinted Joker" description="Twist into good and evil" hud="Misprinted Joker" mimiccharge="12" pickup="993" achievement="FF_MISPRINTED_JOKER"/>
+	<card type="suit" name="Misprinted Jack of Clubs" description="Destruction at what cost?" hud="Joke of Clubs" mimiccharge="3" pickup="993" achievement="FF_JACK_CARDS"/>
+	<card type="suit" name="Misprinted Two of Clubs" description="= [$]Item multip" hud="Misprinted 2 of Clubs" mimiccharge="8" pickup="993"/>
+	<card type="suit" name="Misprinted Three of Diamonds" description="rathItem Smorgas" hud="Misprinted 3 of Diamonds" mimiccharge="8" pickup="993" />
+
+	<card type="special" name="Misprinted JusticeJack" description="at what costMay your future" hud="Misprinted JusticeJack" mimiccharge="6" pickup="910" achievement="FF_JACK_CARDS"/>
+	<card type="special" name="Thirteen of Stars" description="This is stupid!" hud="13 of Stars" mimiccharge="12" pickup="989" achievement="FF_THIRTEEN_OF_STARS"/>
+
+	<!-- Minor Arcana Cards -->
+	<card type="special" name="Ace of Wands" description="Convert all" hud="Ace of Wands" mimiccharge="8" pickup="992" achievement="FF_ACE_OF_WANDS"/>
+	<card type="special" name="Ace of Pentacles" description="Convert all" hud="Ace of Pentacles" mimiccharge="8" pickup="992" achievement="FF_ACE_OF_PENTACLES"/>
+	<card type="special" name="Ace of Swords" description="Convert all" hud="Ace of Swords" mimiccharge="8" pickup="992" achievement="FF_ACE_OF_SWORDS"/>
+	<card type="special" name="Ace of Cups" description="Convert all" hud="Ace of Cups" mimiccharge="8" pickup="992" achievement="FF_ACE_OF_CUPS"/>
+
+	<card type="special" name="Two of Wands" description="Item multiplier" hud="2 of Wands" mimiccharge="12" pickup="992"/>
+	<card type="special" name="Two of Pentacles" description="Item multiplier" hud="2 of Pentacles" mimiccharge="3" pickup="992"/>
+	<card type="special" name="Two of Swords" description="Item multiplier" hud="2 of Swords" mimiccharge="8" pickup="992"/>
+	<card type="special" name="Two of Cups" description="Item multiplier" hud="2 of Cups" mimiccharge="8" pickup="992" />
+
+	<card type="special" name="Three of Wands" description="Item smorgasbord" hud="3 of Wands" mimiccharge="8" pickup="992"/>
+	<card type="special" name="Three of Pentacles" description="Item smorgasbord" hud="3 of Pentacles" mimiccharge="8" pickup="992"/>
+	<card type="special" name="Three of Swords" description="Item smorgasbord" hud="3 of Swords" mimiccharge="1" pickup="992"/>
+	<card type="special" name="Three of Cups" description="Item smorgasbord" hud="3 of Cups" mimiccharge="8" pickup="992"/>
+
+	<card type="special" name="King of Wands" description="Battery upgrade" hud="King of Wands" mimiccharge="12" pickup="992" achievement="FF_MINOR_ARCANA_KINGS"/>
+	<card type="special" name="King of Pentacles" description="Trinket upgrade" hud="King of Pentacles" mimiccharge="12" pickup="992" achievement="FF_MINOR_ARCANA_KINGS"/>
+	<card type="special" name="King of Swords" description="Familiar upgrade" hud="King of Swords" mimiccharge="12" pickup="992" achievement="FF_MINOR_ARCANA_KINGS"/>
+	<card type="special" name="King of Cups" description="Pill upgrade" hud="King of Cups" mimiccharge="12" pickup="992" achievement="FF_MINOR_ARCANA_KINGS"/>
+
+	<card type="special" name="King of Pentacles?" description="Trinket petrification" hud="King of Pentacles?" mimiccharge="12" pickup="917" achievement="FF_REVERSE_KING_OF_PENTACLES"/>
+	<card type="special" name="Misprinted King of Pentacles" description="r of darknessTrinket upgr" hud="Misprinted King of Pentacles" mimiccharge="12" pickup="918" achievement="FF_BLASPHEMOUS_TRINKETS"/>
+
+	<card name="King of Clubs?" description="Oh my god we're doomed!" hud="King of Clubs?" mimiccharge="12" pickup="988" hidden="true"/>
+
+	<!-- Allegedly Tarot Cards? -->
+	<card name="XXIII - Happy Squirrel" description="Playtime!" hud="XXIII - Happy Squirrel" pickup="911" mimiccharge="12" achievement="FF_HAPPY_SQUIRREL" />
+	<card name="XVIIIb - The Invisible Moon" description="May everything become lost" hud="XVIIIb - The Invisible Moon" mimiccharge="3" pickup="917" achievement="FF_THE_INVISIBLE_MOON"/>
+
+	<!-- Friendlymon Cards -->
+	<card name="Grass Energy" description="Draw poison" hud="Grass Energy" pickup="994" mimiccharge="3"/>
+	<card name="Fire Energy" description="Draw burning" hud="Fire Energy" pickup="994" mimiccharge="3"/>
+	<card name="Water Energy" description="Draw tears" hud="Water Energy" pickup="994" mimiccharge="3"/>
+	<card name="Lightning Energy" description="Draw overloaded" hud="Lightning Energy" pickup="994" mimiccharge="3"/>
+	<card name="Fighting Energy" description="Draw bruising" hud="Fighting Energy" pickup="994" mimiccharge="3"/>
+	<card name="Psychic Energy" description="Draw confusion" hud="Psychic Energy" pickup="994" mimiccharge="3"/>
+	<card name="Colorless Energy" description="Draw multi-euclidean" hud="Colorless Energy" pickup="994" mimiccharge="3"/>
+	<card name="Darkness Energy" description="Draw fear" hud="Darkness Energy" pickup="994" mimiccharge="3"/>
+	<card name="Metal Energy" description="Draw hemorrhaging" hud="Metal Energy" pickup="994" mimiccharge="3"/>
+	<card name="Dragon Energy" description="Draw energy" hud="Dragon Energy" pickup="994" mimiccharge="3"/>
+	<card name="Fairy Energy" description="Draw charm" hud="Fairy Energy" pickup="994" mimiccharge="3"/>
+	<card name="Trainer Card" description="Catch 'em all" hud="Trainer Card" pickup="994" mimiccharge="3"/>
+
+	<!-- 100% Orange Juice Cards -->
+	<card name="Dark Side of Business" description="Steal coins from your opponent" hud="Dark Side of Business" pickup="924" mimiccharge="2" hidden="true"/>
+	<card name="Coming Back Stronger" description="DMG up, moreso if damage was taken" hud="Coming Back Stronger" pickup="924" mimiccharge="2" hidden="true"/>
+	<card name="Nice Present" description="Draw 2 juicy cards" hud="Nice Present" pickup="924" mimiccharge="2" hidden="true"/>
+	<card name="Cloud of Seagulls" description="Random damage" hud="Cloud of Seagulls" pickup="924" mimiccharge="1" hidden="true"/>
+	<card name="Indiscriminate Fire Support" description="Rockets from above" hud="Indiscriminate Fire Support" pickup="924" mimiccharge="2" hidden="true"/>
+	<card name="Serene Hush" description="Room pacifier" hud="Serene Hush" pickup="924" mimiccharge="2" hidden="true"/>
+	<card name="Mix Phenomenon" description="Random tiles" hud="Mix Phenomenon" pickup="924" mimiccharge="1" hidden="true"/>
+	<card name="Jonathan Rush" description="Jump to an enemy" hud="Jonathan Rush" pickup="924" mimiccharge="1" hidden="true"/>
+	<card name="Windy Enchantment" description="Speed boost" hud="Windy Enchantment" pickup="924" mimiccharge="2" hidden="true"/>
+	<card name="Hindenpeater" description="Peter" hud="Hindenpeater" pickup="924" mimiccharge="3" hidden="true"/>
+
+	<!-- Runes -->
+	<rune type="rune" pickup="3" description="Vision." name="Ansus" hud="Ansus" mimiccharge="2" hidden="true"/>
+
+	<!--Souls-->
+	<card type="rune" pickup="981" description="Strength in numbers" name="Soul of Fiend" hud="Soul of Fiend" mimiccharge="6" achievement="FF_SOUL_OF_FIEND"/>
+	<card type="rune" pickup="982" description="Rock on!" name="Soul of Golem" hud="Soul of Golem" mimiccharge="6" achievement="FF_SOUL_OF_GOLEM"/>
+	<card type="rune" pickup="983" description="Temporary gunslinger" name="Soul of Friend" hud="Soul of Friend" mimiccharge="4" achievement="FF_SOUL_OF_FRIEND"/>
+	<card type="rune" pickup="985" description="Who am I?" name="Soul of Random" hud="Soul of Random" mimiccharge="4" achievement="FF_SOUL_OF_RANDOM"/>
+	<card type="rune" pickup="907" description="Supercharge!" name="Soul of Craig" hud="Soul of Craig" mimiccharge="4" achievement="FF_CRAIGS_UNLOCKS"/>
+	<card type="rune" pickup="923" description="Migraine" name="Soul of Inaba" hud="Soul of Inaba" mimiccharge="4" achievement="FF_SOUL_OF_INABA"/>
+
+	<!-- Objects -->
+	<card type="object" name="Puzzle Piece" description="Complete it!" hud="Puzzle Piece" pickup="971"/>
+	<card type="object" name="Green House" description="Evicted" hud="Green House" mimiccharge="1" pickup="996" achievement="FF_GREEN_HOUSE"/>
+	<card type="object" name="Brick Seperator" description="Seperate your enemies" hud="Brick Seperator" mimiccharge="2" pickup="999" achievement="FF_BRICK_SEPARATOR"/>
+	<card type="object" name="Cool Photo" description="This will fetch a nice price!" hud="Cool Photo" mimiccharge="3" pickup="998" hidden="true"/>
+	<card type="object" name="Treasure Disc" description="1-minute free trial!" hud="Treasure Disc" mimiccharge="6" pickup="1000"/>
+	<card type="object" name="Shop Disc" description="1-minute free trial!" hud="Shop Disc" mimiccharge="6" pickup="1001"/>
+	<card type="object" name="Boss Disc" description="1-minute free trial!" hud="Boss Disc" mimiccharge="6" pickup="1002"/>
+	<card type="object" name="Secret Disc" description="1-minute free trial!" hud="Secret Disc" mimiccharge="6" pickup="1003"/>
+	<card type="object" name="Devil Disc" description="1-minute free trial!" hud="Devil Disc" mimiccharge="6" pickup="1004"/>
+	<card type="object" name="Angel Disc" description="1-minute free trial!" hud="Angel Disc" mimiccharge="6" pickup="1005"/>
+	<card type="object" name="Planetarium Disc" description="1-minute free trial!" hud="Planetarium Disc" mimiccharge="6" pickup="1006" achievement="406"/>
+	<card type="object" name="Chaos Disc" description="1-minute free trial!!!" hud="Chaos Disc" mimiccharge="6" pickup="1014"/>
+	<card type="object" name="Broken Disc" description="1-minute free free free free free free" hud="Broken Disc" mimiccharge="6" pickup="1007" weight="0.5"/>
+	<card type="object" name="Tainted Treasure Disc" description="1-minute free trial?" hud="Tainted Treasure Disc" mimiccharge="6" pickup="1016"/>
+	<card type="object" name="Blank Letter Tile" description="Choose your letter!" hud="Blank Letter Tile" mimiccharge="4" pickup="1008"/>
+	<card type="object" name="Horse Push-Pop" description="Stick yourself back together!" hud="Horse Push-Pop" mimiccharge="6" pickup="1010" hidden="true"/>
+	<card type="object" name="Top Hat" description="Instant capitalism!" hud="TopHat" mimiccharge="6" pickup="1013" />
+	<card type="object" name="Christmas Cracker" description="Pull!" hud="Christmas Cracker" mimiccharge="5" pickup="1023" />
+	<card type="object" name="Pink Cow" description="Enemy-win prevention" hud="Pink Cow" mimiccharge="2" pickup="906" />
+	<card type="object" name="Yellow Car" description="Floor-wide hot wheels" hud="Yellow Car" mimiccharge="3" pickup="914" />
+	<card type="object" name="Lucky Duck" description="Yum" hud="Lucky Duck" mimiccharge="4" pickup="915" />
+	<card type="object" name="Comical Round Glasses" description="O_O" hud="Comical Round Glasses" mimiccharge="3" pickup="916" />
+	<card type="object" name="Egg Sack" description="Friends till the end" hud="Egg Sack" mimiccharge="2" pickup="919" />
+
+	<!-- Studs -->
+	<card type="object" name="Stud" description="Watch your step" hud="Stud" mimiccharge="1" pickup="1017"/>
+	<card type="object" name="2 Studs" description="Watch your step!" hud="2 Studs" mimiccharge="1" pickup="1018" hidden="true"/>
+	<card type="object" name="3 Studs" description="Watch your step!!" hud="3 Studs" mimiccharge="1" pickup="1019" hidden="true"/>
+	<card type="object" name="4 Studs" description="Watch your step!!!" hud="4 Studs" mimiccharge="1" pickup="1020" hidden="true"/>
+	<card type="object" name="5 Studs" description="Watch your step!!!!" hud="5 Studs" mimiccharge="1" pickup="1021" hidden="true"/>
+	<card type="object" name="6 Studs" description="Watch your step!!!!!" hud="6 Studs" mimiccharge="1" pickup="1022" hidden="true"/>
+
+	<!--Dice-->
+	<card type="object" name="Glass D6" description="Reroll your destiny" hud="Glass D6" mimiccharge="4" pickup="960"/>
+	<card type="object" name="Glass D4" description="Reroll into something else" hud="Glass D4" mimiccharge="4" pickup="961" achievement="148"/>
+	<card type="object" name="Glass D8" description="Reroll stats" hud="Glass D8" mimiccharge="3" pickup="962" achievement="231"/>
+	<card type="object" name="Glass D100" description="REEROLLLLL!" hud="Glass D100" mimiccharge="4" pickup="963" achievement="133"/>
+	<card type="object" name="Glass D10" description="Rerolls enemies" hud="Glass D10" mimiccharge="1" pickup="964"/>
+	<card type="object" name="Glass D20" description="Reroll the basics" hud="Glass D20" mimiccharge="4" pickup="965"/>
+	<card type="object" name="Glass D12" description="Rerolls rocks" hud="Glass D12" mimiccharge="2" pickup="966"/>
+	<card type="object" name="Glass Spindown" description="-1" hud="Glass Spindown" mimiccharge="4" pickup="1009" hidden="true" achievement="584"/>
+	<card type="object" name="Glass Azurite Spindown" description="-1, but for Trinkets" hud="Glass Azurite Spindown" mimiccharge="2" pickup="1012" achievement="FF_AZURITE_SPINDOWN"/>
+	<card type="object" name="Glass D2" description="Reroll but throwable!" hud="Glass D2" mimiccharge="1" pickup="969"/>
+	<card type="object" name="Glass D5" description="Throwable dice" hud="Glass D5" mimiccharge="2" pickup="908"/>
+	<card type="object" name="Glass D3" description="Reroll tears" hud="Glass D3" mimiccharge="2" pickup="909"/>
+
+	<card type="object" name="Dice Shard" description="D10 + D12" hud="D10 Shard" mimiccharge="2" pickup="902"/>
+	<card type="object" name="Dice Shard" description="D6 + D10 + D12" hud="Eternal Shard" mimiccharge="4" pickup="903"/>
+	<card type="object" name="Dice Shard" description="D8 + D4" hud="D8 Shard" mimiccharge="3" pickup="904"/>
+
+	<!-- Storage Battery Stages -->
+	<card name="Storage Battery" description="Give it some charge" hud="Storage Battery" pickup="972" type="object"/>
+	<card name="Storage Battery (1)" description="Give it some charge" hud="Storage Battery (1)" pickup="973" type="object"/>
+	<card name="Storage Battery (2)" description="Give it some charge" hud="Storage Battery (2)" pickup="974" type="object"/>
+	<card name="Storage Battery (Full)" description="Give it some charge" hud="Storage Battery (Full)" pickup="975" type="object" hidden="true"/>
+	<card name="Corroded Battery" description="Took a beating" hud="Corroded Battery" pickup="976" type="object" hidden="true"/>
+	<card name="Corroded Battery (1)" description="About to burst" hud="Corroded Battery (1)" pickup="977" type="object" hidden="true"/>
+	<card name="Corroded Battery (2)" description="About to burst" hud="Corroded Battery (2)" pickup="978" type="object" hidden="true"/>
+	<card name="Corroded Battery (Full)" description="About to burst" hud="Corroded Battery (Full)" pickup="979" type="object" hidden="true"/>
+
+	<!-- Pills -->
+	<pilleffect name="Cyanide!" description="Cure with a pill!" class="1" mimiccharge="6" achievement="FF_UNOBTAINABLE_ACHIEVEMENT" />
+	<pilleffect name="Melatonin" class="1+" mimiccharge="2" />
+	<pilleffect name="Holy $#!&" class="2+" mimiccharge="3" />
+	<pilleffect name="Haemorrhoids" class="1-" mimiccharge="1" />
+	<pilleffect name="Fish Oil" class="0+" mimiccharge="4" />
+	<pilleffect name="Lemon Juice" class="0-" mimiccharge="1" />
+	<pilleffect name="Epidermolysis" class="1-" mimiccharge="1" />
+	<pilleffect name="Clairvoyance" class="2+" mimiccharge="6" />
+	<pilleffect name="Spider Unboxing" class="0+" mimiccharge="2" />
+	<pilleffect name="Morning After Pill" class="1+" mimiccharge="3" />
+	<pilleffect name="Sertraline" class="1+" mimiccharge="1" achievement="FF_SERTRALINE" />
+
+	<!-- Technical shit for the custom pill colours -->
+	<pilleffect name="???" class="1" mimiccharge="6" achievement="FF_UNOBTAINABLE_ACHIEVEMENT" />
+	<pilleffect name="Brimstone :D" class="3+" mimiccharge="6" achievement="FF_UNOBTAINABLE_ACHIEVEMENT" />
+	<pilleffect name="?????" description="" class="1" mimiccharge="1" achievement="FF_UNOBTAINABLE_ACHIEVEMENT" />
+</pocketitems>

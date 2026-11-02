@@ -1,0 +1,47 @@
+<babies root="gfx/Characters/Player2/">
+	<baby name="Fiendish Baby" skin="coopbaby_fiend.png" /> <!--Contributed by Sipher Nil-->
+	<baby name="Friendish Baby" skin="coopbaby_friend.png" /> <!--Contributed by Sipher Nil-->
+	<baby name="Fendish Baby" skin="coopbaby_fend.png" /> <!--Contributed by Sipher Nil-->
+	<baby name="Frondish Baby" skin="coopbaby_frond.png" /> <!--Contributed by Sipher Nil-->
+	<baby name="Fientish Baby" skin="coopbaby_fient.png" /> <!--Contributed by Sipher Nil-->
+	<baby name="Fragile Baby" skin="coopbaby_china.png" /> <!--Contributed by Sipher Nil-->
+	<baby name="Powerpoint Baby" skin="coopbaby_mi.png" /> <!--Contributed by Sipher Nil-->
+	<baby name="Cerulean2 Baby" skin="coopbaby_ceruliend2.png" />
+	<baby name="Secret Baby" skin="coopbaby_secret.png" />
+	<baby name="Sus Baby" skin="coopbaby_sus.png" />
+	<baby name="Dead Sus Baby" skin="coopbaby_sus2.png" />
+	<baby name="Bean Baby" skin="coopbaby_bean.png" />
+	<baby name="Reintro Baby" skin="coopbaby_reintro.png" /> <!--Contributed by Sipher Nil-->
+	<baby name="Fred Baby" skin="coopbaby_fred.png" /> <!--Contributed by Conboi-->
+	<baby name="Demon God Baby" skin="coopbaby_demongod.png" />
+	<baby name="Demon Lemon Baby" skin="coopbaby_demonlemon.png" />
+	<baby name="Despair Baby" skin="coopbaby_despair.png" />
+	<baby name="Drill Bird Baby" skin="coopbaby_drillbird.png" />
+	<baby name="Dumpling Baby" skin="coopbaby_dumpling.png" />
+	<baby name="False Baby" skin="coopbaby_false.png" />
+	<baby name="Fly Boy Baby" skin="coopbaby_flyboy.png" />
+	<baby name="Moon Guy Baby" skin="coopbaby_moonguy.png" />
+	<baby name="Neon Cat Baby" skin="coopbaby_neoncat.png" />
+	<baby name="Pop Pop Baby" skin="coopbaby_poppop.png" />
+	<baby name="Slashed Baby" skin="coopbaby_slashed.png" />
+	<baby name="Slime Ghost Baby" skin="coopbaby_slimeghost.png" />
+	<baby name="Tank Guy Baby" skin="coopbaby_tankguy.png" />
+	<baby name="Test Object Baby" skin="coopbaby_testobject.png" />
+	<baby name="My First Baby" skin="coopbaby_new.png" />
+	<baby name="Cerulean Baby" skin="coopbaby_ceruliend.png" />
+	<baby name="Tasteful Baby" skin="coopbaby_cuisine.png" />
+	<baby name="Diendish Baby" skin="coopbaby_diend.png" />
+	<baby name="Evil Baby Guy" skin="coopbaby_evilguy.png" />
+	<baby name="Beastly Fiendish Baby" skin="coopbaby_fiendthebeast.png" />
+	<baby name="Fraudulent Baby" skin="coopbaby_fraud.png" />
+	<baby name="Fred2 Baby" skin="coopbaby_fred2.png" />
+	<baby name="Fright Baby" skin="coopbaby_fright.png" />
+	<baby name="Frode Baby" skin="coopbaby_frode.png" />
+	<baby name="Na Baby" skin="coopbaby_na.png" />
+	<baby name="Questioning Baby" skin="coopbaby_quesquestionmark.png" />
+	<baby name="Shovelry Baby" skin="coopbaby_shovelry.png" />
+	<baby name="Skeletally Fiendish Baby" skin="coopbaby_skeletalfiend.png" />
+	<baby name="Ena Baby" skin="coopbaby_ena.png" />
+	<baby name="Red Lone Replica Baby" skin="coopbaby_lonereplica_blue.png" />
+	<baby name="Blue Lone Replica Baby" skin="coopbaby_lonereplica_red.png" />
+</babies>

@@ -1,0 +1,1132 @@
+<ItemPools>
+	<Pool Name="treasure">
+		<Item Name="The Original Dice Bag" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Lil Fiend" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Fiend's Horn" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Spare Ribs" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Cool Sunglasses" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="The Fiend Folio" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Baby Crater" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Mrs. Spooter" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Nugget Bombs" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Devil's Umbrella" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Bee Skin" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Randy The Snail" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Alpha Coin" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Imp Soda" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Slippy's Guts" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Slippy's Heart" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Peach Creep" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Gorgoneion" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="A.V.G.M." Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Sanguine Hook" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Grabber" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Ophiuchus" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Cetus" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Pet Rock" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Bedtime Story" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Pinhead" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Prank Cookie" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Eternal D12" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Eternal D10" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Rubber Bullets" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Lil Minx" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Purple Putty" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Fetal Fiend" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Fiend Mix" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="White Pepper" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Peppermint" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Bridge Bombs" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Lawn Darts" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Toy Piano" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Hypno Ring" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Musca" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Model Rocket" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Sibling Syl" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Familiar Fly" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Dad's Postiche" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Chaldean Axe" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Wimpy Bro" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="The Brown Horn" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Robo-Baby 3.0" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Snow Globe" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Telebombs" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Cherry Bomb" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="King Worm" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Emoji Glasses" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Heart of China" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Golden Frog Head" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Dazzling Slot" Weight="0.1" DecreaseBy="0.1" RemoveOn="0.01"/>
+		<Item Name="Lemon Mishuh???" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+		<Item Name="Infinity Volt" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Devil's Abacus" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Crazy Jackpot" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Clutch's Curse" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="D2" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Kalu's Severed Head" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Time Itself" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Malice" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Nil Pasta" Weight="0.1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Mime Degree" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Bag of Bobbies" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Yick Heart" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Maria's Smash Trophy" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Loaded D6" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Torture Cookie" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Twinkle of Contagion" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Dusty D10" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+		<Item Name="Token Bag" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+		<Item Name="Reheated Pizza" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Hedonist's Cookbook" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Sculpted Pepper" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Lucky Cat" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Large Dose" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Warfarin" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+		<Item Name="Mtn Dew" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Grandpa's Whiskey" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Dog Whistle" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Doomsday Clock" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Shock Image" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="String Theory" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Infestation 3" Weight="0.75" DecreaseBy="0.75" RemoveOn="0.075"/>
+		<Item Name="Infestation 4" Weight="0.75" DecreaseBy="0.75" RemoveOn="0.075"/>
+		<Item Name="Lil Friend" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="The D5" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Teleport Alpha" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Spinach Pie" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Time is Money" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Asteroid Belt" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Sweet Red" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Empty Gaze" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Monster Domestication Guide" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Loadsamoney" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Sideways Onion" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Huitlacoche" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Chemical Cookie" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Chaotic Carving" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Clown Meat" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Flip Phone" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Faberge Bombs" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Hydrokinesis" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="The War Horn" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="43.zip" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Fetal Friend" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Shuffle Time" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="18 Foot Leash" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Dynamite Pack" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Daydream" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Imp Soda: Tricky Cherry" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Shadow Cluster" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Raildriver" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Queen's Fruit" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Strange Eye" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Snags" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Executioner" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Gizmo Boots" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Plasma Ball" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Lourdes Water" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Doubles!" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="100% Orange Juice" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="WNIC" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Zero-Point Reactor" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Deck Box" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Cherub Chubby" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Careless Whispers" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Sun Cross" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Stardust" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Hot Potato Book" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Activated Charcoal" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Air Freshener" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Resurrection" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Papal Pal" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Burglar Baby" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Outlet Baby" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Cyborg Baby" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Motor Spirit" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Naga Viper" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Green Apple" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Eden's Head" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Solar Tablet" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="YAAI" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Brilliance" Weight="0.1" DecreaseBy="0.01" RemoveOn="0.01"/>
+		<Item Name="Leftover Takeout" Weight="0.1" DecreaseBy="0.01" RemoveOn="0.01"/>
+		<Item Name="Old Testament" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Blastulation" Weight="0.1" DecreaseBy="0.01" RemoveOn="0.01"/>
+		<Item Name="Holy Bean" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Appendix" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Can of Beans" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Black-Eyed Pea" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Echolilac" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Snooze Button" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Parallel Bombs" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Laser Pointer" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Anarchist's Easy-Bake" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Soapsuds" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Cry Baby" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Dumb Bunny" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Isolated" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Hyperfixation" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Repression" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Hare-Trigger" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Green Bombs" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Crushing Anxiety" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Ocular Spectrum" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Tech-Modulo" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Pink Milk" Weight="0.25" DecreaseBy="0.25" RemoveOn="0.25"/>
+		<Item Name="Onion Disc" Weight="0.25" DecreaseBy="0.25" RemoveOn="0.25"/>
+		<Item Name="BAD_DATA" Weight="0.25" DecreaseBy="0.25" RemoveOn="0.25"/>
+        <Item Name="Lil Inaba" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Steven Sandwich" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Mysterious Fedora" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Golden Watch" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Skibidi Baby" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Gunslinger's Grit" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Golem's Sub" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Lanky Mushroom" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Steven's Hat" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Minesweeper" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Ice IX" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Palinopsia" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Copper Wrench" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Kalu's All-seeing Eye" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Extension" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Lil Golem" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Kalu's Wicked Paw" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Kalu's Harvested Nose" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Kalu's Beating Heart" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Kalu's Writhing Tail" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Knife Block" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+	</Pool>
+	<Pool Name="greedTreasure">
+		<Item Name="The Original Dice Bag" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Lil Fiend" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Fiend's Horn" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Spare Ribs" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Cool Sunglasses" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="The Fiend Folio" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Baby Crater" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Mrs. Spooter" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Nugget Bombs" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Devil's Umbrella" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Bee Skin" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Randy The Snail" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Alpha Coin" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Imp Soda" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Slippy's Guts" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Slippy's Heart" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Leftover Takeout" Weight="0.1" DecreaseBy="0.01" RemoveOn="0.01"/>
+		<Item Name="Sanguine Hook" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Grabber" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Ophiuchus" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Cetus" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Pet Rock" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Bedtime Story" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Pinhead" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Prank Cookie" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Eternal D12" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Eternal D10" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Rubber Bullets" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Lil Minx" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Purple Putty" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Fetal Fiend" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Fiend Mix" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="White Pepper" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Peppermint" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Lawn Darts" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Toy Piano" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Hypno Ring" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Musca" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Model Rocket" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Sibling Syl" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Familiar Fly" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Dad's Postiche" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Chaldean Axe" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Wimpy Bro" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Robo-Baby 3.0" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Snow Globe" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Telebombs" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Cherry Bomb" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="King Worm" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Corn Kernel" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Emoji Glasses" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Heart of China" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Golden Frog Head" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Lemon Mishuh???" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+		<Item Name="Infinity Volt" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Devil's Abacus" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Crazy Jackpot" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Clutch's Curse" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Kalu's Severed Head" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Time Itself" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Malice" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Nil Pasta" Weight="0.1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Mime Degree" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Bag of Bobbies" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Yick Heart" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Maria's Smash Trophy" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Gamma Gloves" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Token Bag" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Reheated Pizza" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Sculpted Pepper" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Lucky Cat" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Warfarin" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+		<Item Name="Mtn Dew" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Grandpa's Whiskey" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Dog Whistle" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Doomsday Clock" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Shock Image" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="String Theory" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Infestation 3" Weight="0.75" DecreaseBy="0.75" RemoveOn="0.075"/>
+		<Item Name="Infestation 4" Weight="0.75" DecreaseBy="0.75" RemoveOn="0.075"/>
+		<Item Name="Lil Friend" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="The D5" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Teleport Alpha" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Spinach Pie" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Asteroid Belt" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Sweet Red" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Empty Gaze" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Monster Domestication Guide" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Sideways Onion" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Huitlacoche" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Chemical Cookie" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Chaotic Carving" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Clown Meat" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Flip Phone" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Faberge Bombs" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Hydrokinesis" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="The War Horn" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="43.zip" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Fetal Friend" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="18 Foot Leash" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Dynamite Pack" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Daydream" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Imp Soda: Tricky Cherry" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Shadow Cluster" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Double Dog" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Raildriver" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Queen's Fruit" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Strange Eye" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Executioner" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Plasma Ball" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Doubles!" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="100% Orange Juice" Weight="0.2" DecreaseBy="0.2" RemoveOn="0.02"/>
+		<Item Name="WNIC" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Zero-Point Reactor" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Deck Box" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Cherub Chubby" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Careless Whispers" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Stardust" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Hot Potato Book" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Activated Charcoal" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Air Freshener" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Resurrection" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Papal Pal" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Burglar Baby" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Outlet Baby" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Cyborg Baby" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Motor Spirit" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Naga Viper" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Green Apple" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Eden's Head" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Solar Tablet" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="YAAI" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Brilliance" Weight="0.1" DecreaseBy="0.01" RemoveOn="0.01"/>
+		<Item Name="Old Testament" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Blastulation" Weight="0.1" DecreaseBy="0.01" RemoveOn="0.01"/>
+		<Item Name="Holy Bean" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Appendix" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Can of Beans" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Black-Eyed Pea" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Echolilac" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Snooze Button" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Parallel Bombs" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Laser Pointer" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Anarchist's Easy-Bake" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Cry Baby" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Dumb Bunny" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Isolated" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Hyperfixation" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Repression" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Hare-Trigger" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Green Bombs" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Crushing Anxiety" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Ocular Spectrum" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Pink Milk" Weight="0.25" DecreaseBy="0.25" RemoveOn="0.25"/>
+		<Item Name="Tech-Modulo" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Onion Disc" Weight="0.25" DecreaseBy="0.25" RemoveOn="0.25"/>
+		<Item Name="BAD_DATA" Weight="0.25" DecreaseBy="0.25" RemoveOn="0.25"/>
+        <Item Name="Lil Inaba" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Steven Sandwich" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Mysterious Fedora" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Skibidi Baby" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Gunslinger's Grit" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Golem's Sub" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Extension" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Lanky Mushroom" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Steven's Hat" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Ice IX" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Palinopsia" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Kalu's All-seeing Eye" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Lil Golem" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Kalu's Wicked Paw" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Kalu's Beating Heart" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Kalu's Writhing Tail" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Knife Block" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+	</Pool>
+	<Pool Name="boss">
+        <Item Name="GMO Corn" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Bacon Grease" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Chirumiru" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+		<Item Name="Golem's Orb" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name=">3" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+		<Item Name="Devilled Egg" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Tea" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Fraudulent Fungus" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Griddle Corns" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Penny Roll" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+		<Item Name="Dice Goblin" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+		<Item Name="Mom's Stockings" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Golden Popsicle" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+		<Item Name="Host on Toast" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Box Top" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+		<Item Name="Kinda Egg" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+		<Item Name="Dad's Dip" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Bottle of Water" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="GoldShi Lunch" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+		<Item Name="Green Orange" Weight="0.25" DecreaseBy="0.25" RemoveOn="0.025"/>
+		<Item Name="Large Dose" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Fun Pizza" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Pageant Boy 2" Weight="0.1" DecreaseBy="0.1" RemoveOn="0.01"/>
+		<Item Name="Space Food" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Baby Formula" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Red No. 3" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Ceiling Popcorn" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Dad's Half" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Chatterbox" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Appendix" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Scout's Patch" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Dad's Cargo Shorts" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Bad End Meal" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    </Pool>
+    <Pool Name="greedBoss">
+    	<Item Name="GMO Corn" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Bacon Grease" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Chirumiru" Weight="0.5" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Golem's Orb" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name=">3" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+		<Item Name="Devilled Egg" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Tea" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Fraudulent Fungus" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Griddle Corns" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Dice Goblin" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+		<Item Name="Corn Kernel" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Mom's Stockings" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Host on Toast" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Kinda Egg" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+		<Item Name="Dad's Dip" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Bottle of Water" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="GoldShi Lunch" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Green Orange" Weight="0.25" DecreaseBy="0.25" RemoveOn="0.025"/>
+		<Item Name="Large Dose" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Fun Pizza" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Baby Formula" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Red No. 3" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Ceiling Popcorn" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Dad's Half" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Chatterbox" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Appendix" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Dad's Cargo Shorts" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Bad End Meal" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    </Pool>
+    <Pool Name="devil">
+        <Item Name="Lil Fiend" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Fiend's Horn" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Spare Ribs" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Imp Soda" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Dad's Wallet" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Modern Ouroboros" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Sanguine Hook" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Pinhead" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Prank Cookie" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Pyromancy" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="The Devil's Harvest" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Lil Minx" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Purple Putty" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Fetal Fiend" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Fiend Mix" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name=">3" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Devilled Egg" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Toy Piano" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Sibling Syl" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Astropulvis" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Black Moon" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+		<Item Name="Devil's Dagger" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Risk's Reward" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Lil Lamb" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Deadly Dose" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Kalu's Severed Head" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Pet Peeve" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Malice" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Bag of Bobbies" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Dad's Battery" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Dog Whistle" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Doomsday Clock" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Strange Matter" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Antisaac" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Lil Friend" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Bloodthirsty Blade" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Dried Paint" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Spirit of Nightmare" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Imp Curse" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Bad Blood" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Friend's Fireball Formula" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Fetal Friend" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Imp Soda: Tricky Cherry" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Bullet Hell" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Guppy's Heart" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Hellfire" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Dark Bargain" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Acheron" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Devilsknife" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Darkness" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Mark of Pain" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="  Book of Leviathan  " Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+		<Item Name="Paranoia" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Magic Bullet" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Lil Inaba" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Shadow Rabbits" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+		<Item Name="Deal of the Demons" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Soul Extraction Bum" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Gunslinger's Grit" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="7 Seals 2" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Kalu's Wicked Paw" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Kalu's Harvested Nose" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Kalu's Beating Heart" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Kalu's Writhing Tail" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Knife Block" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    </Pool>
+	<Pool Name="greedDevil">
+        <Item Name="Lil Fiend" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Fiend's Horn" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Spare Ribs" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Imp Soda" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Modern Ouroboros" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Pinhead" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Prank Cookie" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Pyromancy" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="The Devil's Harvest" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Lil Minx" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Purple Putty" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Fetal Fiend" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Fiend Mix" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name=">3" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Devilled Egg" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Toy Piano" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Astropulvis" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Black Moon" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+		<Item Name="Devil's Dagger" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Lil Lamb" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Deadly Dose" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Kalu's Severed Head" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Pet Peeve" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Malice" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Bag of Bobbies" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Dog Whistle" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Doomsday Clock" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Strange Matter" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Antisaac" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Lil Friend" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Bloodthirsty Blade" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Dried Paint" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Bad Blood" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Friend's Fireball Formula" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Fetal Friend" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Imp Soda: Tricky Cherry" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Bullet Hell" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Guppy's Heart" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Sack of Keys?" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Hellfire" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Dark Bargain" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Acheron" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Devilsknife" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Darkness" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Mark of Pain" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="  Book of Leviathan  " Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+		<Item Name="Paranoia" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Magic Bullet" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Lil Inaba" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Shadow Rabbits" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+		<Item Name="Deal of the Demons" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Soul Extraction Bum" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Gunslinger's Grit" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="7 Seals 2" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Kalu's Wicked Paw" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Kalu's Beating Heart" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Kalu's Writhing Tail" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Knife Block" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    </Pool>
+    <Pool Name="angel">
+		<Item Name="Dichromatic Butterfly" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Crucifix" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Page of Virtues" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Excelsior" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Chaldean Axe" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Black Moon" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+		<Item Name="Angelic Lyre" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Anathema" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Warden's Crown" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Lourdes Water" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Devi" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Discipline" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Eye of Providence" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Cherub Chubby" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Apotheosis" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Sun Cross" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Stardust" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Tower of Heaven" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+		<Item Name="Resurrection" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Papal Pal" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Creation of Man" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Eternal Pendant" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Baby Bell" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Radiance" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Old Testament" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Cross Necklace" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="The Pyx" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Holy Bean" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Earth of Adam" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Platinum Crest" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Phoenix Elixir" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Acupuncture Needles" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Rabbit's Foot" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="7 Seals 2" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    </Pool>
+    <Pool Name="greedAngel">
+		<Item Name="Dichromatic Butterfly" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Crucifix" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Page of Virtues" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Excelsior" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Chaldean Axe" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Black Moon" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+		<Item Name="Angelic Lyre" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Anathema" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Warden's Crown" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Devi" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Eye of Providence" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Cherub Chubby" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Apotheosis" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Stardust" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Resurrection" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Papal Pal" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Creation of Man" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Eternal Pendant" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Baby Bell" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Radiance" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Old Testament" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Cross Necklace" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="The Pyx" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Holy Bean" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Earth of Adam" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Platinum Crest" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Phoenix Elixir" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Acupuncture Needles" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="7 Seals 2" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    </Pool>
+    <Pool Name="shop">
+    	<Item Name="Cool Sunglasses" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    	<Item Name="Store Whistle" Weight="0.5" DecreaseBy="0.05" RemoveOn="0.1"/>
+		<Item Name="Dad's Wallet" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Beginner's Luck" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Golem's Rock" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="A.V.G.M." Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+		<Item Name="Black Lantern" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Secret Stash" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Glizzy" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Bridge Bombs" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Greg the Egg" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Toy Camera" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Fiddle Cube" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Evil Sticker" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Dice Goblin" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Spindle" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Cherry Bomb" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Grappling Hook" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Empty Book" Weight="0.5" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Ka Ching!" Weight="0.01" DecreaseBy="0.01" RemoveOn="0.001"/>
+		<Item Name="Shredder" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Gamma Gloves" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Dad's Battery" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Brick Figure" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Too Many Options" Weight="0.25" DecreaseBy="0.25" RemoveOn="0.1"/>
+		<Item Name="Gaper in a Jar" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="How to Roll" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Green Candle" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="The Last Black Heart" Weight="0.25" DecreaseBy="0.25" RemoveOn="0.025"/>
+		<Item Name="Utility Pole" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Tricolor Key" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Efficiency Module" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Flip Phone" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Shuffle Time" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Double Dog" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Productivity Module" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Speed Module" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Toybox" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Tefillin" Weight="0.8" DecreaseBy="0.8" RemoveOn="0.08"/>
+		<Item Name="Planchette" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Imp Soda Bottle Cap" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+		<Item Name="Sertraline Pack" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Boundless Parasol" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Golden Watch" Weight="0.25" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Baphomet's Exchange" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+		<Item Name="D-Stock" Weight="0.8" DecreaseBy="0.8" RemoveOn="0.08"/>
+		<Item Name="Clown Horn" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Copper Wrench" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Penny Album" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Find-it!" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    </Pool>
+    <Pool Name="greedShop">
+        <Item Name="GMO Corn" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    	<Item Name="Cool Sunglasses" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Bacon Grease" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Nugget Bombs" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Beginner's Luck" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Golem's Rock" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Peach Creep" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Secret Stash" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Glizzy" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Greg the Egg" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Toy Camera" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Fiddle Cube" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Dice Goblin" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Spindle" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Corn Kernel" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="D2" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Empty Book" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Shredder" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Gamma Gloves" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Loaded D6" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Dad's Battery" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Brick Figure" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Dusty D10" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+		<Item Name="Too Many Options" Weight="0.1" DecreaseBy="0.1" RemoveOn="0.01"/>
+		<Item Name="Gaper in a Jar" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="How to Roll" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Green Candle" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="The Last Black Heart" Weight="0.25" DecreaseBy="0.25" RemoveOn="0.025"/>
+		<Item Name="Efficiency Module" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Flip Phone" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Double Dog" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Productivity Module" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Speed Module" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Toybox" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Planchette" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Imp Soda Bottle Cap" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+		<Item Name="Sertraline Pack" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Baphomet's Exchange" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+		<Item Name="D-Stock" Weight="0.8" DecreaseBy="0.8" RemoveOn="0.08"/>
+		<Item Name="Copper Wrench" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Penny Album" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Find-it!" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    </Pool>
+    <Pool Name="secret">
+    	<Item Name="The Original Dice Bag" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Store Whistle" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Alpha Coin" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Dad's Wallet" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Dichromatic Butterfly" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Community Achievement" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Perfectly Generic Object" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Pet Rock" Weight="0.1" DecreaseBy="0.1" RemoveOn="0.01"/>
+		<Item Name="The Deluxe" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Wrong Warp" Weight="0.1" DecreaseBy="0.1" RemoveOn="0.01"/>
+		<Item Name="Azurite Spindown" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="The D3" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Rat Poison" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+		<Item Name="Time Itself" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Nil Pasta" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Batoomkling!" Weight="0.01" DecreaseBy="0.01" RemoveOn="0.001"/>
+		<Item Name="Fist Full of Ash" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Isaac.chr" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.1"/>
+		<Item Name="Isaac'D's Eulogy" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.1"/>
+		<Item Name="Dusty D10" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+		<Item Name="Token Bag" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Error's Crazy Slots" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Too Many Options" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="43.zip" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="The Final Option" Weight="1" DecreaseBy="1" RemoveOn="0.1" />
+		<Item Name="Pak Choi" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Snags" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Mammonite Codex" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Grandpa's Gatling Gun" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="A.V.G.M." Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="GLITCHCITY" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Black Candelabra" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Brilliance" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Leftover Takeout" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Blastulation" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Appendix" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Shuffle Bombs" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Parallel Bombs" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Bereavement" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Boundless Parasol" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Onion Disc" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="The Happy-Go-Lucky Onion" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="BAD_DATA" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Steven Sandwich" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Ycuk Heart" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Mysterious Fedora" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Horncob" Weight="0.1" DecreaseBy="0.1" RemoveOn="0.01"/>
+		<Item Name="Lanky Mushroom" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Steven's Hat" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="D-Stock" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Minesweeper" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Ice IX" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Infestation 0" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    </Pool>
+    <Pool Name="greedSecret">
+    	<Item Name="The Original Dice Bag" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Alpha Coin" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Dichromatic Butterfly" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Community Achievement" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Perfectly Generic Object" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="The Deluxe" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Wrong Warp" Weight="0.1" DecreaseBy="0.1" RemoveOn="0.01"/>
+		<Item Name="Azurite Spindown" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="The D3" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Time Itself" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Nil Pasta" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Isaac.chr" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.1"/>
+		<Item Name="Isaac'D's Eulogy" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.1"/>
+		<Item Name="Token Bag" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Error's Crazy Slots" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Too Many Options" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="43.zip" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Pak Choi" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Mammonite Codex" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Grandpa's Gatling Gun" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="GLITCHCITY" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Black Candelabra" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Leftover Takeout" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Blastulation" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Appendix" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Shuffle Bombs" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Parallel Bombs" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Bereavement" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Onion Disc" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="The Happy-Go-Lucky Onion" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="BAD_DATA" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Steven Sandwich" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Ycuk Heart" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Mysterious Fedora" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Golden Watch" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Horncob" Weight="0.1" DecreaseBy="0.1" RemoveOn="0.01"/>
+		<Item Name="Lanky Mushroom" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Steven's Hat" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="D-Stock" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Minesweeper" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Ice IX" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    </Pool>
+    <Pool Name="curse">
+		<Item Name="Birthday Gift" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.1"/>
+		<Item Name="Clear Case" Weight="1" DecreaseBy="0.5" RemoveOn="0.1"/>
+		<Item Name="Black Lantern" Weight="1" DecreaseBy="0.5" RemoveOn="0.1"/>
+		<Item Name="The Devil's Harvest" Weight="1" DecreaseBy="0.5" RemoveOn="0.1"/>
+		<Item Name="Evil Sticker" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Sack of Keys?" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Heart of China" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Risk's Reward" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Lil Lamb" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Deadly Dose" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Clutch's Curse" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Fist Full of Ash" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Torture Cookie" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Warfarin" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Organ Donor" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Bomb Collar" Weight="0.25" DecreaseBy="0.25" RemoveOn="0.025"/>
+		<Item Name="Copper Bar" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Guppy's Heart" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Hellfire" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Tower of Heaven" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+		<Item Name="Golden Spikes" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Black Candelabra" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Devilsknife" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Darkness" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Imp Soda Bottle Cap" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="  Book of Leviathan  " Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Magic Bullet" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Horncob" Weight="0.1" DecreaseBy="0.1" RemoveOn="0.01"/>
+		<Item Name="Minesweeper" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Kalu's All-seeing Eye" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    </Pool>
+    <Pool Name="greedCurse">
+		<Item Name="Clear Case" Weight="1" DecreaseBy="0.5" RemoveOn="0.1"/>
+		<Item Name="The Devil's Harvest" Weight="1" DecreaseBy="0.5" RemoveOn="0.1"/>
+		<Item Name="Heart of China" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Lil Lamb" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Clutch's Curse" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Torture Cookie" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Warfarin" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Organ Donor" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Bomb Collar" Weight="0.25" DecreaseBy="0.25" RemoveOn="0.025"/>
+		<Item Name="Copper Bar" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Guppy's Heart" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Black Candelabra" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Devilsknife" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Darkness" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Imp Soda Bottle Cap" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="  Book of Leviathan  " Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Magic Bullet" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Horncob" Weight="0.1" DecreaseBy="0.1" RemoveOn="0.01"/>
+		<Item Name="Kalu's All-seeing Eye" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    </Pool>
+    <Pool Name="library">
+        <Item Name="The Fiend Folio" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Bedtime Story" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Empty Book" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Hedonist's Cookbook" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="How to Roll" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Monster Domestication Guide" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Hot Potato Book" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Old Testament" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="  Book of Leviathan  " Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Appendix" Weight="0.001" DecreaseBy="0.001" RemoveOn="0.0001"/>
+    </Pool>
+    <Pool Name="goldenChest">
+		<Item Name="A.V.G.M." Weight="0.1" DecreaseBy="0.04" RemoveOn="0.01"/>
+		<Item Name="Flip Phone" Weight="0.1" DecreaseBy="0.04" RemoveOn="0.01"/>
+		<Item Name="Mom's Stockings" Weight="1" DecreaseBy="0.4" RemoveOn="0.1"/>
+		<Item Name="Box Top" Weight="1" DecreaseBy="0.4" RemoveOn="0.1"/>
+		<Item Name="Bottle of Water" Weight="1" DecreaseBy="0.4" RemoveOn="0.1"/>
+		<Item Name="Deck Box" Weight="1" DecreaseBy="0.4" RemoveOn="0.1"/>
+		<Item Name="Snooze Button" Weight="0.1" DecreaseBy="0.04" RemoveOn="0.01"/>
+		<Item Name="Mom's Pendant" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Golden Watch" Weight="0.1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Golem's Sub" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    </Pool>
+    <Pool Name="redChest">
+		<Item Name="A.V.G.M." Weight="0.01" DecreaseBy="0.001" RemoveOn="0.001"/>
+    	<Item Name="Clutch's Curse" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    	<Item Name="Deadly Dose" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    	<Item Name="Torture Cookie" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    	<Item Name="Bomb Collar" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Imp Curse" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="The War Horn" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Guppy's Heart" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Naga Viper" Weight="0.5" DecreaseBy="0.2" RemoveOn="0.05"/>
+    </Pool>
+    <Pool Name="beggar">
+        <Item Name="GMO Corn" Weight="1" DecreaseBy="0.5" RemoveOn="0.1"/>
+		<Item Name="Bacon Grease" Weight="1" DecreaseBy="0.5" RemoveOn="0.1"/>
+		<Item Name="Store Whistle" Weight="1" DecreaseBy="0.5" RemoveOn="0.1"/>
+    </Pool>
+    <Pool Name="demonBeggar">
+        <Item Name="Lil Fiend" Weight="1" DecreaseBy="0.5" RemoveOn="0.1"/>
+        <Item Name="Fiend's Horn" Weight="1" DecreaseBy="0.5" RemoveOn="0.1"/>
+        <Item Name="Imp Soda" Weight="1" DecreaseBy="0.5" RemoveOn="0.1"/>
+		<Item Name="Prank Cookie" Weight="1" DecreaseBy="0.5" RemoveOn="0.1"/>
+		<Item Name="Purple Putty" Weight="0.25" DecreaseBy="0.125" RemoveOn="0.025"/>
+		<Item Name="Fetal Fiend" Weight="1" DecreaseBy="0.5" RemoveOn="0.1"/>
+		<Item Name=">3" Weight="1" DecreaseBy="0.5" RemoveOn="0.1"/>
+		<Item Name="Devilled Egg" Weight="1" DecreaseBy="0.5" RemoveOn="0.1"/>
+		<Item Name="Large Dose" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Lil Friend" Weight="1" DecreaseBy="0.5" RemoveOn="0.1"/>
+		<Item Name="Spirit of Nightmare" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Fetal Friend" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Imp Soda: Tricky Cherry" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Lil Inaba" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Soul Extraction Bum" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+    </Pool>
+	<Pool Name="craneGame">
+		<Item Name="Cool Sunglasses" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Fiddle Cube" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="The Original Dice Bag" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="A.V.G.M." Weight="0.25" DecreaseBy="0.025" RemoveOn="0.025"/>
+		<!--<Item Name="Store Whistle" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>-->
+		<Item Name="Gorgoneion" Weight="0.5" DecreaseBy="0.05" RemoveOn="0.05"/>
+		<Item Name="Community Achievement" Weight="0.25" DecreaseBy="0.025" RemoveOn="0.025"/>
+		<Item Name="Perfectly Generic Object" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Eternal D12" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Eternal D10" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Toy Piano" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Hypno Ring" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Model Rocket" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Greg the Egg" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Toy Camera" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Chaldean Axe" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Robo-Baby 3.0" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Azurite Spindown" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="The D3" Weight="0.2" DecreaseBy="0.1" RemoveOn="0.02"/>
+		<Item Name="Emoji Glasses" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Golden Frog Head" Weight="0.3" DecreaseBy="0.3" RemoveOn="0.03"/>
+		<Item Name="Snow Globe" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Dice Goblin" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Cherry Bomb" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<!--<Item Name="Dazzling Slot" Weight="0.1" DecreaseBy="0.1" RemoveOn="0.01"/>-->
+		<Item Name="Infinity Volt" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Grappling Hook" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="D2" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Kalu's Severed Head" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Pet Peeve" Weight="0.3" DecreaseBy="0.3" RemoveOn="0.03"/>
+		<Item Name="Bag of Bobbies" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Maria's Smash Trophy" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Loaded D6" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Gamma Gloves" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Brick Figure" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Dusty D10" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+		<Item Name="Token Bag" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="The D5" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Teleport Alpha" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Time is Money" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Flip Phone" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Faberge Bombs" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Plasma Ball" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Doubles!" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="WNIC" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Laser Pointer" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Anarchist's Easy-Bake" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Dumb Bunny" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Pink Milk" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Tech-Modulo" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Steven Sandwich" Weight="1" DecreaseBy="0.1" RemoveOn="0.1"/>
+		<Item Name="Golden Watch" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Voyager's Vendor" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Steven's Hat" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Ice IX" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Kalu's Wicked Paw" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Kalu's Harvested Nose" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Kalu's Beating Heart" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Kalu's Writhing Tail" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    </Pool>
+	<Pool Name="bombBum">
+        <Item Name="Nugget Bombs" Weight="1" DecreaseBy="0.5" RemoveOn="0.1"/>
+        <Item Name="Bridge Bombs" Weight="1" DecreaseBy="0.5" RemoveOn="0.1"/>
+        <Item Name="Telebombs" Weight="1" DecreaseBy="0.5" RemoveOn="0.1"/>
+		<Item Name="Cherry Bomb" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Bomb Collar" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Faberge Bombs" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="43.zip" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Dynamite Pack" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Shuffle Bombs" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Parallel Bombs" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Green Bombs" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    </Pool>
+	<Pool Name="keyMaster">
+		<Item Name="Familiar Fly" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Tricolor Key" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+	</Pool>
+	<Pool Name="planetarium">
+        <Item Name="Deimos" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Monas Hieroglyphica" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+        <Item Name="Nyx" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Ganymede" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Planet X" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="G!kún||'hòmdímà" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+    </Pool>
+	<Pool Name="oldChest">
+		<Item Name="Dad's Wallet" Weight="0.2" DecreaseBy="0.08" RemoveOn="0.02"/>
+		<Item Name="Dad's Postiche" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Mom's Stockings" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Dad's Dip" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Dad's Battery" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Grandpa's Whiskey" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Grandpa's Gatling Gun" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Dad's Half" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Mom's Pendant" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Dads's Cargo Shorts" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+	</Pool>
+	<Pool Name="ultraSecret">
+		<Item Name="The Original Dice Bag" Weight="1" DecreaseBy="0.4" RemoveOn="0.1"/>
+		<Item Name="Dichromatic Butterfly" Weight="1" DecreaseBy="0.4" RemoveOn="0.1"/>
+		<Item Name="Birthday Gift" Weight="1" DecreaseBy="0.4" RemoveOn="0.1"/>
+		<Item Name="Hypno Ring" Weight="1" DecreaseBy="0.4" RemoveOn="0.1"/>
+		<Item Name="Model Rocket" Weight="1" DecreaseBy="0.4" RemoveOn="0.1"/>
+		<Item Name="Black Moon" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+		<Item Name="Wrong Warp" Weight="0.1" DecreaseBy="0.1" RemoveOn="0.01"/>
+		<Item Name="Cherry Bomb" Weight="1" DecreaseBy="0.4" RemoveOn="0.1"/>
+		<Item Name="Astropulvis" Weight="1" DecreaseBy="0.4" RemoveOn="0.1"/>
+		<Item Name="Strange Red Object" Weight="0.1" DecreaseBy="0.1" RemoveOn="0.01"/>
+		<Item Name="Heart of China" Weight="1" DecreaseBy="0.4" RemoveOn="0.1"/>
+		<Item Name="Loaded D6" Weight="1" DecreaseBy="0.4" RemoveOn="0.1"/>
+		<Item Name="Isaac.chr" Weight="0.5" DecreaseBy="0.2" RemoveOn="0.1"/>
+		<Item Name="Isaac'D's Eulogy" Weight="0.5" DecreaseBy="0.2" RemoveOn="0.1"/>
+		<Item Name="Too Many Options" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Warfarin" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Organ Donor" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Doomsday Clock" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="The D5" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Sweet Red" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Dried Paint" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Red No. 3" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="The War Horn" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Dynamite Pack" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Imp Soda: Tricky Cherry" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Red" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Hellfire" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Phoenix Elixir" Weight="1" DecreaseBy="0.5" RemoveOn="0.1"/>
+        <Item Name="Boundless Parasol" Weight="1" DecreaseBy="0.5" RemoveOn="0.1"/>
+        <Item Name="Paranoia" Weight="1" DecreaseBy="0.5" RemoveOn="0.1"/>
+        <Item Name="Ocular Spectrum" Weight="1" DecreaseBy="0.5" RemoveOn="0.1"/>
+	</Pool>
+	<Pool Name="babyShop">
+		<Item Name="Lil Fiend" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Baby Crater" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Mrs. Spooter" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Randy The Snail" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Peach Creep" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Grabber" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Gorgoneion" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Pet Rock" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Lil Minx" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Sibling Syl" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Greg the Egg" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Familiar Fly" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Wimpy Bro" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Robo-Baby 3.0" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Lil Lamb" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Pet Peeve" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Bag of Bobbies" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Lil Friend" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Antisaac" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Snags" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Cherub Chubby" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Careless Whispers" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Papal Pal" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Burglar Baby" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Outlet Baby" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Cyborg Baby" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Baby Bell" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Devilsknife" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Cry Baby" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Isolated" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Hare-Trigger" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Dumb Bunny" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="BAD_DATA" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Lil Inaba" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Soul Extraction Bum" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Skibidi Baby" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Lil Golem" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+	</Pool>
+	<Pool Name="woodenChest">
+		<Item Name="The Small Wood" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Devil's Abacus" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="The Big Wood" Weight="0.25" DecreaseBy="1" RemoveOn="0.025"/>
+		<Item Name="Knife Block" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Steven's Hat" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+	</Pool>
+	<Pool Name="rottenBeggar">
+		<Item Name="Fraudulent Fungus" Weight="0.75" DecreaseBy="0.5" RemoveOn="0.05"/>
+		<Item Name="The Deluxe" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+		<Item Name="Yick Heart" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Green Orange" Weight="0.5" DecreaseBy="0.5" RemoveOn="0.05"/>
+	</Pool>
+	<Pool Name="batteryBum">
+		<Item Name="Dad's Battery" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+		<Item Name="Flip Phone" Weight="0.1" DecreaseBy="0.01" RemoveOn="0.01"/>
+		<Item Name="Infinity Volt" Weight="0.1" DecreaseBy="0.01" RemoveOn="0.01"/>
+		<Item Name="Plasma Ball" Weight="0.1" DecreaseBy="0.01" RemoveOn="0.01"/>
+	</Pool>
+	<Pool Name="momsChest">
+		<Item Name="Mom's Stockings" Weight="1" DecreaseBy="0.5" RemoveOn="0.1"/>
+		<Item Name="Mom's Pendant" Weight="1" DecreaseBy="1" RemoveOn="0.1"/>
+	</Pool>
+</ItemPools>

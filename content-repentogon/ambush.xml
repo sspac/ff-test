@@ -1,0 +1,100 @@
+<!-- Boss rush: You can add multiple enemy tags to a spawn tag to make custom waves. 
+     [spawnsPerWave] random spawn groups will be selected for each wave. 
+     Enemies will be arranged in a circle, counterclockwise starting from the right. -->
+<bossrush numWaves="15" spawnsPerWave="2"> 
+<!-- For some reason the AB+ bosses never got added??? -->
+	
+	<spawn>
+		<enemy type="409" variant="0" count="1"/> <!-- Rag Mega -->
+	</spawn>	
+	<spawn>
+		<enemy type="410" variant="0" count="1"/> <!-- Vis Sisters -->
+	</spawn>	
+	<spawn>
+		<enemy type="411" variant="0" count="1"/> <!-- Big Horn -->
+	</spawn>
+	
+	<!-- And I dunno other stuff they just, didn't put in I suppose -->
+	
+	<spawn>
+		<enemy type="101" variant="0" count="1"/> <!-- Daddy Long Legs -->
+	</spawn>
+	<spawn>
+		<enemy type="101" variant="1" count="1"/> <!-- Triachnid -->
+	</spawn>
+	<spawn>
+		<enemy type="71" variant="1" count="1"/> <!-- Teratoma -->
+	</spawn>
+	<spawn>
+		<enemy type="69" variant="1" count="2"/> <!-- Lokii -->
+	</spawn>
+	
+	<!--Repentance (never added their bosses either for whatever reason) -->
+	
+	<spawn>
+		<enemy type="269" variant="1" count="1"/> <!-- The Pile -->
+	</spawn>
+	<spawn>
+		<enemy type="900" variant="0" count="1"/> <!-- Reap Creep -->
+	</spawn>
+	<spawn>
+		<enemy type="908" variant="0" count="1"/> <!-- Baby plum -->
+	</spawn>
+	<spawn>
+		<enemy type="916" variant="0" count="1"/> <!-- Bumbino -->
+	</spawn>
+	
+	<!-- Fiend folio duders -->
+	
+	<spawn>
+		<enemy type="180" variant="0" count="1"/> <!-- Buck -->
+	</spawn>
+	<spawn>
+		<enemy type="180" variant="10" count="1"/> <!-- Batty -->
+	</spawn>
+	<spawn>
+		<enemy type="666" variant="160" count="1"/> <!-- Honeydrop -->
+	</spawn>
+	<spawn>
+		<enemy type="180" variant="20" count="1"/> <!-- Buster -->
+	</spawn>
+	<spawn>
+		<enemy type="180" variant="30" count="1"/> <!-- Griddle -->
+	</spawn>
+	<spawn>
+		<enemy type="180" variant="80" count="1"/> <!-- Kingpin -->
+	</spawn>
+	<spawn>
+		<enemy type="180" variant="110" count="1"/> <!-- Pollution -->
+	</spawn>
+	<spawn>
+		<enemy type="180" variant="302" count="1"/> <!-- Fooz Twins -->
+		<enemy type="180" variant="301" count="1"/>
+		<enemy type="180" variant="303" count="1"/>
+	</spawn>
+	<spawn>
+		<enemy type="180" variant="250" count="1"/> <!-- Whispers -->
+	</spawn>
+	<spawn>
+		<enemy type="180" variant="120" count="1"/> <!-- Meltdown -->
+	</spawn>
+	<spawn>
+		<enemy type="180" variant="40" count="1"/> <!-- Moistro -->
+	</spawn>
+	<spawn>
+		<enemy type="180" variant="160" count="1"/> <!-- Aquagob -->
+	</spawn>
+	<spawn>
+		<enemy type="180" variant="130" count="1"/> <!-- Deluge -->
+	</spawn>
+	<spawn>
+		<enemy type="180" variant="200" count="1"/> <!-- Gutso -->
+	</spawn>
+	<spawn>
+		<enemy type="180" variant="100" count="1"/> <!-- Luncheon -->
+	</spawn>
+	<spawn>
+		<enemy type="180" variant="280" count="1"/> <!-- Junkstrap -->
+	</spawn>
+	
+</bossrush>

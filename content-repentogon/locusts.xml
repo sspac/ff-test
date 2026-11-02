@@ -1,0 +1,463 @@
+<locusts gfxroot="gfx/familiar/locusts/">
+	<!--
+		Color presets
+	-->
+	<!-- Default Vals -->
+	<color name="default" />
+	<color name="fly_red" r="255" g="0" b="0" or="50" og="0" ob="0"/>
+	<color name="fly_lightred" r="215" g="75" b="75" or="50" og="10" ob="10"/>
+	<color name="fly_green" r="0" g="255" b="0" or="0" og="0" ob="0"/>
+	<color name="fly_blue" r="0" g="0" b="255" or="0" og="0" ob="10"/>
+	<color name="fly_brown" r="80" g="50" b="30" or="25" og="12" ob="10"/>
+	<color name="fly_yellow" r="241" g="179" b="12" or="0" og="0" ob="0"/>
+	<color name="fly_gold" r="202" g="178" b="0" or="150" og="150" ob="-255"/>
+	<color name="fly_magnet" r="219" g="204" b="94" or="0" og="0" ob="0"/>
+	<color name="fly_orange" r="255" g="115" b="0" or="100" og="60" ob="0"/>
+	<color name="fly_black" r="1" g="1" b="1"/>
+	<color name="fly_grey" r="120" g="120" b="120" or="10" og="10" ob="10"/>
+	<color name="fly_darkred" r="255" g="0" b="0"/>
+	<color name="fly_purple" r="126" g="12" b="174" or="50" og="-255" ob="50"/>
+	<color name="fly_darkpurple" r="126" g="12" b="174" or="0" og="-150" ob="0"/>
+	<color name="fly_pink" r="255" g="84" b="148" or="50" og="-255" ob="10"/>
+	<color name="fly_cyan" r="12" g="217" b="241" or="0" og="20" ob="50"/>
+	<color name="fly_lightblue" r="122" g="242" b="238" or="0" og="20" ob="50"/>
+	<color name="fly_white" r="255" g="255" b="255" or="150" og="150" ob="150"/>
+	<color name="fly_gas" r="0" g="155" b="0" or="0" og="0" ob="0"/>
+	<color name="fly_fart" r="184" g="191" b="134" or="24" og="24" ob="24"/>
+	<!-- FF -->
+	<color name="fly_tan" r="844" g="752" b="640" or="0" og="0" ob="0"/>
+	<color name="fly_lightgreen" r="544" g="916" b="420" or="0" og="0" ob="0"/>
+	<color name="fly_pale" r="828" g="624" b="620" or="0" og="0" ob="0"/>
+	<color name="fly_lightpink" r="255" g="150" b="220" or="50" og="0" ob="50"/>
+	<color name="fly_fiendish" r="178" g="142" b="214" or="110" og="75" ob="170"/>
+	<color name="fly_shadyred" r="-255" g="-255" b="-255" or="255" og="0" ob="0"/>
+	<color name="fly_bruise" r="178" g="178" b="178" or="40" og="0" ob="40"/>
+	<color name="fly_bruise5" r="127" g="77" b="127" or="40" og="0" ob="40"/>
+	<color name="fly_crucifix" r="255" g="255" b="255" or="50" og="120" ob="160"/>
+	<color name="fly_sleepy" r="64" g="51" b="153" or="20" og="20" ob="40"/>
+	<color name="fly_doom" r="102" g="90" b="90" or="-25" og="-35" ob="-35"/>
+	<color name="fly_excommunicate" r="510" g="510" b="510" or="0" og="30" ob="45"/>
+	<color name="fly_overloaded" r="255" g="255" b="0" or="80" og="20" ob="0" cr="1020" cg="1020" cb="0" ca="128"/>
+	<color name="fly_mugged" r="280" g="280" b="280" or="-5" og="-5" ob="-5" cr="1020" cg="765" cb="459" ca="255"/>
+	<color name="fly_anti" r="-255" g="-255" b="-255" or="255" og="0" ob="0"/>
+	<color name="fly_apple" r="255" g="255" b="255" or="0" og="60" ob="0" cr="0" cg="1275" cb="0" ca="85"/>
+	<color name="fly_pinheadorange" r="677" b="677" g="1020" or="255" og="-100" ob="-255" />
+	<color name="fly_pinheadblue" r="288" g="488" b="952" or="0" og="20" ob="50"/>
+	<color name="fly_nilpasta" r="255" g="255" b="-255" or="255" og="0" ob="0"/>
+	<color name="fly_canofbeans" r="255" g="255" b="0" or="100" og="50" ob="30" cr="255" cg="255" cb="255" ca="255"/>
+	<color name="fly_parallel" r="60" g="60" b="60"/>
+	<color name="fly_pacified" r="255" g="255" b="255" or="160" og="75" ob="95"/>
+	<color name="fly_fortune" r="255" g="51" b="255" or="65" og="15" ob="10" cr="464" cg="413" cb="323" ca="255"/>
+
+	<!-- Default scales -->
+	<scale quality="0" scale="0.8"/>
+	<scale quality="1" scale="0.9"/>
+	<scale quality="2" scale="1.0"/>
+	<scale quality="3" scale="1.1"/>
+	<scale quality="4" scale="1.2"/>
+	<scale quality="5" scale="1.5"/>
+
+
+	<!-- Alpha Coin -->		<locust id="1" gfx="ff/alphacoin.png" />
+	<!-- iPad -->			<locust id="2" gfx="ff/ipad.png" />
+	<!-- Golem's Rock -->	<locust id="3" gfx="big.png" color="fly_grey" speed="0.8"/>
+	<!-- Pyromancy -->		<locust id="5" gfx="anm2=locust_fire.anm2&animation=locust_fire" color="0-fly_orange" tearFlags="22" />
+	<!-- Fiend Folio -->	<locust id="6" gfx="anm2=ff/locust_fiendish.anm2&animation=locust_fiendish&spritesheet=0-null.png" color="1-fly_fiendish" />
+	<!-- Dice Bag -->		<locust id="7" locustFlags2="3" procChance="0.2" gfx="anm2=locust_stone.anm2&animation=locust_stone&spritesheet=0-dice.png"/>
+	<!-- Lil Fiend -->		<locust id="8" gfx="anm2=ff/locust_fiendish.anm2&animation=locust_fiendish&spritesheet=0-null.png" color="1-fly_fiendish" />
+	<!-- Baby Crater -->	<locust id="9" color="fly_brown" />
+	<!-- Mama Spooter -->	<locust id="10" color="fly_lightblue" />
+	<!-- Cool Sunglasses --><locust id="13" color="fly_gold" />
+	<!-- Fiend's Horn --> 	<locust id="14" gfx="anm2=ff/locust_fiendish.anm2&animation=locust_fiendish&spritesheet=0-null.png" color="1-fly_fiendish" />
+	<!-- Risk's Reward --> 	<locust id="15" color="fly_black" />
+	<!-- Spare Ribs --> 	<locust id="16" color="fly_grey" damageMultiplier="0.33"/>
+	<!-- Bacon Grease --> 	<locust id="17" gfx="big.png" color="fly_brown" speed="1.1" />
+	<!-- Devils Umbrella--> <locust id="18" color="fly_pink" backGfx="drip.png" backColor="fly_yellow" />
+	<!-- Planet Badge-->	<locust id="20" overlayGfx="ff/sparkle.png" color="fly_yellow" damageMultiplier="0.1" />
+	<!-- Bee Skin -->		<locust id="21" color="fly_yellow" />
+	<!-- Store Whistle -->	<locust id="22" color="fly_grey" />
+	<!-- D2 -->				<locust id="23" locustFlags2="3" procChance="0.2" gfx="anm2=locust_stone.anm2&animation=locust_stone&spritesheet=0-dice.png" color="fly_darkpurple" />
+	<!-- Corn Kernel -->	<locust id="24" color="fly_gold" tearFlags="34"/>
+	<!-- Imp Soda --> 		<locust id="25" gfx="anm2=ff/locust_fiendish.anm2&animation=locust_fiendish" color="0-fly_purple&1-fly_fiendish" />
+	<!-- Haunted Badge-->	<locust id="26" overlayGfx="ff/sparkle.png" color="fly_yellow" damageMultiplier="0.1" />
+	<!-- Dad's Wallet -->	<locust id="27" color="fly_black" />
+	<!-- Golden FrogHead --><locust id="28" color="fly_yellow" locustFlags2="11" locustFlags3="10" procChance2="0.2" procChance3="0.2" />
+	<!-- Beginner's Luck --><locust id="29" color="fly_lightgreen" />
+	<!-- DichroButterfly --><locust id="30" color="fly_white" tearFlags="2" />
+	<!-- Slippy's Guts -->	<locust id="31" color="fly_green" locustFlags2="11" locustFlags3="10" procChance2="0.2" procChance3="0.2" />
+	<!-- Slippy's Heart -->	<locust id="32" color="fly_green" locustFlags2="11" locustFlags3="10" procChance2="0.2" procChance3="0.2" />
+	<!-- CommAchievement --><locust id="33" color="fly_purple" damageMultiplier="2.94"/>
+	<!-- Chirumiru -->		<locust id="34" color="fly_lightblue" tearFlags2="5" procChance="0.18"/>
+	<!-- Golem's Orb -->	<locust id="35" color="fly_lightblue" gfx="big.png" speed="1.2" scale="1.1"/>
+	<!-- LeftoverTakeout --><locust id="36" color="fly_fortune" gfx="big.png" scale="1.25" />
+	<!-- ModernOuroboros --><locust id="37" color="fly_brown" />
+	<!-- Sanguine Hook -->	<locust id="38" color="fly_black" />
+	<!-- Pinhead -->		<locust id="39" color="fly_pinheadorange" damageMultiplier="0.5"/>
+	<!-- Pinhead -->		<locust id="39" color="fly_pinheadblue" damageMultiplier="0.5"/>
+	<!-- Grabber -->		<locust id="40" color="fly_white" />
+	<!-- Baby Badge-->		<locust id="41" overlayGfx="ff/sparkle.png" color="fly_yellow" damageMultiplier="0.1" />
+	<!-- CommissionBadge --><locust id="42" overlayGfx="ff/sparkle.png" color="fly_yellow" damageMultiplier="0.1" />
+	<!-- Dripping Badge-->	<locust id="43" overlayGfx="ff/sparkle.png" color="fly_yellow" damageMultiplier="0.1" />
+	<!-- Mystery Badge-->	<locust id="44" overlayGfx="ff/sparkle.png" color="fly_yellow" damageMultiplier="0.1" />
+	<!-- Spatula Badge-->	<locust id="45" overlayGfx="ff/sparkle.png" color="fly_yellow" damageMultiplier="0.1" />
+	<!--YourEternalReward--><locust id="46" overlayGfx="ff/sparkle.png" damageMultiplier="0.1" />
+	<!-- Gorgoneion -->		<locust id="48" color="fly_grey" tearFlags="5" procChance="0.25"/>
+	<!-- Fiddle Cube -->	<locust id="49" color="fly_white"/>
+	<!-- AVGM --> 			<locust id="50" /> <!-- Ingame appearance -->
+	<!-- Deimos -->			<locust id="53" color="fly_black" />
+	<!-- Malice --> 		<locust id="54" gfx="ff/malice.png" speed="1.5"/>
+	<!-- Pet Rock -->		<locust id="55" color="fly_grey" tearFlags="34" speed="0.1"/>
+	<!-- Birthday Gift -->	<locust id="56" color="fly_black"/>
+	<!-- Contraband --> 	<locust id="57" speed="0.9" collisionInterval="2" />
+	<!-- Clear Case --> 	<locust id="59" gfx="ff/clear.png" />
+	<!-- Crucifix --> 		<locust id="60" color="fly_crucifix" />
+	<!-- Bedtime Story -->  <locust id="61" color="fly_lightblue" />
+	<!-- Prank Cookie -->  	<locust id="62" gfx="anm2=ff/locust_fiendish.anm2&animation=locust_fiendish&spritesheet=0-null.png" color="1-fly_fiendish" />
+	<!-- Devil's Harvest --><locust id="63" gfx="anm2=ff/locust_fiendish.anm2&animation=locust_fiendish&spritesheet=0-null.png" color="1-fly_fiendish" />
+	<!-- Eternal D12 -->	<locust id="64" color="fly_white" gfx="anm2=locust_stone.anm2&animation=locust_stone&spritesheet=0-dice.png" locustFlags2="3" procChance="0.2" />
+	<!-- Rubber Bullets --> <locust id="66" color="fly_bruise" />
+	<!-- The Deluxe --> 	<locust id="67" gfx="big.png" speed="0.75" />
+	<!-- Lil Minx --> 		<locust id="68" color="fly_lightpink" />
+	<!-- Purple Putty --> 	<locust id="69" gfx="anm2=ff/locust_fiendish.anm2&animation=locust_fiendish&spritesheet=0-null.png" color="1-fly_fiendish" />
+	<!-- Fetal Fiend --> 	<locust id="70" gfx="anm2=ff/locust_fiendish.anm2&animation=locust_fiendish&spritesheet=0-null.png" color="1-fly_fiendish"/>
+	<!-- Fiend Mix -->		<locust id="71" gfx="anm2=ff/locust_fiendish.anm2&animation=locust_fiendish&spritesheet=0-null.png" color="1-fly_fiendish" />
+	<!-- Glizzy --> 		<locust id="73" gfx="ff/glizzy.png" damageMultiplier="1.1" speed="1.1" scale="1.1" />
+	<!-- >3 -->				<locust id="74" gfx="anm2=ff/locust_fiendish.anm2&animation=locust_fiendish&spritesheet=0-null.png" color="1-fly_fiendish" />
+	<!-- Devilled Egg -->	<locust id="75" gfx="anm2=ff/locust_fiendish.anm2&animation=locust_fiendish&spritesheet=0-null.png" color="1-fly_fiendish" />
+	<!-- Tea -->			<locust id="76" color="fly_brown" />
+	<!--FraudulentFungus--> <locust id="77" color="fly_green" tearFlags2="4" procChance2="0.05"/>
+	<!-- Small Pipe --> 	<locust id="78" color="fly_grey" speed="1.1" />
+	<!-- Small Wood --> 	<locust id="79" color="fly_brown" speed="0.9" />
+	<!-- White Pepper -->	<locust id="80" color="fly_white" backGfx="flame.png" backColor="fly_lightblue" count="5" damageMultiplier="0.27" tearFlags2="22" procChance="0.05" />
+	<!-- Peppermint -->		<locust id="81" color="fly_lightblue" tearFlags="65" tearFlags2="3" procChance="0.33"/>
+	<!-- Black Moon -->		<locust id="82" color="fly_shadyred" />
+	<!-- P.G.O. -->			<locust id="83" color="fly_green" />
+		<!-- P.G.O. -->			<locust id="84" color="fly_green" />
+		<!-- P.G.O. -->			<locust id="85" color="fly_green" />
+		<!-- P.G.O. -->			<locust id="86" color="fly_green" />
+		<!-- P.G.O. -->			<locust id="87" color="fly_green" />
+		<!-- P.G.O. -->			<locust id="88" color="fly_green" />
+		<!-- P.G.O. -->			<locust id="89" color="fly_green" />
+		<!-- P.G.O. -->			<locust id="90" color="fly_green" />
+	<!-- Page of Virtues --><locust id="91" color="fly_white" tearFlags2="22" procChance="0.25" damageMultiplier="0.5" backGfx="flame.png" backColor="fly_lightblue" />
+	<!-- Page of Virtues --><locust id="91" color="fly_white" tearFlags2="22" procChance="0.25" damageMultiplier="0.5" backGfx="flame.png" backColor="fly_lightblue" />
+	<!-- Bridge Bombs -->	<locust id="92" color="fly_brown" gfx="anm2=locust_bomb.anm2&animation=locust_bomb" locustFlags2="0" procChance="0.2" />
+	<!-- Lawn Darts -->		<locust id="93" color="fly_red" backGfx="drip.png" backColor="fly_red"/>
+	<!-- Toy Piano -->		<locust id="94" color="fly_doom" />
+	<!-- Hypno Ring -->		<locust id="95" color="fly_sleepy" />
+	<!-- Musca -->			<locust id="96" color="fly_blue" />
+	<!-- Model Rocket -->	<locust id="97" color="fly_red" speed="0.1" damageMultiplier="1.5"/>
+	<!-- Sibling Syl -->	<locust id="98" color="fly_lightgreen"/>
+	<!-- Greg -->			<locust id="99" color="fly_white" tearFlags="34" speed="0.33" />
+	<!-- Familiar Fly -->	<locust id="100" gfx="big.png" color="fly_orange" tearFlags2="13" procChance="0.1"/>
+	<!-- Wrong Warp -->		<locust id="101" color="fly_shadyred" />
+	<!-- Deadly Dose -->	<locust id="103" color="fly_purple" />
+	<!-- Golden Plum -->	<locust id="104" color="fly_gold" overlayGfx="ff/sparkle.png" />
+	<!-- Dad's Postiche --> <locust id="106" gfx="ff/skuzz.png" />
+	<!-- Excelsior -->		<locust id="107" color="fly_lightpink" overlayGfx="ff/excelsiorsparkle.png" locustFlags2="0" procChance="0.2"/>
+	<!-- Griddle Corns -->	<locust id="108" gfx="anm2=locust_fire.anm2&animation=locust_fire" color="0-fly_orange" tearFlags2="22" procChance="0.25"/>
+	<!-- Eternal D10 -->	<locust id="109" color="fly_white" gfx="anm2=locust_stone.anm2&animation=locust_stone&spritesheet=0-dice.png" locustFlags2="3" procChance="0.7" />
+	<!-- Penny Roll --> 	<locust id="113" color="fly_yellow"/>
+	<!-- Evil Sticker --> 	<locust id="114" gfx="anm2=ff/locust_fiendish.anm2&animation=locust_fiendish&spritesheet=0-null.png" color="1-fly_fiendish" />
+	<!-- Wimpy Bro -->		<locust id="115" color="fly_lightgreen" />
+	<!-- Robo-Baby 3.0 -->	<locust id="117" color="fly_lightblue" tearFlags2="55" />
+	<!-- Snow Globe -->		<locust id="118" color="fly_white" />
+	<!-- Nyx -->			<locust id="119" color="fly_lightgreen" gfx="big.png" damageMultiplier="0.33" />
+	<!-- Nyx -->			<locust id="119" color="fly_orange" gfx="big.png" damageMultiplier="0.33" />
+	<!-- Nyx -->			<locust id="119" color="fly_pink" gfx="big.png" damageMultiplier="0.33" />
+	<!-- Telebombs -->		<locust id="120" color="fly_blue" gfx="anm2=locust_bomb.anm2&animation=locust_bomb" locustFlags2="0" procChance="0.2" />
+	<!-- Dice Goblin --> 	<locust id="121" color="fly_lightgreen" />
+	<!-- Cherry Bomb -->	<locust id="122" color="fly_pink" gfx="anm2=locust_bomb.anm2&animation=locust_bomb" locustFlags2="0" procChance="0.1" />
+	<!-- Azurite Spindown--><locust id="125" gfx="anm2=locust_stone.anm2&animation=locust_stone&spritesheet=0-dice.png" color="fly_blue" locustFlags2="3" procChance="0.2"/>
+	<!-- King Worm -->		<locust id="126" color="fly_white" />
+	<!-- Devil's Dagger -->	<locust id="127" tearFlags2="22" procChance="0.33"/>
+	<!-- S. Red Object -->	<locust id="128" gfx="ff/strangeredobject.png" speed="0.10"/>
+	<!-- D3 --> 			<locust id="129" color="fly_lightblue" gfx="anm2=locust_stone.anm2&animation=locust_stone&spritesheet=0-dice.png" locustFlags2="3" procChance="0.3"/>
+	<!-- Emoji Glasses -->	<locust id="131" color="fly_gold" />
+	<!-- Sack of Keys -->	<locust id="132" gfx="anm2=locust_fire.anm2&animation=locust_fire" color="0-fly_orange" tearFlags2="22"/>
+	<!-- Dazzling Slot -->	<locust id="134" overlayGfx="ff/sparkle.png" color="fly_yellow" />
+	<!--KalusSeveredHead-->	<locust id="135" color="fly_white" tearFlags="5" damageMultiplier="0.1"/>
+	<!-- Ka Ching! --> 		<locust id="136" color="fly_yellow" procChance="0.1" damageMultiplier="0.1" speed="1" count="10"/>
+	<!-- Batoomkling! --> 	<locust id="137" color="fly_white" damageMultiplier="0.1" speed="1" count="10"/>
+	<!-- Badump! --> 		<locust id="138" damageMultiplier="0.1" speed="1" count="10"/>
+	<!-- Bzzt! --> 			<locust id="139" damageMultiplier="0.1" speed="1" count="10"/>
+	<!-- Chomp Chomp! --> 	<locust id="140" gfx="ff/glizzy.png" damageMultiplier="0.2" speed="1.1" scale="1.1" count="10"/>
+	<!-- Infinity Volt --> 	<locust id="141" color="fly_orange" />
+	<!-- Horncob -->		<locust id="142" gfx="anm2=ff/locust_fiendish.anm2&animation=locust_fiendish&spritesheet=0-null.png" color="1-fly_fiendish" />
+	<!-- Rat Poison --> 	<locust id="143" color="fly_green" backGfx="glow.png" backColor="fly_green"/>
+	<!-- Angelic Lyre (B)--><locust id="144" color="fly_blue" damageMultiplier="0.75" speed="1.25" />
+	<!-- Angelic Lyre (R)--><locust id="177" color="fly_red" damageMultiplier="1.5" speed="0.33"/>
+	<!-- Angelic Lyre (Y)--><locust id="178" color="fly_yellow" tearFlags="2" damageMultiplier="0.5" speed="2"/>
+	<!-- Lemon Mishuh --> 	<locust id="146" color="fly_yellow" locustFlags2="14" procChance="0.5" backGfx="drip.png" backColor="fly_yellow" />
+	<!-- Mime Degree --> 	<locust id="148" gfx="null.png" tearFlags="34" damageMultiplier="0" />
+	<!-- Nil Pasta --> 		<locust id="150" color="fly_nilpasta" />
+	<!-- Clutch's Curse --> <locust id="151" color="fly_purple" tearFlags="2" />
+	<!-- Pet Peeve --> 		<locust id="152" color="fly_grey" />
+	<!-- Mom's Stockings --><locust id="153" gfx="ff/skuzz.png" color="fly_pink" />
+	<!-- Golden Popsicle --><locust id="154" overlayGfx="ff/sparkle.png" color="fly_yellow" />
+	<!-- Time Itself --> 	<locust id="155" color="fly_black" />
+	<!-- Host on Toast -->	<locust id="160" color="fly_tan" speed="1.3" />
+	<!-- Bag of Bobbies -->	<locust id="161" count="3" damageMultiplier="0.33" />
+	<!-- Box Top -->		<locust id="162" color="fly_purple" />
+	<!-- Dad's Dip -->		<locust id="164" color="fly_green" />
+	<!-- Yick Heart -->		<locust id="165" color="fly_green" />
+	<!-- Smash Trophy -->	<locust id="166" color="fly_gold" />
+	<!-- Botle of Water -->	<locust id="167" color="fly_lightblue" gfx="anm2=locust_drip.anm2&animation=locust_drip" color="0-fly_lightblue&1-fly_lightblue"/>
+	<!-- Grappling Hook -->	<locust id="168"  />
+	<!-- Loaded D6 -->		<locust id="175" color="fly_pink" gfx="anm2=locust_stone.anm2&animation=locust_stone&spritesheet=0-dice.png"/>
+	<!-- Malice --> 		<locust id="187" gfx="ff/malice.png" speed="1.5" />
+	<!-- Error's Crazy Slots --> <locust id="193" gfx="anm2=locust_glitch.anm2" locustFlags2="1" procChance="0.5" />
+	<!-- How to Roll -->     <!-- <locust id="197" /> -->
+	<!-- Lucky Cat -->     <!-- <locust id="198" /> -->
+	<!-- Craig's Battery -->     <locust id="199" tearFlags2="55" gfx="anm2=locust_zap.anm2&animation=locust_zap" />
+	<!-- Flip Phone -->     <locust id="200" tearFlags2="55" speed="6" collisionInterval="1" gfx="anm2=locust_zap.anm2&animation=locust_zap" />
+	<!-- Large Dose -->     <!-- <locust id="201" /> -->
+	<!-- Crown Insignia -->     <!-- <locust id="202" /> -->
+	<!-- Gaper in a Jar -->     <!-- <locust id="203" /> -->
+	<!-- Anathema --> 		<locust id="204" color="fly_excommunicate" />
+	<!-- Warfarin -->     <!-- <locust id="205" /> -->
+	<!-- Mtn Dew -->     <!-- <locust id="206" /> -->
+	<!-- Bone Hurting Juice -->     <!-- <locust id="207" /> -->
+	<!-- Grandpa's Whiskey -->     <!-- <locust id="208" /> -->
+	<!-- Organ Donor -->     <!-- <locust id="209" /> -->
+	<!-- Green Candle -->     <!-- <locust id="210" /> -->
+	<!-- The Big Rock -->     <!-- <locust id="211" /> -->
+	<!-- The Big Pipe -->     <!-- <locust id="212" /> -->
+	<!-- The Big Wood -->     <!-- <locust id="213" /> -->
+	<!-- Jumbo Josh -->     <!-- <locust id="214" /> -->
+	<!-- Dog Whistle-->     <!-- <locust id="215" /> -->
+	<!-- Doomsday Clock-->     <!-- <locust id="216" /> -->
+	<!-- Shock Image --> 	<locust id="217" color="fly_overloaded" />
+	<!-- String Theory-->     <!-- <locust id="218" /> -->
+	<!-- The Last Black Heart-->     <!-- <locust id="219" /> -->
+	<!-- 100% Orange Juice"-->     <!-- <locust id="220" /> -->
+	<!-- Bomb Collar -->     <!-- <locust id="221" /> -->
+	<!-- Aimed Shot -->     <!-- <locust id="222" /> -->
+	<!-- Lob -->     <!-- <locust id="223" /> -->
+	<!-- Hot Shot -->     <!-- <locust id="224" /> -->
+	<!-- Fend's Mop -->     <!-- <locust id="225" /> -->
+	<!-- Infestation 3 -->     <!-- <locust id="226" /> -->
+	<!-- Infestation 4 -->     <!-- <locust id="227" /> -->
+	<!-- Utility Pole -->     <!-- <locust id="228" /> -->
+	<!-- Strange Matter --> <locust id="229" color="fly_green" backGfx="glow.png" />
+	<!-- Lil Friend -->     <!-- <locust id="230" /> -->
+	<!-- Level 2 Breakfast -->     <!-- <locust id="231" /> -->
+	<!-- Antisaac -->     <!-- <locust id="232" /> -->
+	<!-- Overclock -->     <!-- <locust id="233" /> -->
+	<!-- Girl Dinner -->     <!-- <locust id="234" /> -->
+	<!-- Golem's Sub -->     <!-- <locust id="235" /> -->
+	<!-- Tricolor Key -->     <!-- <locust id="236" /> -->
+	<!-- The D5 -->     <!-- <locust id="237" /> -->
+	<!-- Teleport Alpha -->     <!-- <locust id="238" /> -->
+	<!-- Fun Pizza -->     <!-- <locust id="239" /> -->
+	<!-- Spinach Pie -->     <!-- <locust id="240" /> -->
+	<!-- Pageant Boy 2 -->     <!-- <locust id="241" /> -->
+	<!-- Time is Money -->     <!-- <locust id="242" /> -->
+	<!-- Bloodthirsty Blade -->     <!-- <locust id="243" /> -->
+	<!-- Asteroid Belt -->     <!-- <locust id="244" /> -->
+	<!-- Sweet Red -->     <!-- <locust id="245" /> -->
+	<!-- Dried Paint -->     <!-- <locust id="246" /> -->
+	<!-- Empty Gaze -->     <!-- <locust id="247" /> -->
+	<!-- Monster Domestication Guide -->     <!-- <locust id="248" /> -->
+	<!-- Infested Pipeline -->     <!-- <locust id="249" /> -->
+	<!-- Huitlacoche -->     <!-- <locust id="250" /> -->
+	<!-- Chaotic Carving -->     <!-- <locust id="251" /> -->
+	<!-- Clown Meat -->     <!-- <locust id="252" /> -->
+	<!-- Imp Curse -->     <!-- <locust id="253" /> -->
+	<!-- Chemical Cookie -->     <!-- <locust id="254" /> -->
+	<!--SpiritOfNightmare--><locust id="255" color="fly_sleepy" />
+	<!-- Bad Blood -->     <!-- <locust id="256" /> -->
+	<!-- Space Food -->     <!-- <locust id="257" /> -->
+	<!-- Copper Bar -->     <!-- <locust id="258" /> -->
+	<!-- Sideways Onion -->     <!-- <locust id="259" /> -->
+	<!-- Loadsamoney --> 	<locust id="260" color="fly_mugged" />
+	<!-- Green Leaf -->     <!-- <locust id="266" /> -->
+	<!-- Efficiency Module -->     <!-- <locust id="266" /> -->
+	<!-- Baby Formula -->     <!-- <locust id="266" /> -->
+	<!-- Red No. 3 -->     <!-- <locust id="266" /> -->
+	<!-- Double Dog -->     <!-- <locust id="265" /> -->
+	<!-- Default Dog -->     <!-- <locust id="266" /> -->
+	<!-- Devil Dog -->	 	<locust id="267" color="fly_grey" />
+	<!-- Divine Dog --> 	<locust id="268" color="fly_brown" />
+	<!-- Dead Dog -->     <!-- <locust id="269" /> -->
+	<!-- Discount Dog -->     <!-- <locust id="270" /> -->
+	<!-- Kalu -->     <!-- <locust id="271" /> -->
+	<!-- Faberge Bombs -->     <!-- <locust id="272" /> -->
+	<!-- Hydrokinesis --> 	<locust id="273" color="fly_cyan" speed="0.7" damageMultiplier="1.3" />
+	<!-- F.F.Formula -->	<locust id="274" color="fly_purple" tearFlags="22" />
+	<!-- Daydream -->	 	<locust id="275" color="fly_white" procChance="0.33" locustFlags2="1" />
+	<!-- The War Horn -->     <!-- <locust id="276" /> -->
+	<!-- The War Horn -->     <!-- <locust id="277" /> -->
+	<!-- 43.zip -->		 	<locust id="278" color="fly_red" locustFlags2="0" procChance="0.1" />
+	<!-- Fetal Friend -->     <!-- <locust id="279" /> -->
+	<!-- Tricky Cherry -->	<locust id="280" gfx="anm2=ff/locust_fiendish.anm2&animation=locust_fiendish" color="0-fly_darkred&1-fly_darkred" />
+	<!-- Shuffle Time -->     <!-- <locust id="281" /> -->
+	<!-- 18 Foot Leash -->     <!-- <locust id="282" /> -->
+	<!-- Warden's Crown -->     <!-- <locust id="283" /> -->
+	<!-- Dynamite Pack -->     <!-- <locust id="284" /> -->
+	<!-- Voyager's Vendor -->     <!-- <locust id="285" /> -->
+	<!-- The Final Option -->     <!-- <locust id="286" /> -->
+	<!-- Pak Choi -->     <!-- <locust id="287" /> -->
+	<!-- Mom's <3 -->     <!-- <locust id="288" /> -->
+	<!-- Mammonite Codex -->     <!-- <locust id="289" /> -->
+	<!-- G.Gatling Gun -->	<locust id="290" damageMultiplier="1" speed="0.5" tearFlags2="50" procChance2="0.5" color="fly_white" />
+	<!-- Shadow Cluster -->	<locust id="291" damageMultiplier="0.8" backGfx="drip.png" backColor="fly_black" color="fly_darkpurple" />
+	<!-- Dog Dog Dog Dog -->     <!-- <locust id="292" /> -->
+	<!-- Shuffle Bombs -->     <!-- <locust id="293" /> -->
+	<!-- Bullet Hell -->     <!-- <locust id="294" /> -->
+	<!-- Guppy's Heart -->     <!-- <locust id="295" /> -->
+	<!-- Raildriver -->     <!-- <locust id="296" /> -->
+	<!-- Destined Dog -->     <!-- <locust id="297" /> -->
+	<!-- Repentance+ -->     <!-- <locust id="298" /> -->
+	<!-- Queen's Fruit -->     <!-- <locust id="299" /> -->
+	<!-- trange Eye -->     <!-- <locust id="300" /> -->
+	<!-- Snags -->     <!-- <locust id="301" /> -->
+	<!-- Ceiling Popcorn -->     <!-- <locust id="302" /> -->
+	<!-- Executioner -->     <!-- <locust id="303" /> -->
+	<!-- Gizmo Boots --> 	<locust id="304" color="fly_orange" speed="1.2" tearFlags2="22" procChance2="0.1" />
+	<!-- Electric Dice -->     <!-- <locust id="305" /> -->
+	<!-- Productivity Module -->     <!-- <locust id="306" /> -->
+	<!-- Speed Module -->     <!-- <locust id="307" /> -->
+	<!-- Plasma Ball -->     <!-- <locust id="308" /> -->
+	<!-- Lourdes Water -->     <!-- <locust id="309" /> -->
+	<!-- Deck Box -->     <!-- <locust id="310" /> -->
+	<!-- Devi -->     <!-- <locust id="311" /> -->
+	<!-- Doubles! -->     <!-- <locust id="312" /> -->
+	<!-- Discipline -->     <!-- <locust id="313" /> -->
+	<!-- Eye of Providence -->     <!-- <locust id="314" /> -->
+	<!-- Story of Undertale -->     <!-- <locust id="315" /> -->
+	<!-- WNIC -->     <!-- <locust id="316" /> -->
+	<!-- Zero-Point -->		<locust id="317" color="fly_anti" />
+	<!-- Ganymede -->     <!-- <locust id="318" /> -->
+	<!-- Hellfire -->     <!-- <locust id="319" /> -->
+	<!-- Cherub Chubby -->     <!-- <locust id="320" /> -->
+	<!-- Careless Whispers -->     <!-- <locust id="321" /> -->
+	<!-- Dark Bargain -->     <!-- <locust id="322" /> -->
+	<!-- Apotheosis -->     <!-- <locust id="323" /> -->
+	<!-- Toybox -->     <!-- <locust id="324" /> -->
+	<!-- Sun Cross -->     <!-- <locust id="325" /> -->
+	<!-- Tefillin -->     <!-- <locust id="326" /> -->
+	<!-- Dad's Half -->     <!-- <locust id="327" /> -->
+	<!-- Stardust -->     <!-- <locust id="328" /> -->
+	<!-- Tower of Heaven -->     <!-- <locust id="329" /> -->
+	<!-- Red -->     <!-- <locust id="330" /> -->
+	<!-- Hot Potato Book -->     <!-- <locust id="331" /> -->
+	<!-- Golden Watch -->     <!-- <locust id="332" /> -->
+	<!-- Dis -->     <!-- <locust id="333" /> -->
+	<!-- Acheron -->     <!-- <locust id="334" /> -->
+	<!-- Activated Charcoal -->     <!-- <locust id="335" /> -->
+	<!-- Air Freshener -->     <!-- <locust id="336" /> -->
+	<!-- Planet X -->     <!-- <locust id="337" /> -->
+	<!-- G!kún||'hòmdímà -->     <!-- <locust id="338" /> -->
+	<!-- Nendoroid -->     <!-- <locust id="339" /> -->
+	<!-- GLITCHCITY -->     <!-- <locust id="340" /> -->
+	<!-- Golden Spikes -->	<locust id="341" color="fly_gold" />
+	<!-- Chatterbox -->     <!-- <locust id="342" /> -->
+	<!-- Planchette -->     <!-- <locust id="343" /> -->
+	<!-- Resurrection -->     <!-- <locust id="344" /> -->
+	<!-- Outlet Baby --> 	<locust id="345" color="fly_overloaded" />
+	<!-- Papal Pal --> 		<locust id="346" color="fly_excommunicate" />
+	<!-- Burglar Baby -->	<locust id="347" color="fly_mugged" />
+	<!-- Cyborg Baby -->     <!-- <locust id="348" /> -->
+	<!-- Motor Spirit -->     <!-- <locust id="349" /> -->
+	<!-- Naga Viper -->     <!-- <locust id="350" /> -->
+	<!-- Creation of Man -->     <!-- <locust id="351" /> -->
+	<!-- Green Apple -->	<locust id="352" color="fly_apple" />
+	<!-- Eternal Pendant -->     <!-- <locust id="353" /> -->
+	<!-- Baby Bell -->     <!-- <locust id="354" /> -->
+	<!-- Black Candelabra -->     <!-- <locust id="355" /> -->
+	<!-- Infuser -->     <!-- <locust id="356" /> -->
+	<!-- Pink Milk -->     <!-- <locust id="357" /> -->
+	<!-- Tech-Modulo -->     <!-- <locust id="358" /> -->
+	<!-- Devilsknife -->     <!-- <locust id="359" /> -->
+	<!-- Eden's Head -->     <!-- <locust id="360" /> -->
+	<!-- YAAI -->     <!-- <locust id="361" /> -->
+	<!-- Solar Tablet -->     <!-- <locust id="362" /> -->
+	<!-- Darkness -->     <!-- <locust id="363" /> -->
+	<!-- Brilliance -->		<locust id="364" color="fly_red" tearFlags2="20 13 3" procChance="0.2" mutexFlags2="3" />
+	<!-- Radiance -->		<locust id="365" color="fly_orange" tearFlags2="22" procChance="0.2" />
+	<!-- Old Testament -->     <!-- <locust id="366" /> -->
+	<!-- Imp Soda Bottle Cap -->     <!-- <locust id="367" /> -->
+	<!-- Cross Necklace -->     <!-- <locust id="368" /> -->
+	<!-- Mark of Pain -->     <!-- <locust id="369" /> -->
+	<!-- Book of Leviathan -->     <!-- <locust id="370" /> -->
+	<!-- Scout's Patch -->     <!-- <locust id="371" /> -->
+	<!-- Mom's Pendant -->     <!-- <locust id="372" /> -->
+	<!-- Blastulation -->     <!-- <locust id="373" /> -->
+	<!-- The Pyx -->     <!-- <locust id="374" /> -->
+	<!-- Holy Bean -->     <!-- <locust id="375" /> -->
+	<!-- appendix -->     <!-- <locust id="376" /> -->
+	<!-- Can of Beans -->	<locust id="377" color="fly_canofbeans" speed="0.8" collisionInterval="14" />
+	<!-- black eyed pea -->     <!-- <locust id="378" /> -->
+	<!-- Echolilac --> 		<locust id="379" color="fly_pacified" />
+	<!-- bad data -->     <!-- <locust id="380" /> -->
+	<!-- Parallel Bombs -->	<locust id="381" color="fly_parallel" /> <locust id="381" color="fly_white" />
+	<!-- snooze button -->     <!-- <locust id="382" /> -->
+	<!-- scran -->     <!-- <locust id="383" /> -->
+	<!-- earth of adam -->     <!-- <locust id="384" /> -->
+	<!-- Laser Pointer -->	<locust id="385" gfx="anm2=locust_zap.anm2&animation=locust_zap" tearFlags2="55" /> <!-- Same as Technology -->
+	<!-- bouncing ball 2.0 -->     <!-- <locust id="386" /> -->
+	<!-- platinum crest -->     <!-- <locust id="387" /> -->
+	<!-- Anarchist's Easy-Bake -->	<locust id="388" gfx="anm2=locust_bomb.anm2&animation=locust_bomb" locustFlags2="0" procChance="0.2" />
+	<!-- Soapsuds --> 		<locust id="389" color="fly_white" />
+	<!-- the great magic bullet -->     <!-- <locust id="390" /> -->
+	<!-- Cry Baby -->		<locust id="391" color="fly_pacified" />
+	<!-- eraser 2 -->     <!-- <locust id="392" /> -->
+	<!-- paranoia -->     <!-- <locust id="393" /> -->
+	<!-- pheonix elixar -->     <!-- <locust id="394" /> -->
+	<!-- bereavement -->     <!-- <locust id="395" /> -->
+	<!-- sertraline pack -->     <!-- <locust id="396" /> -->
+	<!-- isolated -->     <!-- <locust id="397" /> -->
+	<!-- acupuncture needles -->     <!-- <locust id="398" /> -->
+	<!-- boundless parasol -->     <!-- <locust id="399" /> -->
+	<!-- hyperfixation -->     <!-- <locust id="400" /> -->
+	<!-- hare trigger -->     <!-- <locust id="401" /> -->
+	<!-- repression -->     <!-- <locust id="402" /> -->
+	<!-- dumb bunny -->     <!-- <locust id="403" /> -->
+	<!-- rabbits foot -->     <!-- <locust id="404" /> -->
+	<!-- green bombs -->     <!-- <locust id="405" /> -->
+	<!-- crushing anxiety -->     <!-- <locust id="406" /> -->
+	<!-- ocular spectrum -->     <!-- <locust id="407" /> -->
+	<!-- shadow rabbits -->     <!-- <locust id="408" /> -->
+	<!-- dad's cargo shorts -->     <!-- <locust id="409" /> -->
+	<!-- Extension -->     <!-- <locust id="410" /> -->
+	<!-- Technology Ultima -->     <!-- <locust id="411" /> -->
+	<!-- Daunting Dog -->     <!-- <locust id="412" /> -->
+	<!-- Dewey Decimal Dog -->     <!-- <locust id="413" /> -->
+	<!-- Dwarf Dog -->     <!-- <locust id="414" /> -->
+	<!-- Onion Disc -->     <!-- <locust id="415" /> -->
+	<!-- The happy go lucky onion -->     <!-- <locust id="416" /> -->
+	<!-- Soul Extraction Bum -->     <!-- <locust id="417" /> -->
+	<!-- Cacepi -->         <locust id="418" speed="0.8" scale="1.25" color="fly_green" tearFlags="4" locustFlags="0 13" procChance="0.8" gfx="big.png" />
+	<!-- Lil' Inaba -->     <!-- <locust id="419" /> -->
+	<!-- Steven Sandwich --><locust id="421" color="fly_parallel" />
+	<!-- Ycuk Heart --> 	<locust id="422" color="fly_parallel" />
+	<!-- Deal of the Demons--> <!-- <locust id="423" /> -->
+	<!-- Mysterious Fedora --> <!-- <locust id="424" /> -->
+	<!-- Baphomet's Exchange --> <!-- <locust id="425" /> -->
+	<!-- Skibidi Baby --> <!-- <locust id="426" /> -->
+	<!-- Cool skull insignia --> <!-- <locust id="427" /> -->
+	<!-- Golem's Wishlist --> <!-- <locust id="428" /> -->
+	<!-- Sword of Fractured MODs --> <!-- <locust id="429" /> -->
+	<!-- Lethal Injection --> <!-- <locust id="430" /> -->
+	<!-- Lanky Mushroom --> <!-- <locust id="431" /> -->
+	<!-- Steven's Hat --> 	<locust id="432" color="fly_parallel" />
+	<!-- Minesweeper --> <!-- <locust id="433" /> -->
+	<!-- D-Stock --> <!-- <locust id="434" /> -->
+	<!-- Ice IX --> <!-- <locust id="435" /> -->
+	<!-- 7 Seals 2 --> <!-- <locust id="436" /> -->
+	<!-- Clown Horn --> <!-- <locust id="437" /> -->
+	<!-- Palinopsia --> <!-- <locust id="438" /> -->
+	<!-- Copper Wrench --> <!-- <locust id="439" /> -->
+	<!-- Kalu's All-seeing Eye --> <!-- <locust id="440" /> -->
+	<!-- Lil Golem --> <!-- <locust id="441" /> -->
+	<!-- Penny Album --> 	<locust id="442" gfx="anm2=locust_gold.anm2&animation=locust_gold" color="0-fly_yellow" tearFlags2="74" />
+	<!-- Find-it! --> <!-- <locust id="443" /> -->
+	<!-- Kalu's Wicked Paw --> <!-- <locust id="444" /> -->
+	<!-- Kalu's Harvested Nose --> <!-- <locust id="445" /> -->
+	<!-- Kalu's Beating Heart --> <!-- <locust id="446" /> -->
+	<!-- Kalu's Writhing Tail --> <!-- <locust id="447" /> -->
+	<!-- Bad End Meal --> <!-- <locust id="448" /> -->
+	<!-- Knife Block --> 	<locust id="449" color="fly_red" locustFlags="6" speed="0.8" collisionInterval="3" />
+	<!-- Infestation 0 --> <!-- <locust id="450" /> -->
+</locusts>

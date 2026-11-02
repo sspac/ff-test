@@ -1,0 +1,15 @@
+<curses>
+	<curse name="Curse of the Imp!" />
+	<curse name="Curse of the Stone!" />
+	<curse name="Curse of the Sun!" />
+	<curse name="Curse of the Swine!" />
+	<curse name="Curse of the Ghost!" />
+	<curse name="Curse of the Scythe!" />
+	<curse name="Curse of the Master!" />
+	<curse name="Curse of the Dynamo!" />
+	<curse name="Curse of Lunacy!" />
+	<!-- <curse name="Curse of the Fungus!" /> -->
+
+	<curse name="Curse of the Veil!" />
+	<curse name="Curse of the Gate!" />
+</curses>
